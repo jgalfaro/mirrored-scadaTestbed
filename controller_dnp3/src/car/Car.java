@@ -248,7 +248,7 @@ public class Car {
 			    //Process noise
 			    double [][] Q_m={{2,0.0}, {0.0,2}}; //new double [2][2];
 			    Matrix Q = new Matrix(Q_m);
-			    double threshold=30*wind;//thershold
+			    double threshold=20*wind;//thershold
 			//**************************************************************************************
 		    	int lowthreshold = 20;
 		    	int stabled = 0;
@@ -341,15 +341,15 @@ public class Car {
 						//Matrix estimation = (C.times(state_pre));
 						//System.out.println(" x_pre= " + (car.getState_pre()).toString() + "\n x_post= " + (car.getState_post()).toString() + "\n distance= " + data[1] +" estimation= " + estimation.toString() + "\n");
 						System.out.println("distance= " + data[1] +" estimation= " + estimation.toString() + "\n");
-						/*long estimatedTime = System.currentTimeMillis() - initialTime;
-						try(FileWriter fw = new FileWriter("data/gtotal_untouch" + initialTime, true);
+						long estimatedTime = System.currentTimeMillis() - initialTime;
+						try(FileWriter fw = new FileWriter("data/gtotal_untouch_replayattack" + initialTime, true);
 						    BufferedWriter bw = new BufferedWriter(fw);
 						    PrintWriter out = new PrintWriter(bw))
 						{
-						    out.println(estimatedTime/1000.0 + " " + g_total + " " + distanceGlobal + " lat: " + duration);
+						    out.println(estimatedTime/1000.0 + " " + g_total + " " + distanceGlobal + " speed: " + speed);
 						} catch (IOException e) {
 							System.out.println(e);
-						}*/			
+						}			
 						//***********************************************************************
 						if((g_total+g_total_old)/2 < lowthreshold && alarme_cycle > 0 ) stabled++;
 						if(stabled>20) {

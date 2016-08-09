@@ -1,5 +1,5 @@
 #!/usr/bin/python
-#./extractcol col1 col2 filename
+
 import sys
 from math import sqrt
 
@@ -11,7 +11,7 @@ min = 100000000
 total = 0
 count = 0
 totalv = 0
-with open(sys.argv[3]) as f:
+with open(sys.argv[1]) as f:
     for line in f:
 	col = line.split()
 	number = float(col[colnum])
