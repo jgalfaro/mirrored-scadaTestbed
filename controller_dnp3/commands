@@ -1,0 +1,2 @@
+javac -cp "jars/*" -d bin $(find src -name *.java)
+java -cp "jars/*:bin" control.ControlCenter
