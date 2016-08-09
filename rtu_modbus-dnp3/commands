@@ -1,0 +1,4 @@
+#run this to compile:
+javac -cp "jars/*" -d bin $(find src -name *.java)
+#this to run:
+java -cp "jars/*:bin" rtu.MainRTU
