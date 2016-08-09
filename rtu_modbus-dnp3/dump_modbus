@@ -1,0 +1,4 @@
+#!/bin/bash
+name=$(echo data/`date +%s`dump.pcap)
+tcpdump -i eth0 port 502 -w $name 
+dropbox upload $name /
