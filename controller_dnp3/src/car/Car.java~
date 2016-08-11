@@ -346,7 +346,7 @@ public class Car {
 						    BufferedWriter bw = new BufferedWriter(fw);
 						    PrintWriter out = new PrintWriter(bw))
 						{
-						    out.println(estimatedTime/1000.0 + " " + g_total + " " + distanceGlobal + " lat: " + duration + "speed: " + speed);
+						    out.println(estimatedTime/1000.0 + " " + g_total + " " + distanceGlobal + " speed: " + speed);
 						} catch (IOException e) {
 							System.out.println(e);
 						}			
@@ -389,17 +389,20 @@ public class Car {
 						if(conAlarm>5){
 							alarme_cycle++;	
 						}
+						long duration = 0;
 						if(enableControl) {
 							long startTime = System.currentTimeMillis();
 							writeInt(speed,STATUS_SPEED);				
 							long endTime = System.currentTimeMillis();
-							long duration = (endTime - startTime);
+							duration = (endTime - startTime);
 							iterationCounter++;
 							durationMean = (durationMean + duration);
-							System.out.println("Writing latency in ms: " + duration + " Average: " + durationMean/iterationCounter);
+							//System.out.println("Writing latency in ms: " + duration + " Average: " + durationMean/iterationCounter);
 							drawGui(distanceGlobal,speed,etat,alarme_cycle);
+
 						}
-						Thread.sleep(writePause);
+						long sleepnow = writePause-duration > 0 ?writePause-duration:0
+						Thread.sleep(sleepnow);
 					}
 					writeInt(0,STATUS_SPEED);
 					writeBool(false, STATUS_CSPEED);
@@ -419,10 +422,15 @@ public class Car {
 		Thread t = new Thread(new Runnable() {
 			public void run() {
 				runThread = true;
+				long startTime, endTime, duration;
 				while (runThread) {
 					try {
 												
+						startTime = System.currentTimeMillis();						
 						distanceGlobal = readIntNU(STATUS_WALL_DISTANCE);
+						endTime = System.currentTimeMillis();
+						duration = (endTime - startTime);
+						System.out.println("Reading latency in ms: " + duration);
 						Thread.sleep(readPause);
 					} catch (Exception e) {
 						System.err.println("Main Thread: Car control thread error, car: " + id + " Exception: " + e);
