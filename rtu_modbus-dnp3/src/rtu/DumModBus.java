@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 
 public class DumModBus {
 	
-	private static String mbslave = "192.168.2.4";
+	private static String mbslave = "192.168.2.3";
 	// Bool RW
 	private static final int STATUS_ACTIVE = 0; 
 	private static final int STATUS_CSPEED = 1;
@@ -27,7 +27,7 @@ public class DumModBus {
 	
 	public static void main(String[] args) throws Exception {
     	
-        ModBusConnection mbc = new ModBusConnection(mbslave, 1);
+        ModBusConnection mbc = new ModBusConnection(args[0], 1);
         String line = "";
         InputStreamReader converter = new InputStreamReader(System.in);
         BufferedReader in = new BufferedReader(converter);
