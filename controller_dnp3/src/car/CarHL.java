@@ -41,8 +41,8 @@ public class CarHL {
 	private String filename;
 
 	//Time between reading and writings to car, in milliseconds
-	private int readPause = 100;
-	private int writePause = 100;
+	private int readPause = 500;
+	private int writePause = 500;
 
 	/////////////////////////////////////////////MODBUS INDEXES
 	// Bool RW
