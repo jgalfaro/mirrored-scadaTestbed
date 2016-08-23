@@ -256,7 +256,7 @@ public class Car {
 			    Matrix kf = new Matrix(2,1); //{{0.0001},{0.0198}};
 			    //Detector
 			    // ChiÂ² detector
-			    int wind=4;
+			    int wind=3;
 			    Matrix g = new Matrix(wind, 1, 0.0);
 			    //Parametres
 			    double g_next=0.0; 
@@ -275,7 +275,7 @@ public class Car {
 			    double threshold=21*wind;//threshold
 			    int dInitialInt = 0;
 			//**************************************************************************************
-		    	int lowthreshold = 30;
+		    	int lowthreshold = 35;
 		    	int stabled = 0;
 		        long durationMean = 0;
 		        long iterationCounter = 0;
