@@ -191,7 +191,7 @@ public class CarHL {
 
 			    int conAlarm = 0;
 			    int move=0;
-			    int sens;
+			    int sens = 1;
 			    int pos_latt=0;
 			    int pos_long=0;
 			    
@@ -212,7 +212,8 @@ public class CarHL {
 			    double mean=0;
 			    int wallDistance_old=0;
 			    int alarme_cycle=0;
-			    //*************************************************************************************
+			    
+			//*************************************************************************************
 			    ///////////////////////////////////////////////////////////////////
 				//System control model 
 				// x(t+1) = Ax(t) +B(u(t) + w(t))
@@ -251,7 +252,7 @@ public class CarHL {
 			    Matrix kf = new Matrix(2,1); //{{0.0001},{0.0198}};
 			    //Detector
 			    // ChiÂ² detector
-			    int wind=4;
+			    int wind=3;
 			    Matrix g = new Matrix(wind, 1, 0.0);
 			    //Parametres
 			    double g_next=0.0; 
@@ -263,18 +264,21 @@ public class CarHL {
 			    //Residue=distance -Cx
 			    Matrix residue=new Matrix(1,1,0.0);
 			    // sensor noise R
-			    Matrix R = new Matrix(1,1,1);
+			    Matrix R = new Matrix(1,1,0.8);
 			    //Process noise
 			    double [][] Q_m={{1,0.0}, {0.0,1}}; //new double [2][2];
 			    Matrix Q = new Matrix(Q_m);
-			    double threshold=21*wind;//threshold
+			    double threshold=22*wind;//threshold
 			    int dInitialInt = 0;
 			//**************************************************************************************
-		    	int lowthreshold = 30;
+		    	int lowthreshold = 35;
 		    	int stabled = 0;
 		        long durationMean = 0;
 		        long iterationCounter = 0;
 		        JKalman car = null;
+		        int watermarkchange = wind - 2;
+		        int stawmcounter = 0;
+		        int storespeed = 120;
 		        try {
 		        	car= new JKalman(2,1,1);
 		        } catch (Exception e) {
@@ -284,180 +288,189 @@ public class CarHL {
 				try {
 					writeBool(true, STATUS_CSPEED);
 					writeBool(true, STATUS_CAR);
-					long startTime = System.currentTimeMillis();
-					wallDistance_old=wallDistance;
-					wallDistance = distanceGlobal;
-					distance.set(0, 0, wallDistance);
-					ancienEtat=etat;
-					etat = readBool(ETAT);
-					//////////////////////////////////////////////////////////////////////
-					if(ancienEtat!=etat) d_initial.set(0,0,wallDistance);				
-					if((ancienEtat!=etat)||(speed0==1)){
-					if (!(ancienEtat)){
-	     	    				System.out.println("Round trip finished");
-	     	    			}
-							System.out.println("Initializing distance"); 		
-							d_initial.set(0,0,wallDistance);
-							dInitialInt = wallDistance;
-							System.out.println(" Initial_distance= "  + d_initial.toString()+"\n");
-							speed0=0;
-					    }
-					////////////////////////////////////////////////////////////////////////			
-					//System.out.println("Distance: " + distanceGlobal);
-					if(multiWater) {
-						if(mwCounter == mwPeriod){
-							mwCounter = 0;
-							int prevwm = watermark;
-							while(prevwm == watermark) {
-								watermark = ThreadLocalRandom.current().nextInt(1, 4);
+					long initialTime = System.currentTimeMillis();
+					while (runThread) {
+						long startTime = System.currentTimeMillis();
+						wallDistance_old=wallDistance;
+						wallDistance = distanceGlobal;
+						distance.set(0, 0, wallDistance);
+						ancienEtat=etat;
+						etat = readBool(ETAT);
+						//////////////////////////////////////////////////////////////////////
+						if(ancienEtat!=etat) d_initial.set(0,0,wallDistance);				
+						if((ancienEtat!=etat)||(speed0==1)){
+								if (!(ancienEtat)){
+		     	    				System.out.println("Round trip finished");
+		     	    			}
+								System.out.println("Initializing distance"); 		
+								d_initial.set(0,0,wallDistance);
+								dInitialInt = wallDistance;
+								System.out.println(" Initial_distance= "  + d_initial.toString()+"\n");
+								speed0=0;
+						    }
+						////////////////////////////////////////////////////////////////////////			
+						//System.out.println("Distance: " + distanceGlobal);
+						if(multiWater) {
+							if(mwCounter == mwPeriod){
+								mwCounter = 0;
+								int prevwm = watermark;
+								while(prevwm == watermark) {
+									watermark = ThreadLocalRandom.current().nextInt(1, 4);
+								}
+								
 							}
+							switch (watermark){
+					    		case 1:
+					    			variation=25+5*randomno.nextGaussian();
+					    		break;
+					    		case 2:
+					    			variation=30*randomno.nextGaussian();
+					    		break;
+					    		case 3:
+					    			variation=-20+10*randomno.nextGaussian();
+					    		break;
+					    	}
+
+							mwCounter++;
+						} else {						
+							variation=30*randomno.nextGaussian();				
+						}
+						// if(stawmcounter == 0){
+						// 	storespeed = 250+(int)variation;
+						// }
+						// stawmcounter++;
+						// speed = storespeed;
+						// if(stawmcounter == watermarkchange){
+						// 	stawmcounter = 0;
+						// }
+						
+						if(!etat){
+        	    			sens=-1;
+        	    		}
+        	    		else {
+        	    			sens=1;
+        	    		}
+						speed = sens*250+(int)variation;
+
+						u.set(0, 0, (double)speed);
+
+						//////////////////////////////////////////////////////
+						// kalman filter
+						//Dynamic of the system
+						//x=Ax + B(u + w)  //distance=Cx + v
+						//Matrix
+						car.setTransition_matrix(A);
+						car.setControl_matrix(B);
+						car.setMeasurement_matrix(C);
+						///////////////////////////
+						//Noise
+						car.setMeasurement_noise_cov(R);
+						car.setProcess_noise_cov(Q);
+						//////////////////////////
+						// (x'(k)): x(k)=A*x(k-1)+B*u(k)
+						//status
+						car.setState_pre(state_post);
+						state_pre=car.Predict(u);
+						// (x(k)): x(k)=x'(k)+K(k)*(z(k)-H*x'(k))
+						state_post=car.Correct(d_initial.minus(distance));
+						car.setState_post(state_post);
+						//residue=distance -Cx
+						residue=car.getResidue();
+						//residue=(d_initial.minus(distance)).minus((car.getMeasurement_matrix()).times(car.getState_pre()));
+						//x(t+1)=Ax(t) +Bu(t) + kf(distance-Cx(t))
+						//x_next=((A.times(car.getState_pre())).plus(B.times(speed))).plus(kf.times(residue));
+						/////////////////////////=/////////////////////////////
+						//detection
+						// x² detector parameter g
+						cov=((car.getMeasurement_matrix().times(P)).times((car.getMeasurement_matrix()).transpose())).plus(R);//inv((CPC^T) + R) ---> R=noise
+						g_next=(((residue.transpose()).times(cov.inverse())).times(residue)).get(0,0);//g=residue^T(inv(cov))residue
+						g_total=0.0;
+
+						for (int i=0;i<wind;i++){
+							if(i<(wind-1)){
+								g.set(i, 0, g.get(i+1, 0));//g[i] [1]=g[i+1] [1];
+							}else{
+								g.set(i, 0, g_next);
+							}
+							g_total=g_total + g.get(i, 0);
+						}
+
+
+						//the mean variable used for the alarm
+						String data[]={Integer.toString(speed),(d_initial.minus(distance)).toString(),distance.toString(),Double.toString(now)};				
+						System.out.println("GTotal: " + g_total);
+						//System.out.println("P: " + P);
+						//System.out.println("kf: " + kf);
+						//System.out.println("Residue: " + residue);
+						Matrix estimation = car.getMeasurement_matrix().times(car.getState_pre());
+						//Matrix estimation = (C.times(state_pre));
+						//System.out.println(" x_pre= " + (car.getState_pre()).toString() + "\n x_post= " + (car.getState_post()).toString() + "\n distance= " + data[1] +" estimation= " + estimation.toString() + "\n");
+						System.out.println("Real distance= " + wallDistance +" distance= " + data[1] +" estimation= " + estimation.toString() + "\n");
+						//System.out.println("Distance: " + wallDistance + " estimation: " + (Math.abs(estimation.get(0,0)) + dInitialInt));			
+						//***********************************************************************
+						if((g_total+g_total_old)/2 < lowthreshold && alarme_cycle > 0 ) stabled++;
+						if(stabled>8) {
+							stabled = 0;
+							alarme_cycle--;
+						}
+						//***********************************************************************
+						if (g_total_old!=0.0){
+						    mean=(g_total-g_total_old); //(wallDistance_old-wallDistance);
+						}
+						g_total_old=g_total;
+						if (g_total>threshold){
+						alarm=1;
 							
+						}else{
+						alarm=0;
+						conAlarm = 0;
 						}
-						switch (watermark){
-				    		case 1:
-				    			variation=25+5*randomno.nextGaussian();
-				    		break;
-				    		case 2:
-				    			variation=30*randomno.nextGaussian();
-				    		break;
-				    		case 3:
-				    			variation=-20+10*randomno.nextGaussian();
-				    		break;
-				    	}
-
-						mwCounter++;
-					} else {						
-						variation=30*randomno.nextGaussian();				
-					}
-					// if(stawmcounter == 0){
-					// 	storespeed = 250+(int)variation;
-					// }
-					// stawmcounter++;
-					// speed = storespeed;
-					// if(stawmcounter == watermarkchange){
-					// 	stawmcounter = 0;
-					// }
-					
-					if(!etat){
-    	    			sens=-1;
-    	    		}
-    	    		else {
-    	    			sens=1;
-    	    		}
-					speed = sens*250;//+(int)variation;
-
-					u.set(0, 0, (double)speed);
-					//speed=120;
-					car.setTransition_matrix(A);
-					car.setControl_matrix(B);
-					car.setMeasurement_matrix(C);
-					///////////////////////////
-					//Noise
-					car.setMeasurement_noise_cov(R);
-					car.setProcess_noise_cov(Q);
-					//////////////////////////
-					// (x'(k)): x(k)=A*x(k-1)+B*u(k)
-					//status
-	                               //**********************car.setState_pre(state_pre);
-					//System.out.println("Car State Pre: " + car.getState_pre());
-					//System.out.println("U: \n" + u);
-					state_pre=car.Predict(u);
-					
-					// (x(k)): x(k)=x'(k)+K(k)*(z(k)-C*x'(k))
-					state_post=car.Correct(d_initial.minus(distance));
-					//**********************car.setState_post(state_post);
-					//System.out.println("Car State Post: " + car.getState_post());
-					P=car.getError_cov_post();
-					kf=car.getGain();
-					//residue=distance -Cx
-					residue=car.getResidue();
-					//residue=(d_initial.minus(distance)).minus((car.getMeasurement_matrix()).times(car.getState_pre()));
-					//x(t+1)=Ax(t) +Bu(t) + kf(distance-Cx(t))
-					//x_next=((A.times(car.getState_pre())).plus(B.times(speed))).plus(kf.times(residue));
-					/////////////////////////=/////////////////////////////
-					//detection
-					// xÂ² detector parameter g
-					cov=((car.getMeasurement_matrix().times(P)).times((car.getMeasurement_matrix()).transpose())).plus(R);//inv((CPC^T) + R) ---> R=noise
-					g_next=(((residue.transpose()).times(cov.inverse())).times(residue)).get(0,0);//g=residue^T(inv(cov))residue
-					g_total=0.0;
-
-					for (int i=0;i<wind;i++){
-					    if(i<(wind-1)){
-						g.set(i, 0, g.get(i+1, 0));//g[i] [1]=g[i+1] [1];
-					    }else{
-						g.set(i, 0, g_next);
-					    }
-					    g_total=g_total + g.get(i, 0);
-					}
-					String data[]={Integer.toString(speed),(d_initial.minus(distance)).toString(),distance.toString(),Double.toString(now)};				
-					System.out.println("GTotal: " + g_total);
-					Matrix estimation = car.getMeasurement_matrix().times(car.getState_pre());
-					System.out.println("distance= " + data[1] +" estimation= " + estimation.toString() + "\n");
-
-									
-					//***********************************************************************
-					if((g_total+g_total_old)/2 < lowthreshold && alarme_cycle > 0 ) stabled++;
-					if(stabled>20) {
-						stabled = 0;
-						alarme_cycle--;
-					}
-					//***********************************************************************
-					if (g_total_old!=0.0){
-					    mean=(g_total-g_total_old); //(wallDistance_old-wallDistance);
-					}
-					g_total_old=g_total;
-					if (g_total>threshold){
-					alarm=1;
-						
-					}else{
-					alarm=0;
-					conAlarm = 0;
-					}
-					
 						
 						
-					if ((Math.abs(mean)>80)&&(Math.abs(mean)<200)){
-					 	//if(mean > 0)alerte=true;
-						System.out.println("******Delta G High!: " + Math.abs(mean));	 
-					 }else{
-					 	 alerte=false;
-					}
-					if ((alarm==1)||alerte){
-					    if (wallDistance > 45){
-						if (wallDistance<180){
-						    //alarme_cycle++;
-						    stabled = 0;
-						    conAlarm++;
+						
+						if ((Math.abs(mean)>80)&&(Math.abs(mean)<200)){
+						 	//if(mean > 0)alerte=true;
+							System.out.println("******Delta G High!: " + Math.abs(mean));	 
+						 }else{
+						 	 alerte=false;
 						}
-					    }
-					}
-					if(conAlarm>wind){
-						alarme_cycle++;	
-					}
-					long duration = 0;
-					if(enableControl) {
-						
-						writeInt(speed,STATUS_SPEED);				
-						long endTime = System.currentTimeMillis();
-						duration = (endTime - startTime);
-						iterationCounter++;
-						durationMean = (durationMean + duration);
-						//System.out.println("Writing latency in ms: " + duration + " Average: " + durationMean/iterationCounter);
-
-					}
-					if(dumpVars) {
-						long estimatedTime = System.currentTimeMillis() - initialTime;
-						try(FileWriter fw = new FileWriter("data/" + filename, true);
-						    BufferedWriter bw = new BufferedWriter(fw);
-						    PrintWriter out = new PrintWriter(bw))
-						{
-						    out.println(getCurrentTimeStamp() + " timeelapsed: " + estimatedTime/1000.0 + " gtotal: " + g_total + " distance: " + distanceGlobal + " estimation: " +  Math.abs(dInitialInt-estimation.get(0,0)) + " speed: " + speed + " alarmcycle: " + alarme_cycle);
-						} catch (IOException e) {
-							System.out.println(e);
+						if ((alarm==1)||alerte){
+						    if (wallDistance > 50){
+							if (wallDistance<180){
+							    //alarme_cycle++;
+							    stabled = 0;
+							    conAlarm++;
+							}
+						    }
 						}
-					}
-					long sleepnow = writePause-duration > 0 ?writePause-duration:0;
-					Thread.sleep(sleepnow);
+						if(conAlarm>wind){
+							alarme_cycle++;	
+						}
+						long duration = 0;
+						if(enableControl) {
+							
+							writeInt(Math.abs(speed),STATUS_SPEED);				
+							long endTime = System.currentTimeMillis();
+							duration = (endTime - startTime);
+							iterationCounter++;
+							durationMean = (durationMean + duration);
+							//System.out.println("Writing latency in ms: " + duration + " Average: " + durationMean/iterationCounter);
+							//drawGui(distanceGlobal,speed,etat,alarme_cycle);
+
+						}
+						if(dumpVars) {
+							long estimatedTime = System.currentTimeMillis() - initialTime;
+							try(FileWriter fw = new FileWriter("data/" + filename, true);
+							    BufferedWriter bw = new BufferedWriter(fw);
+							    PrintWriter out = new PrintWriter(bw))
+							{
+							    out.println(getCurrentTimeStamp() + " timeelapsed: " + estimatedTime/1000.0 + " gtotal: " + g_total + " distance: " + distanceGlobal + " estimation: " +  Math.abs(dInitialInt-estimation.get(0,0)) + " speed: " + speed + " alarmcycle: " + alarme_cycle);
+							} catch (IOException e) {
+								System.out.println(e);
+							}
+						}
+						long sleepnow = writePause-duration > 0 ?writePause-duration:0;
+						Thread.sleep(sleepnow);
 					}
 					writeInt(0,STATUS_SPEED);
 					writeBool(false, STATUS_CSPEED);

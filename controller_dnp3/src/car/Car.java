@@ -256,7 +256,7 @@ public class Car {
 			    Matrix kf = new Matrix(2,1); //{{0.0001},{0.0198}};
 			    //Detector
 			    // ChiÂ² detector
-			    int wind=4;
+			    int wind=3;
 			    Matrix g = new Matrix(wind, 1, 0.0);
 			    //Parametres
 			    double g_next=0.0; 
@@ -268,14 +268,14 @@ public class Car {
 			    //Residue=distance -Cx
 			    Matrix residue=new Matrix(1,1,0.0);
 			    // sensor noise R
-			    Matrix R = new Matrix(1,1,1);
+			    Matrix R = new Matrix(1,1,0.8);
 			    //Process noise
 			    double [][] Q_m={{1,0.0}, {0.0,1}}; //new double [2][2];
 			    Matrix Q = new Matrix(Q_m);
 			    double threshold=21*wind;//threshold
 			    int dInitialInt = 0;
 			//**************************************************************************************
-		    	int lowthreshold = 30;
+		    	int lowthreshold = 35;
 		    	int stabled = 0;
 		        long durationMean = 0;
 		        long iterationCounter = 0;
@@ -303,7 +303,7 @@ public class Car {
 						//////////////////////////////////////////////////////////////////////
 						if(ancienEtat!=etat) d_initial.set(0,0,wallDistance);				
 						if((ancienEtat!=etat)||(speed0==1)){
-						if (!(ancienEtat)){
+								if (!(ancienEtat)){
 		     	    				System.out.println("Round trip finished");
 		     	    			}
 								System.out.println("Initializing distance"); 		
@@ -354,7 +354,7 @@ public class Car {
         	    		else {
         	    			sens=1;
         	    		}
-						speed = sens*250;//+(int)variation;
+						speed = sens*250+(int)variation;
 
 						u.set(0, 0, (double)speed);
 
@@ -413,7 +413,7 @@ public class Car {
 						//System.out.println("Distance: " + wallDistance + " estimation: " + (Math.abs(estimation.get(0,0)) + dInitialInt));			
 						//***********************************************************************
 						if((g_total+g_total_old)/2 < lowthreshold && alarme_cycle > 0 ) stabled++;
-						if(stabled>10) {
+						if(stabled>8) {
 							stabled = 0;
 							alarme_cycle--;
 						}
