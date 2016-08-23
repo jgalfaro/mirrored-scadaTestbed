@@ -39,7 +39,6 @@ public class Dnp3Connection {
 	public boolean connect() throws Exception {
 		manager = DNP3ManagerFactory.createManager(1);
         Channel channel = manager.addTCPClient("client" + port, LogLevel.ERROR, 5000, slaveIp, port);
-        
         MasterStackConfig config = new MasterStackConfig();
         dh = new DataHandler(this);
         master = channel.addMaster("master", LogLevel.ERROR, dh, config);

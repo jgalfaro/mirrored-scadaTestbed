@@ -21,6 +21,8 @@ import java.io.FileWriter;
 import java.io.PrintWriter;
 import java.io.IOException; 
 
+import java.util.concurrent.ThreadLocalRandom;
+
 
 public class Car {
 	private int id, x, y;
@@ -174,7 +176,16 @@ public class Car {
 			    boolean ancienEtat;
 			    boolean etat=true;
 			    boolean gRising = false;
-		            int conAlarm = 0;
+			    ///////////////////////////////////////////////////
+			    //Multi watermark
+			    boolean multiWater = true;
+			    int mwCounter = 1;
+		            int mwPeriod = 32;            
+			    int watermark = ThreadLocalRandom.current().nextInt(1, 4);
+			    ////////////////////////////////////////////////////
+			    boolean dumpVars = true;
+
+			    int conAlarm = 0;
 			    int move=0;
 			    int sens;
 			    int pos_latt=0;
@@ -285,8 +296,34 @@ public class Car {
 						    }
 						////////////////////////////////////////////////////////////////////////			
 						//System.out.println("Distance: " + distanceGlobal);
-						variation=30*randomno.nextGaussian();				
+						if(multiWater) {
+							if(mwCounter == mwPeriod){
+								mwCounter = 0;
+								int prevwm = watermark;
+								while(prevwm == watermark) {
+									watermark = ThreadLocalRandom.current().nextInt(1, 4);
+								}
+								
+							}
+							switch (watermark){
+					    		case 1:
+					    			variation=25+5*randomno.nextGaussian();
+					    		break;
+					    		case 2:
+					    			variation=30*randomno.nextGaussian();
+					    		break;
+					    		case 3:
+					    			variation=-20+10*randomno.nextGaussian();
+					    		break;
+					    	}
+
+							mwCounter++;
+						} else {						
+							variation=30*randomno.nextGaussian();				
+						}
 						speed=120+(int)variation;
+						
+
 						if(speed<0) speed=0;
 						u.set(0, 0, (double)speed);
 						//speed=120;
@@ -341,15 +378,8 @@ public class Car {
 						//Matrix estimation = (C.times(state_pre));
 						//System.out.println(" x_pre= " + (car.getState_pre()).toString() + "\n x_post= " + (car.getState_post()).toString() + "\n distance= " + data[1] +" estimation= " + estimation.toString() + "\n");
 						System.out.println("distance= " + data[1] +" estimation= " + estimation.toString() + "\n");
-						long estimatedTime = System.currentTimeMillis() - initialTime;
-						try(FileWriter fw = new FileWriter("data/gtotal_untouch_replayattack" + initialTime, true);
-						    BufferedWriter bw = new BufferedWriter(fw);
-						    PrintWriter out = new PrintWriter(bw))
-						{
-						    out.println(estimatedTime/1000.0 + " " + g_total + " " + distanceGlobal + " speed: " + speed);
-						} catch (IOException e) {
-							System.out.println(e);
-						}			
+
+										
 						//***********************************************************************
 						if((g_total+g_total_old)/2 < lowthreshold && alarme_cycle > 0 ) stabled++;
 						if(stabled>20) {
@@ -401,7 +431,18 @@ public class Car {
 							drawGui(distanceGlobal,speed,etat,alarme_cycle);
 
 						}
-						long sleepnow = writePause-duration > 0 ?writePause-duration:0
+						if(dumpVars) {
+							long estimatedTime = System.currentTimeMillis() - initialTime;
+							try(FileWriter fw = new FileWriter("data/gtotal_untouch_cyberphysical" + initialTime, true);
+							    BufferedWriter bw = new BufferedWriter(fw);
+							    PrintWriter out = new PrintWriter(bw))
+							{
+							    out.println(estimatedTime/1000.0 + " " + g_total + " " + distanceGlobal + " speed: " + speed + " alarmcycle: " + alarme_cycle);
+							} catch (IOException e) {
+								System.out.println(e);
+							}
+						}
+						long sleepnow = writePause-duration > 0 ?writePause-duration:0;
 						Thread.sleep(sleepnow);
 					}
 					writeInt(0,STATUS_SPEED);
