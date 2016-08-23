@@ -1,31 +1,44 @@
 ## Synopsis
-
-At the top of the file there should be a short introduction and/ or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
+Part of the research activities are hampered by the lack of realistic ex-
+perimental environments, there is an inherent necessity of cost-effective
+testbed in order to test novel theories in the SCADA security domain. As
+an effort to obtain more valuable data from experimentation, a testbed was
+developed to support the research of security methods and techniques in
+the SCADA systems.
+The purpose of this work is to expand the capabilities of a current SCADA
+testbed and test security techniques that are currently undergoing research.
+The architecture is based in the Lego Bricks Mindstorm and Raspberry Pi
+which represent the SCADA network nodes. We are mainly focusing on
+two SCADA protocols, Modbus and DNP3, the latter allows more hard-
+ware compatibility, and possible security improvements which are under
+implementation in the OpenDNP3 libraries.
+Supervisory Control and Data Acquisition (SCADA) systems are widely
+used in critical industry such as water treatment, train controlling and sig-
+naling, or even electric plants. When most of the SCADA protocols were
+conceived, they were targeted for dedicated networks thus reducing any
+risk of network security. To reduce cost and ease the deployment and
+maintenance of such systems they are now converging into using shared
+networks, hence exposing different vulnerabilities that previously were not
+considered.
+Developing a set of adversaries was an important milestone in pursuing
+providing a real-world environment where malicious threats exist. There-
+fore the development of compatible attackers was expected, different at-
+tackers model were useful to fully test the security techniques against dif-
+ferent types of adversaries in the testbed. This report includes information
+about the different attackers that were implemented. These attackers vary
+in knowledge level and computational power in order to provide an in-
+sight of the opponent perspective and difficulties, when using the security
+features.
 
 ## Code Example
 
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+CONTROLLER <=> RTU <=> PLC
 
 ## Motivation
-
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
-
-## Installation
-
-Provide code examples and explanations of how to get the project.
-
-## API Reference
-
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
-
-## Tests
-
-Describe and show how to run the tests with code examples.
-
-## Contributors
-
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
-
-## License
-
-A short snippet describing the license (MIT, Apache, etc.)
+The purpose of this work is to expand the capabilities of a current SCADA
+testbed and test security techniques that are currently undergoing research.
+The architecture is based in the Lego Bricks Mindstorm and Raspberry Pi
+which represent the SCADA network nodes. We are mainly focusing on
+two SCADA protocols, Modbus and DNP3, the latter allows more hard-
+ware compatibility, and possible security improvements which are under
+implementation in the OpenDNP3 libraries.
