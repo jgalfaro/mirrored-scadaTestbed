@@ -466,25 +466,34 @@ def handlePacketAttacking(pkt):
 
 def firGetValue(firobj,position):
     #geny = np.array([])
-    input = firobj.speed
+    global firDB
+    input = firobj.currentspeed
     output = firobj.distance
-    filter_order=firobj.filterOrder
-    input_long = len(output)
+    filter_order = firobj.filterOrder
+    input_long = 64
     i = 0
     answer = 0
-    for j in range(0,filter_order):
-        #geny = np.append(geny,0)
-        i += 1
+    print("len out " + str(len(output)))
+    print("len in " + str(len(input)))
 
-    for j in range(filter_order,position):
+    if not(firDB.padded):
+        for j in range(0,filter_order):
+            #geny = np.append(geny,0)
+            firDB.predicted.append(0)
+            i += 1
+        firDB.padded = True
+        firDB.currentspeed = firDB.speed[len(firDB.speed)-33:len(firDB.speed)-1] + firDB.currentspeed
+
+    input = firobj.currentspeed
+    for j in range(filter_order,len(input) if len(input) < len(output) else len(output)):
         start = 0 if j < input_long else j - input_long
         y, e, w = adf.lms(input[start:j],output[start:j],filter_order,0.000002)
-        #geny = np.append(geny,y[len(y)-1])
-        answer = int(y[len(y)-1])
+        answer = y[len(y)-1]
     if ( answer > 255 ): answer = 255
     if ( answer < 0 ): answer = 0
-    firobj.predicted.append(answer)
-    return answer
+    firDB.predicted.append(int(answer))
+    return int(answer)
+    
 
 def poisonARP(nb=3, doSleep=False, sleepTime=0.3):
     for i in range(0, nb):
