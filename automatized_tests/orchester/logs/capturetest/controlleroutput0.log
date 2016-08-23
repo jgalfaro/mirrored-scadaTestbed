@@ -1,0 +1,18 @@
+java: no process found
+Starting program, PLC at: 192.168.2.3
+Starting time: 13:37:59.897
+Connecting to 192.168.2.2 in port 20000... Connected
+Creating new connection in port 20001
+Response: HARDWARE_ERROR
+Connecting to 192.168.2.2 in port 20001... Connected
+Reading latency in ms: 7
+Initializing distance
+Reading latency in ms: 119765
+ Initial_distance= 0.0	
+
+
+GTotal: 0.024641706709090955
+distance= 0.0	
+ estimation= 0.19504575999999998	
+
+

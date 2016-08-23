@@ -1,0 +1,15 @@
+WARNING: No route found for IPv6 destination :: (no default route?)
+WARNING: Mac address to reach destination not found. Using broadcast.
+WARNING: Mac address to reach destination not found. Using broadcast.
+INITIALIZING
+IDLE
+POISONING
+[Request] Enable system forwarding
+Traceback (most recent call last):
+  File "/home/juanro/workspace/pythonatks/scada_attackers/automatized_tests/mitm_gui.py", line 540, in <module>
+    sniff(filter="tcp and port " + str(ModbusPort) + " and not ether src " + cs.attackerMAC, stop_filter=handlePacketLearning, store=0, count=MaxCount)
+  File "/home/juanro/workspace/pythonatks/scada_attackers/automatized_tests/scapy/sendrecv.py", line 620, in sniff
+    if stop_filter and stop_filter(p):
+  File "/home/juanro/workspace/pythonatks/scada_attackers/automatized_tests/mitm_gui.py", line 348, in handlePacketLearning
+    forwardPacket(pkt,cs.socket,dstHA,cs.attackerMAC)
+UnboundLocalError: local variable 'dstHA' referenced before assignment
