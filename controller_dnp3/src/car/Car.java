@@ -40,8 +40,8 @@ public class Car {
 	private int distanceGlobal;
 
 	//Time between reading and writings to car, in milliseconds
-	private int readPause = 500;
-	private int writePause = 500;
+	private int readPause = 300;
+	private int writePause = 300;
 
 	/////////////////////////////////////////////MODBUS INDEXES
 	// Bool RW
@@ -231,7 +231,7 @@ public class Car {
 				//double [][] B_b = {{0.09245},{0.004745}};  //new double [2][1];
 				//double [][] B_b = {{0.0571},{0.0039}};        
 				// double [][] B_b = {{0.0551},{0.0257}};//015s
-				double [][] B_b = {{0.0551},{0.0357}};//015s
+				double [][] B_b = {{0.0551},{0.02}};//015s
 				// double [][] B_b = {{0.5},{0.125}};//vel=250
 				// double [][] B_b = {{0.0571},{0.0034}};//01s
 				Matrix B = new Matrix(B_b);
@@ -256,7 +256,7 @@ public class Car {
 			    Matrix kf = new Matrix(2,1); //{{0.0001},{0.0198}};
 			    //Detector
 			    // ChiÂ² detector
-			    int wind=3;
+			    int wind=4;
 			    Matrix g = new Matrix(wind, 1, 0.0);
 			    //Parametres
 			    double g_next=0.0; 
@@ -272,10 +272,10 @@ public class Car {
 			    //Process noise
 			    double [][] Q_m={{1,0.0}, {0.0,1}}; //new double [2][2];
 			    Matrix Q = new Matrix(Q_m);
-			    double threshold=21*wind;//threshold
+			    double threshold=12*wind;//threshold
 			    int dInitialInt = 0;
 			//**************************************************************************************
-		    	int lowthreshold = 35;
+		    	int lowthreshold = 18;
 		    	int stabled = 0;
 		        long durationMean = 0;
 		        long iterationCounter = 0;
@@ -354,7 +354,7 @@ public class Car {
         	    		else {
         	    			sens=1;
         	    		}
-						speed = sens*250+(int)variation;
+						speed = sens*250;//+(int)variation;
 
 						u.set(0, 0, (double)speed);
 
@@ -413,7 +413,7 @@ public class Car {
 						//System.out.println("Distance: " + wallDistance + " estimation: " + (Math.abs(estimation.get(0,0)) + dInitialInt));			
 						//***********************************************************************
 						if((g_total+g_total_old)/2 < lowthreshold && alarme_cycle > 0 ) stabled++;
-						if(stabled>8) {
+						if(stabled>10) {
 							stabled = 0;
 							alarme_cycle--;
 						}
