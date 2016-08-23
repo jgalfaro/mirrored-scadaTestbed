@@ -1,0 +1,6797 @@
+java: no process found
+Starting program, PLC at: 192.168.2.3
+Starting time: 14:17:21.911
+Connecting to 192.168.2.2 in port 20000... Connected
+Creating new connection in port 20001
+Response: HARDWARE_ERROR
+Connecting to 192.168.2.2 in port 20001... Connected
+Reading latency in ms: 12
+Initializing distance
+ Initial_distance= 0.0	
+
+
+Reading latency in ms: 96602
+GTotal: 0.06875039147528525
+distance= 0.0	
+ estimation= 0.3257907199999999	
+
+
+Reading latency in ms: 6
+GTotal: 0.19434684606915073
+distance= 0.0	
+ estimation= 0.44439642761103443	
+
+
+Reading latency in ms: 5
+GTotal: 0.31043040246252795
+distance= 0.0	
+ estimation= 0.4279357413617592	
+
+
+Reading latency in ms: 4
+GTotal: 0.4181020897104955
+distance= 0.0	
+ estimation= 0.41225923062002995	
+
+
+Reading latency in ms: 5
+Round trip finished
+Initializing distance
+ Initial_distance= 182.0	
+
+
+GTotal: 0.5404893328053497
+distance= 0.0	
+ estimation= 0.43955188921077254	
+
+
+Reading latency in ms: 6
+GTotal: 20876.333041360158
+distance= 182.0	
+ estimation= 0.46170135087475794	
+
+
+Reading latency in ms: 3
+GTotal: 27958.705464664286
+distance= 0.0	
+ estimation= 105.74016841645167	
+
+
+Reading latency in ms: 6
+GTotal: 39895.174853601166
+distance= 182.0	
+ estimation= 44.726423597438355	
+
+
+Reading latency in ms: 4
+GTotal: 41997.959915040505
+distance= 182.0	
+ estimation= 124.38235879003747	
+
+
+Reading latency in ms: 3
+GTotal: 42364.62763970924
+distance= 182.0	
+ estimation= 157.93666992254762	
+
+
+Reading latency in ms: 9
+GTotal: 40264.66771160142
+distance= 0.0	
+ estimation= 172.16597130955782	
+
+
+Reading latency in ms: 4
+Reading latency in ms: 6
+GTotal: 40724.94827930562
+distance= 182.0	
+ estimation= 72.87792911681775	
+
+
+Reading latency in ms: 3
+GTotal: 30108.135228086707
+distance= 182.0	
+ estimation= 136.35466025124592	
+
+
+Reading latency in ms: 4
+GTotal: 28234.737443211234
+distance= 182.0	
+ estimation= 162.96585012610745	
+
+
+Reading latency in ms: 3
+GTotal: 46442.859158171486
+distance= 3.0	
+ estimation= 174.24200335958798	
+
+
+Reading latency in ms: 4
+GTotal: 30985.60436740827
+distance= 3.0	
+ estimation= 75.38147385085203	
+
+
+Reading latency in ms: 3
+GTotal: 37368.89211583984
+distance= 182.0	
+ estimation= 33.727315927824456	
+
+
+Reading latency in ms: 3
+GTotal: 38493.41347631478
+distance= 182.0	
+ estimation= 119.88111939899112	
+
+
+Reading latency in ms: 5
+GTotal: 38688.056621314856
+distance= 182.0	
+ estimation= 156.12379641391087	
+
+
+******Delta G High!: 194.64314500007458
+Reading latency in ms: 4
+GTotal: 37438.25487762477
+distance= 6.0	
+ estimation= 171.3807362269011	
+
+
+Reading latency in ms: 4
+GTotal: 41261.4544246821
+distance= 182.0	
+ estimation= 75.81769123462804	
+
+
+Reading latency in ms: 2
+Reading latency in ms: 11
+GTotal: 28589.457108717255
+distance= 182.0	
+ estimation= 137.50536595080231	
+
+
+Reading latency in ms: 5
+GTotal: 26360.60513620869
+distance= 182.0	
+ estimation= 163.55783457358487	
+
+
+Reading latency in ms: 4
+GTotal: 25971.67178184228
+distance= 182.0	
+ estimation= 174.54500282359007	
+
+
+Reading latency in ms: 5
+GTotal: 26737.921103175115
+distance= 10.0	
+ estimation= 178.99837172997002	
+
+
+Reading latency in ms: 6
+GTotal: 22827.2480286516
+distance= 10.0	
+ estimation= 81.42118126762897	
+
+
+Reading latency in ms: 5
+GTotal: 34296.35677631086
+distance= 182.0	
+ estimation= 40.275570601515405	
+
+
+Reading latency in ms: 4
+GTotal: 36316.13583486736
+distance= 182.0	
+ estimation= 122.59716923479614	
+
+
+Reading latency in ms: 5
+GTotal: 36668.85541601691
+distance= 182.0	
+ estimation= 157.25312165561783	
+
+
+Reading latency in ms: 4
+GTotal: 18643.804726400253
+distance= 182.0	
+ estimation= 171.76866687747233	
+
+
+Reading latency in ms: 3
+GTotal: 32865.95207603695
+distance= 12.0	
+ estimation= 177.99153852555997	
+
+
+Reading latency in ms: 5
+GTotal: 26445.45181032955
+distance= 182.0	
+ estimation= 82.25079057389729	
+
+
+Reading latency in ms: 8
+GTotal: 25312.428630990376
+distance= 182.0	
+ estimation= 140.28649650896557	
+
+
+Reading latency in ms: 4
+Reading latency in ms: 12
+GTotal: 39125.17833749358
+distance= 15.0	
+ estimation= 164.72743984861097	
+
+
+Reading latency in ms: 5
+GTotal: 45857.49709022656
+distance= 182.0	
+ estimation= 78.40052804137055	
+
+
+Reading latency in ms: 3
+GTotal: 29594.121059358517
+distance= 182.0	
+ estimation= 138.65787006938163	
+
+
+Reading latency in ms: 3
+GTotal: 23495.299857358095
+distance= 182.0	
+ estimation= 164.0605556111315	
+
+
+Reading latency in ms: 3
+GTotal: 37953.34841483766
+distance= 18.0	
+ estimation= 174.7310894206782	
+
+
+Reading latency in ms: 6
+GTotal: 29793.763460980805
+distance= 182.0	
+ estimation= 84.34273905921724	
+
+
+Reading latency in ms: 5
+GTotal: 24050.915585060935
+distance= 182.0	
+ estimation= 141.17430836193685	
+
+
+Reading latency in ms: 4
+GTotal: 23041.535254367052
+distance= 182.0	
+ estimation= 165.11649712305467	
+
+
+Reading latency in ms: 3
+GTotal: 38097.83883725617
+distance= 20.0	
+ estimation= 175.21241684675587	
+
+
+Reading latency in ms: 5
+Reading latency in ms: 3
+GTotal: 28412.09828205326
+distance= 182.0	
+ estimation= 85.69860373149125	
+
+
+Reading latency in ms: 3
+GTotal: 23399.41793848122
+distance= 182.0	
+ estimation= 141.70698210599832	
+
+
+Reading latency in ms: 5
+GTotal: 35360.266807490014
+distance= 22.0	
+ estimation= 165.34949718361952	
+
+
+Reading latency in ms: 4
+GTotal: 41426.216797814195
+distance= 182.0	
+ estimation= 82.69622014692543	
+
+
+Reading latency in ms: 5
+GTotal: 27258.810431357517
+distance= 182.0	
+ estimation= 140.46559189043245	
+
+
+Reading latency in ms: 4
+GTotal: 33764.81372462983
+distance= 25.0	
+ estimation= 164.8028964891334	
+
+
+Reading latency in ms: 5
+GTotal: 38795.72018487925
+distance= 182.0	
+ estimation= 84.19553280865021	
+
+
+Reading latency in ms: 3
+GTotal: 26838.192594192402
+distance= 182.0	
+ estimation= 141.11014392109874	
+
+
+Reading latency in ms: 3
+GTotal: 20772.63767638882
+distance= 182.0	
+ estimation= 165.0980367383575	
+
+
+Reading latency in ms: 4
+GTotal: 33593.1715896689
+distance= 27.0	
+ estimation= 175.2046390994986	
+
+
+Reading latency in ms: 5
+Reading latency in ms: 2
+GTotal: 26603.993641197896
+distance= 182.0	
+ estimation= 89.74393662685347	
+
+
+Reading latency in ms: 4
+GTotal: 21486.981653736057
+distance= 182.0	
+ estimation= 143.43065594081136	
+
+
+Reading latency in ms: 5
+GTotal: 32153.359970743135
+distance= 30.0	
+ estimation= 166.05428352221392	
+
+
+Reading latency in ms: 5
+GTotal: 37613.23851258758
+distance= 182.0	
+ estimation= 87.63331042303405	
+
+
+Reading latency in ms: 3
+GTotal: 24686.206493441765
+distance= 182.0	
+ estimation= 142.54140485329356	
+
+
+Reading latency in ms: 4
+GTotal: 19463.329645499438
+distance= 182.0	
+ estimation= 165.69248354806953	
+
+
+Reading latency in ms: 4
+GTotal: 18548.24934052977
+distance= 182.0	
+ estimation= 175.4443752082379	
+
+
+Reading latency in ms: 4
+GTotal: 20238.307869685126
+distance= 34.0	
+ estimation= 179.5294747388773	
+
+
+Reading latency in ms: 5
+GTotal: 19323.066672596793
+distance= 182.0	
+ estimation= 95.6275505733655	
+
+
+Reading latency in ms: 5
+GTotal: 19160.999612503398
+distance= 182.0	
+ estimation= 145.92883613821013	
+
+
+******Delta G High!: 162.0670600933954
+Reading latency in ms: 3
+GTotal: 29877.9134529339
+distance= 36.0	
+ estimation= 167.08967235570606	
+
+
+Reading latency in ms: 3
+GTotal: 35046.00316780402
+distance= 182.0	
+ estimation= 91.43659097183014	
+
+
+Reading latency in ms: 3
+Reading latency in ms: 20
+GTotal: 22542.05162868806
+distance= 182.0	
+ estimation= 144.06450239774114	
+
+
+Reading latency in ms: 4
+GTotal: 17973.91835298148
+distance= 182.0	
+ estimation= 166.23345856868627	
+
+
+Reading latency in ms: 6
+GTotal: 28796.570498761306
+distance= 40.0	
+ estimation= 175.59728173072477	
+
+
+Reading latency in ms: 3
+GTotal: 22454.029957504034
+distance= 182.0	
+ estimation= 97.31430774321618	
+
+
+Reading latency in ms: 3
+GTotal: 18055.172611289625
+distance= 182.0	
+ estimation= 146.5409077515732	
+
+
+Reading latency in ms: 4
+GTotal: 17280.69889808036
+distance= 182.0	
+ estimation= 167.2875368838826	
+
+
+Reading latency in ms: 6
+GTotal: 17146.165057303533
+distance= 182.0	
+ estimation= 175.98351631294315	
+
+
+******Delta G High!: 134.53384077682858
+Reading latency in ms: 3
+GTotal: 5502.760817016543
+distance= 182.0	
+ estimation= 179.67089179412653	
+
+
+Reading latency in ms: 4
+GTotal: 960.3080292284108
+distance= 182.0	
+ estimation= 181.23089050261936	
+
+
+Reading latency in ms: 5
+Reading latency in ms: 3
+GTotal: 12038.706107260698
+distance= 45.0	
+ estimation= 181.9181577176059	
+
+
+Reading latency in ms: 4
+GTotal: 15864.401057911127
+distance= 182.0	
+ estimation= 102.905114260276	
+
+
+Reading latency in ms: 5
+GTotal: 16536.075145968745
+distance= 182.0	
+ estimation= 148.88571499765976	
+
+
+Reading latency in ms: 5
+GTotal: 25845.499380178
+distance= 47.0	
+ estimation= 168.2518763961735	
+
+
+Reading latency in ms: 4
+GTotal: 30286.19443189836
+distance= 182.0	
+ estimation= 98.26814423812908	
+
+
+Reading latency in ms: 5
+GTotal: 19189.179382488768
+distance= 182.0	
+ estimation= 146.95778259245444	
+
+
+Reading latency in ms: 3
+GTotal: 15360.902145006778
+distance= 182.0	
+ estimation= 167.42673787779475	
+
+
+Reading latency in ms: 4
+GTotal: 24900.205213066445
+distance= 49.0	
+ estimation= 176.10646541125197	
+
+
+Reading latency in ms: 4
+GTotal: 17350.064326797652
+distance= 50.0	
+ estimation= 102.75195226315186	
+
+
+Reading latency in ms: 4
+GTotal: 20513.648321984532
+distance= 182.0	
+ estimation= 72.43126645728223	
+
+
+Reading latency in ms: 5
+Reading latency in ms: 1
+GTotal: 21072.21841394084
+distance= 182.0	
+ estimation= 136.06787736591565	
+
+
+Reading latency in ms: 4
+GTotal: 28867.976336393654
+distance= 51.0	
+ estimation= 162.89003304317626	
+
+
+Reading latency in ms: 3
+GTotal: 23064.694231100526
+distance= 182.0	
+ estimation= 98.36667048009542	
+
+
+Reading latency in ms: 3
+GTotal: 22078.7316605381
+distance= 182.0	
+ estimation= 146.9821468846644	
+
+
+Reading latency in ms: 3
+GTotal: 14608.220988455812
+distance= 182.0	
+ estimation= 167.44771986511458	
+
+
+Reading latency in ms: 4
+GTotal: 22557.787213609765
+distance= 55.0	
+ estimation= 176.07672508258173	
+
+
+Reading latency in ms: 5
+GTotal: 18262.627119320958
+distance= 182.0	
+ estimation= 106.24578995612451	
+
+
+Reading latency in ms: 4
+GTotal: 14468.125300995613
+distance= 182.0	
+ estimation= 150.31035861497955	
+
+
+Reading latency in ms: 3
+GTotal: 21621.445543006867
+distance= 57.0	
+ estimation= 168.8885457523385	
+
+
+Reading latency in ms: 4
+GTotal: 22908.068172381038
+distance= 57.0	
+ estimation= 104.35961377327136	
+
+
+Reading latency in ms: 3
+GTotal: 20581.182117600474
+distance= 182.0	
+ estimation= 77.18508147367471	
+
+
+Reading latency in ms: 9
+GTotal: 18170.0059037843
+distance= 182.0	
+ estimation= 138.04289565788	
+
+
+Reading latency in ms: 3
+Reading latency in ms: 3
+GTotal: 17743.57197456672
+distance= 182.0	
+ estimation= 163.80574071321647	
+
+
+Reading latency in ms: 3
+GTotal: 18140.380233004485
+distance= 60.0	
+ estimation= 174.6537375997503	
+
+
+Reading latency in ms: 4
+GTotal: 20130.952003618553
+distance= 182.0	
+ estimation= 108.61466821516251	
+
+
+Reading latency in ms: 6
+GTotal: 13765.219012552005
+distance= 182.0	
+ estimation= 151.3941511098875	
+
+
+Reading latency in ms: 3
+GTotal: 12641.715376224502
+distance= 182.0	
+ estimation= 169.4073277016886	
+
+
+Reading latency in ms: 4
+GTotal: 12447.9791814933
+distance= 182.0	
+ estimation= 176.98165328455025	
+
+
+******Delta G High!: 193.73619473120198
+Reading latency in ms: 4
+GTotal: 4123.198405950611
+distance= 182.0	
+ estimation= 180.17716223498832	
+
+
+Reading latency in ms: 3
+GTotal: 711.9800443085572
+distance= 182.0	
+ estimation= 181.5663643777686	
+
+
+Reading latency in ms: 10
+Reading latency in ms: 1
+GTotal: 8955.570023948292
+distance= 64.0	
+ estimation= 182.11308389736777	
+
+
+Reading latency in ms: 4
+GTotal: 11777.386237838402
+distance= 182.0	
+ estimation= 114.0785934459809	
+
+
+Reading latency in ms: 3
+GTotal: 12269.500992932068
+distance= 182.0	
+ estimation= 153.67907052889802	
+
+
+Reading latency in ms: 4
+GTotal: 19168.38213331333
+distance= 66.0	
+ estimation= 170.37644225635717	
+
+
+Reading latency in ms: 3
+GTotal: 22425.91518321268
+distance= 182.0	
+ estimation= 110.2867714930695	
+
+
+Reading latency in ms: 3
+GTotal: 14155.486006565669
+distance= 182.0	
+ estimation= 152.0943565712269	
+
+
+Reading latency in ms: 4
+GTotal: 11328.95170683599
+distance= 182.0	
+ estimation= 169.70662566851914	
+
+
+Reading latency in ms: 3
+GTotal: 10835.95247330895
+distance= 182.0	
+ estimation= 177.1227573153912	
+
+
+Reading latency in ms: 3
+GTotal: 11634.108310990054
+distance= 70.0	
+ estimation= 180.2473291226691	
+
+
+Reading latency in ms: 4
+GTotal: 11074.291227541236
+distance= 182.0	
+ estimation= 116.73886566464479	
+
+
+Reading latency in ms: 4
+Reading latency in ms: 10
+GTotal: 10975.980271102908
+distance= 182.0	
+ estimation= 154.81275917063454	
+
+
+******Delta G High!: 98.3109564383285
+Reading latency in ms: 4
+GTotal: 17070.85532137528
+distance= 72.0	
+ estimation= 170.85837577887784	
+
+
+Reading latency in ms: 5
+GTotal: 19988.471623743593
+distance= 182.0	
+ estimation= 113.95760763129317	
+
+
+Reading latency in ms: 5
+GTotal: 12798.61150853074
+distance= 182.0	
+ estimation= 153.64524354763796	
+
+
+Reading latency in ms: 4
+GTotal: 10186.600404528475
+distance= 182.0	
+ estimation= 170.360046879672	
+
+
+Reading latency in ms: 4
+GTotal: 9731.6976984523
+distance= 182.0	
+ estimation= 177.4173476163747	
+
+
+Reading latency in ms: 3
+GTotal: 3542.7992208800442
+distance= 182.0	
+ estimation= 180.35858603515106	
+
+
+Reading latency in ms: 4
+GTotal: 610.209913808159
+distance= 182.0	
+ estimation= 181.6127949899234	
+
+
+Reading latency in ms: 4
+GTotal: 100.93908093646175
+distance= 182.0	
+ estimation= 182.1305027280949	
+
+
+Reading latency in ms: 4
+GTotal: 6914.9733498851565
+distance= 78.0	
+ estimation= 182.3679140964843	
+
+
+Reading latency in ms: 11
+GTotal: 9161.070263481219
+distance= 182.0	
+ estimation= 122.27674832044715	
+
+
+Reading latency in ms: 9
+Reading latency in ms: 4
+GTotal: 12927.823358552174
+distance= 80.0	
+ estimation= 157.1309817639589	
+
+
+Reading latency in ms: 3
+GTotal: 13609.707205553696
+distance= 80.0	
+ estimation= 112.8119742668242	
+
+
+Reading latency in ms: 4
+GTotal: 18500.960971552657
+distance= 182.0	
+ estimation= 94.12658671034914	
+
+
+Reading latency in ms: 3
+GTotal: 12458.933971863742
+distance= 182.0	
+ estimation= 145.19999738180778	
+
+
+Reading latency in ms: 5
+GTotal: 10347.669669707839
+distance= 182.0	
+ estimation= 166.7075797011165	
+
+
+Reading latency in ms: 5
+GTotal: 6603.650088443895
+distance= 182.0	
+ estimation= 175.78846546793875	
+
+
+Reading latency in ms: 3
+GTotal: 5925.347746177697
+distance= 182.0	
+ estimation= 179.59085614216903	
+
+
+Reading latency in ms: 3
+GTotal: 1034.4892907119504
+distance= 182.0	
+ estimation= 181.19931316379802	
+
+
+Reading latency in ms: 6
+GTotal: 176.66665589624597
+distance= 182.0	
+ estimation= 181.88341992246373	
+
+
+Reading latency in ms: 5
+GTotal: 28.55191262805485
+distance= 182.0	
+ estimation= 182.18022188820694	
+
+
+******Delta G High!: 148.11474326819112
+Reading latency in ms: 4
+GTotal: 4.161259339180772
+distance= 182.0	
+ estimation= 182.2795504614391	
+
+
+Reading latency in ms: 3
+GTotal: 5523.385533004627
+distance= 89.0	
+ estimation= 182.37498367263936	
+
+
+Reading latency in ms: 5
+Reading latency in ms: 4
+GTotal: 6466.056685760226
+distance= 90.0	
+ estimation= 128.58518208937386	
+
+
+Reading latency in ms: 3
+GTotal: 10076.715848466993
+distance= 182.0	
+ estimation= 106.50108953208675	
+
+
+Reading latency in ms: 4
+GTotal: 10708.0781277498
+distance= 182.0	
+ estimation= 150.4286384809343	
+
+
+Reading latency in ms: 21
+GTotal: 10816.879102753355
+distance= 182.0	
+ estimation= 168.8912256206433	
+
+
+******Delta G High!: 108.80097500355441
+Reading latency in ms: 4
+GTotal: 9729.160069548998
+distance= 93.0	
+ estimation= 176.67633089318483	
+
+
+Reading latency in ms: 5
+GTotal: 10600.529100804033
+distance= 182.0	
+ estimation= 128.4796460158007	
+
+
+Reading latency in ms: 3
+GTotal: 7305.185500576728
+distance= 182.0	
+ estimation= 159.6886653013376	
+
+
+Reading latency in ms: 8
+GTotal: 6727.452578588945
+distance= 182.0	
+ estimation= 172.79695585801568	
+
+
+Reading latency in ms: 9
+GTotal: 6627.1018011303895
+distance= 182.0	
+ estimation= 178.33690048018875	
+
+
+******Delta G High!: 100.35077745855506
+Reading latency in ms: 4
+GTotal: 2193.0679591604303
+distance= 182.0	
+ estimation= 180.65384846319233	
+
+
+Reading latency in ms: 7
+GTotal: 378.71244684136775
+distance= 182.0	
+ estimation= 181.62145380363188	
+
+
+Reading latency in ms: 3
+GTotal: 63.389076148052034
+distance= 182.0	
+ estimation= 182.03555630791848	
+
+
+Reading latency in ms: 4
+GTotal: 4610.846108873996
+distance= 97.0	
+ estimation= 182.22717325827688	
+
+
+Reading latency in ms: 9
+Reading latency in ms: 2
+GTotal: 6114.857465062697
+distance= 182.0	
+ estimation= 133.13519179126922	
+
+
+Reading latency in ms: 3
+GTotal: 6377.355894577948
+distance= 182.0	
+ estimation= 161.59870374102144	
+
+
+Reading latency in ms: 4
+GTotal: 6421.646714693759
+distance= 182.0	
+ estimation= 173.62955879341584	
+
+
+Reading latency in ms: 3
+GTotal: 6428.4702835910875
+distance= 182.0	
+ estimation= 178.71770059971902	
+
+
+Reading latency in ms: 3
+GTotal: 1828.178287244191
+distance= 182.0	
+ estimation= 180.86572818037544	
+
+
+Reading latency in ms: 4
+GTotal: 315.7163833623557
+distance= 182.0	
+ estimation= 181.72143997240357	
+
+
+Reading latency in ms: 5
+GTotal: 52.080641496180014
+distance= 182.0	
+ estimation= 182.12912321791177	
+
+
+Reading latency in ms: 4
+GTotal: 4087.2603942626465
+distance= 102.0	
+ estimation= 182.25159143991056	
+
+
+Reading latency in ms: 5
+GTotal: 5416.785959575041
+distance= 182.0	
+ estimation= 136.0688818543411	
+
+
+Reading latency in ms: 3
+GTotal: 5648.170556856175
+distance= 182.0	
+ estimation= 162.8540191352178	
+
+
+Reading latency in ms: 9
+GTotal: 8863.492650694918
+distance= 103.0	
+ estimation= 174.24632725772287	
+
+
+Reading latency in ms: 7
+Reading latency in ms: 3
+GTotal: 10363.92641266326
+distance= 182.0	
+ estimation= 133.3305025397892	
+
+
+Reading latency in ms: 3
+GTotal: 6543.0825295279865
+distance= 182.0	
+ estimation= 161.79030361578117	
+
+
+Reading latency in ms: 3
+GTotal: 5249.455695136839
+distance= 182.0	
+ estimation= 173.78744479922926	
+
+
+Reading latency in ms: 4
+GTotal: 8378.077443713162
+distance= 106.0	
+ estimation= 178.83994864543746	
+
+
+Reading latency in ms: 3
+GTotal: 6445.680833290498
+distance= 182.0	
+ estimation= 136.9954985747272	
+
+
+Reading latency in ms: 4
+GTotal: 5165.473332514278
+distance= 182.0	
+ estimation= 163.35373355418884	
+
+
+Reading latency in ms: 5
+GTotal: 4942.879912098831
+distance= 182.0	
+ estimation= 174.44829398334488	
+
+
+Reading latency in ms: 3
+GTotal: 8195.505059089866
+distance= 107.0	
+ estimation= 179.12695170722301	
+
+
+Reading latency in ms: 3
+GTotal: 6077.3587521227255
+distance= 182.0	
+ estimation= 137.70795817040334	
+
+
+Reading latency in ms: 5
+GTotal: 5007.736590990103
+distance= 182.0	
+ estimation= 163.6474776448312	
+
+
+Reading latency in ms: 8
+Reading latency in ms: 3
+GTotal: 4822.429311593246
+distance= 182.0	
+ estimation= 174.57419788966183	
+
+
+******Delta G High!: 185.30727939685676
+Reading latency in ms: 4
+GTotal: 7906.720858410389
+distance= 109.0	
+ estimation= 179.18642774363747	
+
+
+Reading latency in ms: 3
+GTotal: 5788.701608018087
+distance= 182.0	
+ estimation= 138.8882313643862	
+
+
+Reading latency in ms: 3
+GTotal: 6402.762440312861
+distance= 110.0	
+ estimation= 164.1404647762683	
+
+
+Reading latency in ms: 4
+GTotal: 7703.710308797768
+distance= 182.0	
+ estimation= 133.10629702143984	
+
+
+Reading latency in ms: 4
+GTotal: 7929.096080435237
+distance= 182.0	
+ estimation= 161.72799152845926	
+
+
+Reading latency in ms: 4
+GTotal: 4851.65481171196
+distance= 182.0	
+ estimation= 173.76333476991937	
+
+
+Reading latency in ms: 6
+GTotal: 3680.6319248777445
+distance= 182.0	
+ estimation= 178.84479410441034	
+
+
+Reading latency in ms: 4
+GTotal: 4582.329465060477
+distance= 115.0	
+ estimation= 180.99000621953545	
+
+
+Reading latency in ms: 3
+GTotal: 4025.985911636773
+distance= 182.0	
+ estimation= 143.11161752138258	
+
+
+Reading latency in ms: 3
+GTotal: 3928.936337567609
+distance= 182.0	
+ estimation= 165.94558626466105	
+
+
+******Delta G High!: 97.04957406916401
+Reading latency in ms: 115
+GTotal: 3912.236474660558
+distance= 182.0	
+ estimation= 175.55958613126325	
+
+
+Reading latency in ms: 5
+GTotal: 6308.012044183921
+distance= 118.0	
+ estimation= 179.58015887715857	
+
+
+Reading latency in ms: 3
+GTotal: 4451.994312714195
+distance= 182.0	
+ estimation= 144.25579970478972	
+
+
+Reading latency in ms: 4
+GTotal: 3648.4501294590414
+distance= 182.0	
+ estimation= 166.38693037637702	
+
+
+Reading latency in ms: 4
+GTotal: 3509.9975327505613
+distance= 182.0	
+ estimation= 175.74124694219165	
+
+
+******Delta G High!: 138.4525967084801
+Reading latency in ms: 4
+GTotal: 5663.623076413947
+distance= 121.0	
+ estimation= 179.66312646691995	
+
+
+Reading latency in ms: 7
+GTotal: 4081.2594119837904
+distance= 182.0	
+ estimation= 146.02679276910624	
+
+
+Reading latency in ms: 8
+GTotal: 3318.8501249844776
+distance= 182.0	
+ estimation= 167.1330868988252	
+
+
+Reading latency in ms: 4
+GTotal: 4879.9386086667855
+distance= 124.0	
+ estimation= 176.0406148148356	
+
+
+Reading latency in ms: 6
+GTotal: 5664.824631300067
+distance= 182.0	
+ estimation= 146.24730651085827	
+
+
+Reading latency in ms: 7
+GTotal: 3624.392723591484
+distance= 182.0	
+ estimation= 167.16169316323615	
+
+
+Reading latency in ms: 4
+GTotal: 2828.19160953032
+distance= 182.0	
+ estimation= 175.906918754014	
+
+
+Reading latency in ms: 5
+GTotal: 2691.6281916322596
+distance= 182.0	
+ estimation= 179.66862667600793	
+
+
+******Delta G High!: 136.56341789806038
+Reading latency in ms: 4
+Reading latency in ms: 4
+GTotal: 2840.6249742232626
+distance= 127.0	
+ estimation= 181.25351312084786	
+
+
+******Delta G High!: 148.996782591003
+Reading latency in ms: 5
+GTotal: 2675.248008835434
+distance= 182.0	
+ estimation= 150.1067727400644	
+
+
+******Delta G High!: 165.37696538782848
+Reading latency in ms: 4
+GTotal: 3488.5754741596966
+distance= 130.0	
+ estimation= 168.7834805132676	
+
+
+Reading latency in ms: 4
+GTotal: 4260.223938103458
+distance= 182.0	
+ estimation= 146.56963329714438	
+
+
+Reading latency in ms: 4
+GTotal: 4393.4684578829065
+distance= 182.0	
+ estimation= 167.31035635871552	
+
+
+******Delta G High!: 133.24451977944864
+Reading latency in ms: 5
+GTotal: 2551.6801437710374
+distance= 182.0	
+ estimation= 176.01242087630132	
+
+
+Reading latency in ms: 5
+GTotal: 1910.733239582403
+distance= 182.0	
+ estimation= 179.6916433329078	
+
+
+Reading latency in ms: 5
+GTotal: 958.2775627313805
+distance= 182.0	
+ estimation= 181.2674972411465	
+
+
+Reading latency in ms: 5
+GTotal: 1619.565508552745
+distance= 134.0	
+ estimation= 181.95072778432976	
+
+
+Reading latency in ms: 3
+GTotal: 1965.563672614134
+distance= 182.0	
+ estimation= 154.3955497244398	
+
+
+Reading latency in ms: 5
+GTotal: 2025.376319437664
+distance= 182.0	
+ estimation= 170.58614548872916	
+
+
+Reading latency in ms: 118
+GTotal: 2035.3854306945775
+distance= 182.0	
+ estimation= 177.40329634251717	
+
+
+Reading latency in ms: 4
+GTotal: 2036.9387078182974
+distance= 182.0	
+ estimation= 180.27121825876625	
+
+
+Reading latency in ms: 3
+GTotal: 580.678839973535
+distance= 182.0	
+ estimation= 181.44738351329838	
+
+
+Reading latency in ms: 4
+GTotal: 97.99334117816919
+distance= 182.0	
+ estimation= 181.98579380368574	
+
+
+Reading latency in ms: 5
+GTotal: 1253.33439294218
+distance= 138.0	
+ estimation= 182.20620727153488	
+
+
+Reading latency in ms: 4
+GTotal: 1641.3654672623418
+distance= 182.0	
+ estimation= 156.8264781355807	
+
+
+Reading latency in ms: 5
+GTotal: 1708.3011685904328
+distance= 182.0	
+ estimation= 171.57605285414544	
+
+
+Reading latency in ms: 4
+GTotal: 1719.1508393245883
+distance= 182.0	
+ estimation= 177.82465179768462	
+
+
+Reading latency in ms: 4
+GTotal: 2756.5128225709996
+distance= 140.0	
+ estimation= 180.46803438945278	
+
+
+Reading latency in ms: 5
+GTotal: 1906.8933464454367
+distance= 182.0	
+ estimation= 157.24293405667473	
+
+
+Reading latency in ms: 8
+GTotal: 1571.5091213386108
+distance= 182.0	
+ estimation= 171.79009494836492	
+
+
+Reading latency in ms: 4
+GTotal: 1513.2182519743535
+distance= 182.0	
+ estimation= 177.92126230125504	
+
+
+Reading latency in ms: 7
+GTotal: 2393.264871580309
+distance= 143.0	
+ estimation= 180.50659506089622	
+
+
+Reading latency in ms: 1
+Reading latency in ms: 3
+GTotal: 1517.836453586434
+distance= 143.0	
+ estimation= 158.98878747492216	
+
+
+Reading latency in ms: 4
+GTotal: 1145.0779450367731
+distance= 145.0	
+ estimation= 149.94431742879118	
+
+
+Reading latency in ms: 4
+GTotal: 1840.9353869372112
+distance= 182.0	
+ estimation= 147.3189142338671	
+
+
+Reading latency in ms: 5
+GTotal: 1961.7418142861554
+distance= 182.0	
+ estimation= 167.60032381262417	
+
+
+******Delta G High!: 120.80642734894423
+Reading latency in ms: 10
+GTotal: 1092.174455555062
+distance= 182.0	
+ estimation= 176.17102736635204	
+
+
+Reading latency in ms: 4
+GTotal: 933.5961730525459
+distance= 182.0	
+ estimation= 179.6984534937467	
+
+
+******Delta G High!: 158.57828250251612
+Reading latency in ms: 5
+GTotal: 918.3877027702658
+distance= 182.0	
+ estimation= 181.33895402474283	
+
+
+Reading latency in ms: 4
+GTotal: 156.50178953080678
+distance= 182.0	
+ estimation= 181.93368010597908	
+
+
+Reading latency in ms: 6
+GTotal: 811.1302088084985
+distance= 147.0	
+ estimation= 182.2249745176689	
+
+
+Reading latency in ms: 39
+GTotal: 1042.0170100735106
+distance= 182.0	
+ estimation= 162.038209685811	
+
+
+Reading latency in ms: 4
+GTotal: 1465.2850364742799
+distance= 148.0	
+ estimation= 173.95190690606475	
+
+
+Reading latency in ms: 4
+GTotal: 1529.696603005339
+distance= 149.0	
+ estimation= 159.10555148959077	
+
+
+Reading latency in ms: 3
+GTotal: 2043.2823277389891
+distance= 182.0	
+ estimation= 153.5256007943651	
+
+
+Reading latency in ms: 3
+GTotal: 1344.5463193698852
+distance= 182.0	
+ estimation= 170.26462831835516	
+
+
+Reading latency in ms: 9
+GTotal: 1106.2450417756
+distance= 182.0	
+ estimation= 177.28069457520226	
+
+
+Reading latency in ms: 12
+GTotal: 681.6054834230408
+distance= 182.0	
+ estimation= 180.23028036277174	
+
+
+Reading latency in ms: 5
+GTotal: 1248.6523605150778
+distance= 150.0	
+ estimation= 181.58017071909268	
+
+
+Reading latency in ms: 9
+Reading latency in ms: 2
+GTotal: 949.5942433046224
+distance= 182.0	
+ estimation= 163.59688524009044	
+
+
+Reading latency in ms: 5
+GTotal: 898.2604067844105
+distance= 182.0	
+ estimation= 174.4714345684297	
+
+
+Reading latency in ms: 3
+GTotal: 889.677442399087
+distance= 182.0	
+ estimation= 179.04668020106516	
+
+
+Reading latency in ms: 5
+GTotal: 888.3351165721059
+distance= 182.0	
+ estimation= 180.99361738637447	
+
+
+Reading latency in ms: 4
+GTotal: 256.62440757605015
+distance= 182.0	
+ estimation= 181.80318605721342	
+
+
+Reading latency in ms: 5
+GTotal: 42.0987429768749
+distance= 182.0	
+ estimation= 182.08640359796806	
+
+
+Reading latency in ms: 9
+GTotal: 6.217770927938561
+distance= 182.0	
+ estimation= 182.18643884803558	
+
+
+Reading latency in ms: 7
+GTotal: 408.05598381339024
+distance= 157.0	
+ estimation= 182.35933075700822	
+
+
+Reading latency in ms: 4
+GTotal: 531.5778772907679
+distance= 182.0	
+ estimation= 167.99949184942054	
+
+
+******Delta G High!: 123.52189347737766
+Reading latency in ms: 5
+GTotal: 551.7442458532606
+distance= 182.0	
+ estimation= 176.35420875232427	
+
+
+Reading latency in ms: 5
+GTotal: 801.7772488107593
+distance= 160.0	
+ estimation= 179.86779613366633	
+
+
+Reading latency in ms: 4
+GTotal: 913.1421028597723
+distance= 182.0	
+ estimation= 168.73937713426602	
+
+
+******Delta G High!: 111.36485404901305
+Reading latency in ms: 3
+GTotal: 523.657207516743
+distance= 182.0	
+ estimation= 176.6873715410345	
+
+
+Reading latency in ms: 4
+GTotal: 401.84201020813623
+distance= 182.0	
+ estimation= 180.07460876423912	
+
+
+******Delta G High!: 121.8151973086068
+Reading latency in ms: 9
+Reading latency in ms: 6
+GTotal: 381.83221788361533
+distance= 182.0	
+ estimation= 181.46528572960617	
+
+
+Reading latency in ms: 4
+GTotal: 131.79563728149333
+distance= 182.0	
+ estimation= 182.04263366289373	
+
+
+Reading latency in ms: 6
+GTotal: 20.466112090209943
+distance= 182.0	
+ estimation= 182.30088597636697	
+
+
+******Delta G High!: 111.32952519128338
+Reading latency in ms: 4
+GTotal: 239.85964471201459
+distance= 163.0	
+ estimation= 182.35396573256529	
+
+
+Reading latency in ms: 4
+GTotal: 309.8020720435425
+distance= 182.0	
+ estimation= 171.31712704930683	
+
+
+Reading latency in ms: 14
+GTotal: 430.0513575601678
+distance= 164.0	
+ estimation= 177.7884351654485	
+
+
+******Delta G High!: 120.24928551662526
+Reading latency in ms: 5
+GTotal: 519.5451518564045
+distance= 182.0	
+ estimation= 170.113714051064	
+
+
+******Delta G High!: 89.49379429623667
+Reading latency in ms: 6
+GTotal: 615.2318581361001
+distance= 165.0	
+ estimation= 177.29427218914705	
+
+
+******Delta G High!: 95.68670627969561
+Reading latency in ms: 3
+GTotal: 461.6507062504538
+distance= 182.0	
+ estimation= 170.50562545087502	
+
+
+******Delta G High!: 153.58115188564625
+Reading latency in ms: 3
+GTotal: 402.35818077830874
+distance= 182.0	
+ estimation= 177.4701094817582	
+
+
+Reading latency in ms: 4
+GTotal: 283.5666002536685
+distance= 182.0	
+ estimation= 180.39153251565384	
+
+
+******Delta G High!: 118.79158052464021
+Reading latency in ms: 11
+GTotal: 194.16197683970657
+distance= 182.0	
+ estimation= 181.6223893131721	
+
+
+******Delta G High!: 89.40462341396196
+Reading latency in ms: 12
+GTotal: 98.43128988126767
+distance= 182.0	
+ estimation= 182.14526181770896	
+
+
+******Delta G High!: 95.7306869584389
+Reading latency in ms: 7
+Reading latency in ms: 10
+GTotal: 14.830342108072172
+distance= 182.0	
+ estimation= 182.3762757704929	
+
+
+******Delta G High!: 83.6009477731955
+Reading latency in ms: 9
+GTotal: 1.969176697051578
+distance= 182.0	
+ estimation= 182.46503335404083	
+
+
+Reading latency in ms: 4
+GTotal: 321.4458152560502
+distance= 160.0	
+ estimation= 182.51528894557325	
+
+
+Reading latency in ms: 6
+GTotal: 415.4852747372027
+distance= 182.0	
+ estimation= 169.80981082390312	
+
+
+******Delta G High!: 94.0394594811525
+Reading latency in ms: 4
+GTotal: 648.3190810878834
+distance= 158.0	
+ estimation= 177.17266146553914	
+
+
+Reading latency in ms: 5
+GTotal: 802.9052331229174
+distance= 182.0	
+ estimation= 166.3736280789696	
+
+
+******Delta G High!: 154.58615203503393
+Reading latency in ms: 3
+GTotal: 827.6428634751263
+distance= 182.0	
+ estimation= 175.7334990452942	
+
+
+Reading latency in ms: 5
+GTotal: 510.0026424096366
+distance= 182.0	
+ estimation= 179.65771875545425	
+
+
+Reading latency in ms: 4
+GTotal: 416.1642223821404
+distance= 182.0	
+ estimation= 181.32179162513805	
+
+
+******Delta G High!: 93.83842002749623
+Reading latency in ms: 5
+GTotal: 183.3170707649232
+distance= 182.0	
+ estimation= 182.00575354706484	
+
+
+Reading latency in ms: 4
+GTotal: 536.6622274787472
+distance= 154.0	
+ estimation= 182.31964137005215	
+
+
+Reading latency in ms: 4
+Reading latency in ms: 2
+GTotal: 669.2425267375023
+distance= 182.0	
+ estimation= 166.23387263965415	
+
+
+******Delta G High!: 132.58029925875508
+Reading latency in ms: 4
+GTotal: 1020.8030443861937
+distance= 152.0	
+ estimation= 175.67461714750817	
+
+
+Reading latency in ms: 5
+GTotal: 1266.7083120519892
+distance= 182.0	
+ estimation= 162.2853999508944	
+
+
+Reading latency in ms: 3
+GTotal: 1307.2452103781375
+distance= 182.0	
+ estimation= 174.00032598926322	
+
+
+Reading latency in ms: 4
+GTotal: 805.2124212872026
+distance= 182.0	
+ estimation= 178.92535323572596	
+
+
+Reading latency in ms: 5
+GTotal: 648.3769787892473
+distance= 182.0	
+ estimation= 181.01108731118973	
+
+
+******Delta G High!: 156.83544249795523
+Reading latency in ms: 5
+GTotal: 1021.2302698385764
+distance= 148.0	
+ estimation= 181.89842426294877	
+
+
+Reading latency in ms: 4
+GTotal: 1013.8734775950835
+distance= 182.0	
+ estimation= 162.5821875206997	
+
+
+Reading latency in ms: 3
+GTotal: 1012.5947377599557
+distance= 182.0	
+ estimation= 174.12751217718485	
+
+
+Reading latency in ms: 5
+GTotal: 1012.2979422678748
+distance= 182.0	
+ estimation= 179.00251640427481	
+
+
+Reading latency in ms: 4
+GTotal: 1834.4118560479535
+distance= 145.0	
+ estimation= 181.03931105250408	
+
+
+Reading latency in ms: 5
+GTotal: 1399.469706476287
+distance= 182.0	
+ estimation= 160.49490482766745	
+
+
+Reading latency in ms: 7
+GTotal: 1209.0300500744136
+distance= 182.0	
+ estimation= 173.2588130003638	
+
+
+******Delta G High!: 190.43965640187344
+Reading latency in ms: 4
+Reading latency in ms: 11
+GTotal: 1176.9929110899136
+distance= 182.0	
+ estimation= 178.62365506115862	
+
+
+Reading latency in ms: 5
+GTotal: 1172.155382074831
+distance= 182.0	
+ estimation= 180.8389649824878	
+
+
+Reading latency in ms: 5
+GTotal: 349.4329039887547
+distance= 182.0	
+ estimation= 181.86877271580758	
+
+
+Reading latency in ms: 4
+GTotal: 1180.4093971226876
+distance= 140.0	
+ estimation= 182.1226100728351	
+
+
+Reading latency in ms: 3
+GTotal: 1498.4352687901776
+distance= 182.0	
+ estimation= 157.94861493482068	
+
+
+Reading latency in ms: 4
+GTotal: 1553.8061523416961
+distance= 182.0	
+ estimation= 172.05954942313636	
+
+
+Reading latency in ms: 5
+GTotal: 1562.464716314682
+distance= 182.0	
+ estimation= 178.12481024296014	
+
+
+Reading latency in ms: 5
+GTotal: 1563.782624726138
+distance= 182.0	
+ estimation= 180.55163023791005	
+
+
+Reading latency in ms: 5
+GTotal: 440.0250523789736
+distance= 182.0	
+ estimation= 181.488366001416	
+
+
+Reading latency in ms: 4
+GTotal: 1475.3506907472515
+distance= 135.0	
+ estimation= 182.04164106548822	
+
+
+Reading latency in ms: 3
+GTotal: 1874.4018357083621
+distance= 182.0	
+ estimation= 155.00395898279018	
+
+
+Reading latency in ms: 3
+GTotal: 1942.9910001180522
+distance= 182.0	
+ estimation= 170.89606506992536	
+
+
+Reading latency in ms: 3
+Reading latency in ms: 4
+GTotal: 3201.574414345004
+distance= 133.0	
+ estimation= 177.59817276226596	
+
+
+Reading latency in ms: 7
+GTotal: 3768.4880080818684
+distance= 182.0	
+ estimation= 152.07949917783088	
+
+
+Reading latency in ms: 3
+GTotal: 2464.8146466117482
+distance= 182.0	
+ estimation= 169.5567608170654	
+
+
+Reading latency in ms: 7
+GTotal: 2018.6456386640043
+distance= 182.0	
+ estimation= 177.05747275023853	
+
+
+Reading latency in ms: 3
+GTotal: 1942.6344398016122
+distance= 182.0	
+ estimation= 180.18338624610496	
+
+
+Reading latency in ms: 3
+GTotal: 2426.2478197035575
+distance= 129.0	
+ estimation= 181.46396204419324	
+
+
+Reading latency in ms: 4
+GTotal: 2455.8773911693697
+distance= 182.0	
+ estimation= 151.30778677778613	
+
+
+Reading latency in ms: 3
+GTotal: 2457.5637068996157
+distance= 182.0	
+ estimation= 169.45024491718618	
+
+
+Reading latency in ms: 3
+GTotal: 4024.9965698624223
+distance= 127.0	
+ estimation= 176.98901840757642	
+
+
+Reading latency in ms: 4
+GTotal: 4742.327151672228
+distance= 182.0	
+ estimation= 148.29933487471038	
+
+
+Reading latency in ms: 5
+GTotal: 3121.6195552969534
+distance= 182.0	
+ estimation= 168.07555303175639	
+
+
+Reading latency in ms: 3
+GTotal: 2545.040948987476
+distance= 182.0	
+ estimation= 176.3626779637343	
+
+
+Reading latency in ms: 3
+Reading latency in ms: 4
+GTotal: 2447.908852433947
+distance= 182.0	
+ estimation= 179.96138551006487	
+
+
+******Delta G High!: 97.13209655352921
+Reading latency in ms: 3
+GTotal: 2951.2903758325633
+distance= 124.0	
+ estimation= 181.38971871790085	
+
+
+Reading latency in ms: 5
+GTotal: 2945.164367580585
+distance= 182.0	
+ estimation= 148.44312545624703	
+
+
+Reading latency in ms: 5
+GTotal: 4112.591993448558
+distance= 123.0	
+ estimation= 168.1318482995925	
+
+
+Reading latency in ms: 4
+GTotal: 5091.465456280562
+distance= 182.0	
+ estimation= 142.2872009949097	
+
+
+Reading latency in ms: 3
+GTotal: 5259.551619338537
+distance= 182.0	
+ estimation= 165.58323877091195	
+
+
+******Delta G High!: 168.08616305797568
+Reading latency in ms: 5
+GTotal: 3201.9922747658416
+distance= 182.0	
+ estimation= 175.26545977234343	
+
+
+Reading latency in ms: 5
+GTotal: 2492.584787064919
+distance= 182.0	
+ estimation= 179.52268143319864	
+
+
+Reading latency in ms: 3
+GTotal: 3568.5898686782275
+distance= 120.0	
+ estimation= 181.1191490890262	
+
+
+Reading latency in ms: 5
+Reading latency in ms: 5
+GTotal: 3387.9152215098034
+distance= 182.0	
+ estimation= 146.05727989192317	
+
+
+******Delta G High!: 180.67464716842414
+Reading latency in ms: 5
+GTotal: 3356.4774520300666
+distance= 182.0	
+ estimation= 167.17165208309873	
+
+
+Reading latency in ms: 5
+GTotal: 5537.810649116569
+distance= 117.0	
+ estimation= 176.06757993582846	
+
+
+Reading latency in ms: 3
+GTotal: 6537.67649822864
+distance= 182.0	
+ estimation= 142.19291077848297	
+
+
+Reading latency in ms: 4
+GTotal: 4342.971722103714
+distance= 182.0	
+ estimation= 165.54351232510737	
+
+
+Reading latency in ms: 4
+GTotal: 3552.4071723740476
+distance= 182.0	
+ estimation= 175.3794671475115	
+
+
+Reading latency in ms: 3
+GTotal: 6049.2735922053325
+distance= 115.0	
+ estimation= 179.5107010515247	
+
+
+Reading latency in ms: 5
+GTotal: 4827.584029746544
+distance= 182.0	
+ estimation= 142.4990720274512	
+
+
+Reading latency in ms: 6
+GTotal: 3992.875275544495
+distance= 182.0	
+ estimation= 165.66393104066202	
+
+
+Reading latency in ms: 4
+GTotal: 3848.652228066549
+distance= 182.0	
+ estimation= 175.43234543801253	
+
+
+******Delta G High!: 144.22304747794578
+Reading latency in ms: 3
+GTotal: 6797.688854875554
+distance= 111.0	
+ estimation= 179.55227002437138	
+
+
+Reading latency in ms: 7
+Reading latency in ms: 2
+GTotal: 5268.669946607979
+distance= 182.0	
+ estimation= 140.19329636276467	
+
+
+Reading latency in ms: 3
+GTotal: 4469.575390797834
+distance= 182.0	
+ estimation= 164.71389299225544	
+
+
+Reading latency in ms: 4
+GTotal: 4331.266700841238
+distance= 182.0	
+ estimation= 175.03421784231227	
+
+
+******Delta G High!: 138.30868995659603
+Reading latency in ms: 4
+GTotal: 7440.661430240644
+distance= 109.0	
+ estimation= 179.3695269980549	
+
+
+Reading latency in ms: 3
+GTotal: 5071.490143091208
+distance= 108.0	
+ estimation= 138.97180500055913	
+
+
+Reading latency in ms: 4
+GTotal: 6294.326548705635
+distance= 182.0	
+ estimation= 121.35128480313229	
+
+
+Reading latency in ms: 4
+GTotal: 7673.507103814316
+distance= 107.0	
+ estimation= 156.76035481362885	
+
+
+Reading latency in ms: 3
+GTotal: 9471.644298562665
+distance= 182.0	
+ estimation= 128.26729490663612	
+
+
+Reading latency in ms: 3
+GTotal: 6651.083930691087
+distance= 182.0	
+ estimation= 159.65921140523724	
+
+
+Reading latency in ms: 4
+GTotal: 6096.078988614456
+distance= 182.0	
+ estimation= 172.88528423382851	
+
+
+Reading latency in ms: 3
+GTotal: 3773.9952610882942
+distance= 182.0	
+ estimation= 178.47270963750023	
+
+
+Reading latency in ms: 7
+GTotal: 2206.43404934522
+distance= 182.0	
+ estimation= 180.80966226960157	
+
+
+Reading latency in ms: 4
+Reading latency in ms: 5
+GTotal: 4412.926183233518
+distance= 102.0	
+ estimation= 181.81570302827944	
+
+
+Reading latency in ms: 3
+GTotal: 4869.644149880863
+distance= 101.0	
+ estimation= 135.9302434842852	
+
+
+Reading latency in ms: 3
+GTotal: 4960.232173230323
+distance= 101.0	
+ estimation= 116.03620483981716	
+
+
+******Delta G High!: 90.58802334945995
+Reading latency in ms: 4
+GTotal: 8456.373392698191
+distance= 182.0	
+ estimation= 107.62442206534523	
+
+
+Reading latency in ms: 3
+GTotal: 9066.21425584177
+distance= 182.0	
+ estimation= 150.9490759577463	
+
+
+Reading latency in ms: 3
+Reading latency in ms: 18
+GTotal: 5134.34574117394
+distance= 182.0	
+ estimation= 169.21766484517494	
+
+
+Reading latency in ms: 3
+GTotal: 8306.876513417037
+distance= 98.0	
+ estimation= 176.92103458515055	
+
+
+Reading latency in ms: 4
+GTotal: 9775.551088093394
+distance= 182.0	
+ estimation= 131.55544426459937	
+
+
+Reading latency in ms: 3
+GTotal: 6549.97608543777
+distance= 182.0	
+ estimation= 161.03386089472914	
+
+
+Reading latency in ms: 4
+GTotal: 5985.828816879285
+distance= 182.0	
+ estimation= 173.42372905537286	
+
+
+Reading latency in ms: 4
+GTotal: 10420.440707716127
+distance= 94.0	
+ estimation= 178.64169701405007	
+
+
+Reading latency in ms: 4
+GTotal: 7291.1900533542785
+distance= 94.0	
+ estimation= 129.8949484499157	
+
+
+Reading latency in ms: 5
+GTotal: 9029.678564535245
+distance= 182.0	
+ estimation= 109.27332983536485	
+
+
+Reading latency in ms: 4
+GTotal: 9337.422034013298
+distance= 182.0	
+ estimation= 151.57949458511484	
+
+
+Reading latency in ms: 5
+GTotal: 9390.547526556895
+distance= 182.0	
+ estimation= 169.45326639515858	
+
+
+Reading latency in ms: 5
+GTotal: 4868.885291373226
+distance= 182.0	
+ estimation= 176.90455701961807	
+
+
+Reading latency in ms: 3
+GTotal: 4055.1271108452493
+distance= 182.0	
+ estimation= 180.05465884157084	
+
+
+Reading latency in ms: 6
+GTotal: 6119.829605106733
+distance= 89.0	
+ estimation= 181.45902376876037	
+
+
+Reading latency in ms: 2
+Reading latency in ms: 5
+GTotal: 7368.460585194271
+distance= 182.0	
+ estimation= 128.1799787307112	
+
+
+Reading latency in ms: 4
+GTotal: 10696.364546342467
+distance= 86.0	
+ estimation= 159.56026582896817	
+
+
+Reading latency in ms: 5
+GTotal: 13337.267491721013
+distance= 182.0	
+ estimation= 117.23039579193613	
+
+
+Reading latency in ms: 5
+GTotal: 13798.684691186076
+distance= 182.0	
+ estimation= 154.94054680251622	
+
+
+Reading latency in ms: 5
+GTotal: 8463.358487796913
+distance= 182.0	
+ estimation= 170.77932706838163	
+
+
+Reading latency in ms: 4
+GTotal: 6641.086107444691
+distance= 182.0	
+ estimation= 177.54898859377627	
+
+
+Reading latency in ms: 4
+GTotal: 3215.1771863293884
+distance= 182.0	
+ estimation= 180.35617841994167	
+
+
+Reading latency in ms: 3
+GTotal: 557.9650610162943
+distance= 182.0	
+ estimation= 181.53461965113888	
+
+
+Reading latency in ms: 6
+GTotal: 94.15377524750798
+distance= 182.0	
+ estimation= 182.06970213823115	
+
+
+Reading latency in ms: 5
+GTotal: 14.451048804417418
+distance= 182.0	
+ estimation= 182.2801400927554	
+
+
+Reading latency in ms: 4
+GTotal: 6390.75391529822
+distance= 82.0	
+ estimation= 182.4288160966797	
+
+
+Reading latency in ms: 8
+GTotal: 8477.01525633552
+distance= 182.0	
+ estimation= 124.58711667528183	
+
+
+Reading latency in ms: 3
+Reading latency in ms: 9
+GTotal: 12237.298057371914
+distance= 81.0	
+ estimation= 158.04866104905105	
+
+
+Reading latency in ms: 4
+GTotal: 15178.323107450557
+distance= 182.0	
+ estimation= 113.86088186305543	
+
+
+Reading latency in ms: 4
+GTotal: 15693.57929693658
+distance= 182.0	
+ estimation= 153.47803271277263	
+
+
+Reading latency in ms: 4
+GTotal: 9393.318600631397
+distance= 182.0	
+ estimation= 170.1738560078969	
+
+
+Reading latency in ms: 4
+GTotal: 7318.943599519356
+distance= 182.0	
+ estimation= 177.36676517696603	
+
+
+Reading latency in ms: 4
+GTotal: 10324.465371306866
+distance= 77.0	
+ estimation= 180.3501347525223	
+
+
+Reading latency in ms: 3
+GTotal: 9748.253680444495
+distance= 182.0	
+ estimation= 120.89937717613712	
+
+
+Reading latency in ms: 3
+GTotal: 9644.314024310144
+distance= 182.0	
+ estimation= 156.5163726521563	
+
+
+******Delta G High!: 103.93965613435103
+Reading latency in ms: 11
+GTotal: 9625.572835440144
+distance= 182.0	
+ estimation= 171.49898290988884	
+
+
+Reading latency in ms: 3
+Reading latency in ms: 3
+GTotal: 16311.760079626554
+distance= 75.0	
+ estimation= 177.84362125371987	
+
+
+Reading latency in ms: 8
+GTotal: 12098.326959856684
+distance= 182.0	
+ estimation= 118.52093369557961	
+
+
+Reading latency in ms: 4
+GTotal: 10176.571422557172
+distance= 182.0	
+ estimation= 155.55286500880314	
+
+
+Reading latency in ms: 4
+GTotal: 15869.3884576435
+distance= 73.0	
+ estimation= 171.16591117132901	
+
+
+Reading latency in ms: 5
+GTotal: 18670.20800584994
+distance= 182.0	
+ estimation= 114.6808612885197	
+
+
+Reading latency in ms: 4
+GTotal: 12468.969292965987
+distance= 182.0	
+ estimation= 153.94567876280396	
+
+
+Reading latency in ms: 4
+GTotal: 10000.584562556665
+distance= 182.0	
+ estimation= 170.4759097370891	
+
+
+Reading latency in ms: 3
+GTotal: 16871.367778544798
+distance= 70.0	
+ estimation= 177.45330290828878	
+
+
+Reading latency in ms: 3
+GTotal: 13563.224595239797
+distance= 182.0	
+ estimation= 115.56168381918357	
+
+
+Reading latency in ms: 4
+Reading latency in ms: 5
+GTotal: 11178.374559732883
+distance= 182.0	
+ estimation= 154.3060709691669	
+
+
+Reading latency in ms: 4
+GTotal: 10761.564553570995
+distance= 182.0	
+ estimation= 170.64061069242334	
+
+
+Reading latency in ms: 4
+GTotal: 10690.150924968615
+distance= 182.0	
+ estimation= 177.52055151517573	
+
+
+Reading latency in ms: 5
+GTotal: 3377.8854140516773
+distance= 182.0	
+ estimation= 180.4213582422937	
+
+
+Reading latency in ms: 5
+GTotal: 9195.194521191095
+distance= 65.0	
+ estimation= 181.60923519736423	
+
+
+Reading latency in ms: 4
+GTotal: 11599.829274080785
+distance= 182.0	
+ estimation= 114.4492771672498	
+
+
+Reading latency in ms: 5
+GTotal: 12020.72487240066
+distance= 182.0	
+ estimation= 153.83096063531428	
+
+
+Reading latency in ms: 4
+GTotal: 12092.5630520269
+distance= 182.0	
+ estimation= 170.4468668239028	
+
+
+Reading latency in ms: 3
+GTotal: 12104.211774521298
+distance= 182.0	
+ estimation= 177.43034971982314	
+
+
+Reading latency in ms: 4
+GTotal: 12520.852707399576
+distance= 61.0	
+ estimation= 180.39621449403737	
+
+
+Reading latency in ms: 4
+GTotal: 12768.50267889716
+distance= 182.0	
+ estimation= 111.61491655848037	
+
+
+Reading latency in ms: 4
+GTotal: 12811.464378831635
+distance= 182.0	
+ estimation= 152.6517885835315	
+
+
+Reading latency in ms: 1
+Reading latency in ms: 6
+GTotal: 20382.20524661053
+distance= 60.0	
+ estimation= 169.93291002676975	
+
+
+Reading latency in ms: 4
+GTotal: 23966.714956711367
+distance= 182.0	
+ estimation= 106.6364013449796	
+
+
+Reading latency in ms: 4
+GTotal: 15562.92336686984
+distance= 182.0	
+ estimation= 150.55852242570876	
+
+
+Reading latency in ms: 6
+GTotal: 12530.716185242194
+distance= 182.0	
+ estimation= 169.07026333073645	
+
+
+Reading latency in ms: 6
+GTotal: 12001.683599612938
+distance= 182.0	
+ estimation= 176.8867949155479	
+
+
+Reading latency in ms: 4
+GTotal: 14111.118541659374
+distance= 56.0	
+ estimation= 180.1586300145873	
+
+
+Reading latency in ms: 4
+GTotal: 13922.098875276617
+distance= 182.0	
+ estimation= 108.64285570323145	
+
+
+******Delta G High!: 189.01966638275735
+Reading latency in ms: 6
+GTotal: 13888.87858136935
+distance= 182.0	
+ estimation= 151.40388372980965	
+
+
+Reading latency in ms: 4
+GTotal: 22516.52136530673
+distance= 52.0	
+ estimation= 169.42000169859182	
+
+
+Reading latency in ms: 5
+GTotal: 26575.205586028536
+distance= 182.0	
+ estimation= 101.7908700990702	
+
+
+Reading latency in ms: 4
+GTotal: 17520.912001869394
+distance= 182.0	
+ estimation= 148.51056840261123	
+
+
+Reading latency in ms: 6
+Reading latency in ms: 4
+GTotal: 14232.734945317789
+distance= 182.0	
+ estimation= 168.2052739874305	
+
+
+Reading latency in ms: 5
+GTotal: 13658.941726211593
+distance= 182.0	
+ estimation= 176.49663644310095	
+
+
+Reading latency in ms: 4
+GTotal: 16111.68154214567
+distance= 47.0	
+ estimation= 179.88922342704018	
+
+
+Reading latency in ms: 5
+GTotal: 15970.6990495848
+distance= 182.0	
+ estimation= 103.19049286160474	
+
+
+******Delta G High!: 140.98249256087
+Reading latency in ms: 4
+GTotal: 22243.03619255625
+distance= 44.0	
+ estimation= 148.99309082787283	
+
+
+Reading latency in ms: 4
+GTotal: 27665.08846859678
+distance= 182.0	
+ estimation= 88.45870070971196	
+
+
+Reading latency in ms: 5
+GTotal: 28618.67843522791
+distance= 182.0	
+ estimation= 142.8119981326405	
+
+
+Reading latency in ms: 4
+GTotal: 17599.518345319644
+distance= 182.0	
+ estimation= 165.75719289202735	
+
+
+Reading latency in ms: 4
+GTotal: 13693.073926976265
+distance= 182.0	
+ estimation= 175.37304405204804	
+
+
+Reading latency in ms: 5
+GTotal: 18854.635439027654
+distance= 41.0	
+ estimation= 179.46298430668924	
+
+
+Reading latency in ms: 7
+GTotal: 17616.208327102297
+distance= 182.0	
+ estimation= 99.56884226313836	
+
+
+Reading latency in ms: 6
+Reading latency in ms: 1
+GTotal: 17399.1014923993
+distance= 182.0	
+ estimation= 147.4607833909691	
+
+
+Reading latency in ms: 4
+GTotal: 17362.627470945874
+distance= 182.0	
+ estimation= 167.63866266404636	
+
+
+Reading latency in ms: 4
+GTotal: 17356.49724355748
+distance= 182.0	
+ estimation= 176.14859984856747	
+
+
+Reading latency in ms: 4
+GTotal: 5215.42657741612
+distance= 182.0	
+ estimation= 179.73187151011385	
+
+
+Reading latency in ms: 5
+GTotal: 911.6152316478436
+distance= 182.0	
+ estimation= 181.2522958159411	
+
+
+Reading latency in ms: 5
+GTotal: 13642.531279304842
+distance= 36.0	
+ estimation= 181.91431606505913	
+
+
+Reading latency in ms: 4
+GTotal: 18013.46249159564
+distance= 182.0	
+ estimation= 97.69967117567032	
+
+
+Reading latency in ms: 5
+GTotal: 18780.856611109753
+distance= 182.0	
+ estimation= 146.70541280820112	
+
+
+Reading latency in ms: 5
+GTotal: 18914.058518006368
+distance= 182.0	
+ estimation= 167.3225525545358	
+
+
+******Delta G High!: 133.20190689661467
+Reading latency in ms: 4
+GTotal: 31690.338797922417
+distance= 34.0	
+ estimation= 176.02184610940097	
+
+
+Reading latency in ms: 3
+GTotal: 23102.707844082863
+distance= 182.0	
+ estimation= 94.05754858347112	
+
+
+Reading latency in ms: 3
+GTotal: 19460.218548780907
+distance= 182.0	
+ estimation= 145.17305353096228	
+
+
+Reading latency in ms: 9
+Reading latency in ms: 2
+GTotal: 18819.94891026087
+distance= 182.0	
+ estimation= 166.67265073164043	
+
+
+Reading latency in ms: 5
+GTotal: 18708.112098098365
+distance= 182.0	
+ estimation= 175.76517572050525	
+
+
+******Delta G High!: 111.83681216250625
+Reading latency in ms: 4
+GTotal: 5935.138334210099
+distance= 182.0	
+ estimation= 179.59604720310082	
+
+
+Reading latency in ms: 3
+GTotal: 15334.674843583216
+distance= 31.0	
+ estimation= 181.24222410664487	
+
+
+Reading latency in ms: 3
+GTotal: 19324.47100216947
+distance= 182.0	
+ estimation= 94.50810608626153	
+
+
+Reading latency in ms: 3
+GTotal: 20026.907462395586
+distance= 182.0	
+ estimation= 145.34144925679016	
+
+
+Reading latency in ms: 3
+GTotal: 20148.935932270597
+distance= 182.0	
+ estimation= 166.78432322282976	
+
+
+******Delta G High!: 122.02846987501107
+Reading latency in ms: 3
+GTotal: 20169.713997405543
+distance= 182.0	
+ estimation= 175.78864872323965	
+
+
+Reading latency in ms: 5
+GTotal: 5874.96617437811
+distance= 182.0	
+ estimation= 179.5694997514709	
+
+
+Reading latency in ms: 5
+GTotal: 15893.294449940664
+distance= 28.0	
+ estimation= 181.2010320684723	
+
+
+Reading latency in ms: 4
+GTotal: 20078.02144179203
+distance= 182.0	
+ estimation= 92.83616161802135	
+
+
+Reading latency in ms: 7
+GTotal: 20814.633476804593
+distance= 182.0	
+ estimation= 144.65845758529423	
+
+
+Reading latency in ms: 3
+Reading latency in ms: 3
+GTotal: 33271.368203912294
+distance= 26.0	
+ estimation= 166.37010626669883	
+
+
+Reading latency in ms: 5
+GTotal: 39180.42862672644
+distance= 182.0	
+ estimation= 85.38521290448206	
+
+
+Reading latency in ms: 4
+GTotal: 25352.99164385071
+distance= 182.0	
+ estimation= 141.48492285758329	
+
+
+Reading latency in ms: 4
+GTotal: 20497.393469421866
+distance= 182.0	
+ estimation= 165.12519400483632	
+
+
+Reading latency in ms: 4
+GTotal: 34078.46993662941
+distance= 24.0	
+ estimation= 175.11105638545715	
+
+
+Reading latency in ms: 3
+GTotal: 27201.71156693364
+distance= 182.0	
+ estimation= 87.93846414803825	
+
+
+Reading latency in ms: 3
+GTotal: 22270.350657794595
+distance= 182.0	
+ estimation= 142.63782211787057	
+
+
+Reading latency in ms: 4
+GTotal: 21397.926407993058
+distance= 182.0	
+ estimation= 165.7459663238721	
+
+
+Reading latency in ms: 4
+GTotal: 36125.15939658849
+distance= 22.0	
+ estimation= 175.40903790342048	
+
+
+Reading latency in ms: 5
+GTotal: 27382.15224432065
+distance= 182.0	
+ estimation= 86.96237931895747	
+
+
+Reading latency in ms: 5
+GTotal: 22775.90917989801
+distance= 182.0	
+ estimation= 142.30373806717233	
+
+
+Reading latency in ms: 5
+Reading latency in ms: 7
+GTotal: 21967.097420360176
+distance= 182.0	
+ estimation= 165.49161162630136	
+
+
+Reading latency in ms: 4
+GTotal: 21828.020311674816
+distance= 182.0	
+ estimation= 175.31901981454973	
+
+
+******Delta G High!: 139.07710868536014
+Reading latency in ms: 4
+GTotal: 23023.66247382992
+distance= 20.0	
+ estimation= 179.44236612233775	
+
+
+Reading latency in ms: 8
+GTotal: 22971.431710234916
+distance= 182.0	
+ estimation= 87.39717903939757	
+
+
+Reading latency in ms: 4
+GTotal: 22964.816954948812
+distance= 182.0	
+ estimation= 142.43548766879547	
+
+
+Reading latency in ms: 4
+GTotal: 22964.507876634307
+distance= 182.0	
+ estimation= 165.50639665675482	
+
+
+Reading latency in ms: 5
+GTotal: 22964.310366952763
+distance= 182.0	
+ estimation= 175.342395937978	
+
+
+Reading latency in ms: 5
+GTotal: 6865.189723644306
+distance= 182.0	
+ estimation= 179.44578489342416	
+
+
+Reading latency in ms: 5
+GTotal: 1196.4394778558224
+distance= 182.0	
+ estimation= 181.2539330440067	
+
+
+Reading latency in ms: 5
+GTotal: 204.9159522552516
+distance= 182.0	
+ estimation= 181.76925738358204	
+
+
+Reading latency in ms: 4
+GTotal: 17700.73645932628
+distance= 15.0	
+ estimation= 182.009951296154	
+
+
+Reading latency in ms: 4
+GTotal: 23552.852176682303
+distance= 182.0	
+ estimation= 85.65200555413281	
+
+
+Reading latency in ms: 7
+Reading latency in ms: 1
+GTotal: 24576.48944648484
+distance= 182.0	
+ estimation= 141.71949971653643	
+
+
+Reading latency in ms: 4
+GTotal: 39264.66453078594
+distance= 13.0	
+ estimation= 165.27761015548106	
+
+
+Reading latency in ms: 5
+GTotal: 46193.79645285641
+distance= 182.0	
+ estimation= 77.41066747841302	
+
+
+Reading latency in ms: 5
+GTotal: 29737.303068451078
+distance= 182.0	
+ estimation= 138.26439801307163	
+
+
+Reading latency in ms: 5
+GTotal: 24065.293421012317
+distance= 182.0	
+ estimation= 163.87120062120448	
+
+
+Reading latency in ms: 5
+GTotal: 23073.000124037124
+distance= 182.0	
+ estimation= 174.51627851192853	
+
+
+Reading latency in ms: 4
+GTotal: 26697.654391759585
+distance= 9.0	
+ estimation= 179.03128013500907	
+
+
+Reading latency in ms: 5
+GTotal: 26259.60226668355
+distance= 182.0	
+ estimation= 80.77063284268469	
+
+
+Reading latency in ms: 5
+GTotal: 26183.69942424576
+distance= 182.0	
+ estimation= 139.65644493227575	
+
+
+Reading latency in ms: 3
+GTotal: 41685.5041900215
+distance= 7.0	
+ estimation= 164.48341950477675	
+
+
+Reading latency in ms: 4
+GTotal: 49084.821854074806
+distance= 182.0	
+ estimation= 73.66185486286753	
+
+
+Reading latency in ms: 8
+GTotal: 32074.351510038265
+Reading latency in ms: 1
+distance= 182.0	
+ estimation= 136.65065087130196	
+
+
+Reading latency in ms: 7
+GTotal: 25806.51232465672
+distance= 182.0	
+ estimation= 163.22558886396956	
+
+
+Reading latency in ms: 5
+GTotal: 42846.535637138135
+distance= 5.0	
+ estimation= 174.3921605776746	
+
+
+Reading latency in ms: 5
+GTotal: 34162.680455950496
+distance= 182.0	
+ estimation= 76.68140060841483	
+
+
+Reading latency in ms: 7
+GTotal: 27957.57507941899
+distance= 182.0	
+ estimation= 137.93999570524502	
+
+
+Reading latency in ms: 4
+GTotal: 43021.929031165564
+distance= 3.0	
+ estimation= 163.7430965649685	
+
+
+Reading latency in ms: 6
+GTotal: 50598.629689879956
+distance= 182.0	
+ estimation= 71.03308181613612	
+
+
+Reading latency in ms: 5
+GTotal: 33788.59449804544
+distance= 182.0	
+ estimation= 135.5666706113579	
+
+
+Reading latency in ms: 5
+GTotal: 26997.72476641991
+distance= 182.0	
+ estimation= 162.7281614052716	
+
+
+Reading latency in ms: 5
+GTotal: 25806.683113542476
+distance= 182.0	
+ estimation= 174.18901403638185	
+
+
+Reading latency in ms: 4
+GTotal: 29291.06549077893
+distance= 2.0	
+ estimation= 179.0284284274821	
+
+
+Reading latency in ms: 5
+GTotal: 28490.539653804513
+distance= 182.0	
+ estimation= 76.88157353508178	
+
+
+Reading latency in ms: 3
+GTotal: 28350.15063896244
+distance= 182.0	
+ estimation= 138.01790267763644	
+
+
+******Delta G High!: 140.38901484207236
+Reading latency in ms: 9
+GTotal: 45314.405217203304
+distance= -1.0	
+ estimation= 163.78020712644215	
+
+
+Reading latency in ms: 5
+GTotal: 53401.060384301716
+distance= 182.0	
+ estimation= 68.74257460922831	
+
+
+Reading latency in ms: 9
+Reading latency in ms: 7
+GTotal: 34974.249218288234
+distance= 182.0	
+ estimation= 134.57591156445108	
+
+
+Reading latency in ms: 3
+GTotal: 28219.616429554455
+distance= 182.0	
+ estimation= 162.34074087882914	
+
+
+Reading latency in ms: 5
+GTotal: 27034.573383189116
+distance= 182.0	
+ estimation= 174.0236422829116	
+
+
+Reading latency in ms: 4
+GTotal: 31268.223814913697
+distance= -5.0	
+ estimation= 178.94589367927125	
+
+
+Reading latency in ms: 4
+GTotal: 30693.76262289207
+distance= 182.0	
+ estimation= 72.81962369118274	
+
+
+Reading latency in ms: 4
+GTotal: 30590.19520631403
+distance= 182.0	
+ estimation= 136.33223833388428	
+
+
+******Delta G High!: 103.56741657804014
+Reading latency in ms: 3
+GTotal: 48669.211747973306
+distance= -7.0	
+ estimation= 163.08071818363513	
+
+
+Reading latency in ms: 4
+GTotal: 57306.85114265172
+distance= 182.0	
+ estimation= 64.95435748947449	
+
+
+Reading latency in ms: 6
+GTotal: 37394.49550718017
+distance= 182.0	
+ estimation= 133.0012898385963	
+
+
+Reading latency in ms: 4
+GTotal: 30105.548645191386
+distance= 182.0	
+ estimation= 161.66660291992775	
+
+
+Reading latency in ms: 5
+GTotal: 28827.589429128053
+distance= 182.0	
+ estimation= 173.75033062159275	
+
+
+Reading latency in ms: 6
+GTotal: 33089.88008993783
+distance= -10.0	
+ estimation= 178.82859838397394	
+
+
+Reading latency in ms: 3
+Reading latency in ms: 6
+GTotal: 32376.83502737757
+distance= 182.0	
+ estimation= 69.8660927921385	
+
+
+Reading latency in ms: 6
+GTotal: 44745.38150597957
+distance= -13.0	
+ estimation= 135.07713701935506	
+
+
+Reading latency in ms: 5
+GTotal: 55589.679969673714
+distance= 182.0	
+ estimation= 49.58733604628604	
+
+
+Reading latency in ms: 4
+GTotal: 57504.43505044367
+distance= 182.0	
+ estimation= 126.40466987976997	
+
+
+Reading latency in ms: 5
+GTotal: 35260.090955500214
+distance= 182.0	
+ estimation= 158.77156713509657	
+
+
+Reading latency in ms: 5
+GTotal: 27353.211068778655
+distance= 182.0	
+ estimation= 172.42985340554617	
+
+
+Reading latency in ms: 7
+GTotal: 37597.0764969752
+distance= -17.0	
+ estimation= 178.18866259743046	
+
+
+Reading latency in ms: 7
+GTotal: 30799.18000355777
+distance= -17.0	
+ estimation= 65.47070363997292	
+
+
+Reading latency in ms: 3
+Reading latency in ms: 4
+GTotal: 45884.22602349555
+distance= 182.0	
+ estimation= 17.971689967439477	
+
+
+Reading latency in ms: 5
+GTotal: 56767.74294767546
+distance= -20.0	
+ estimation= 113.12077220656212	
+
+
+Reading latency in ms: 5
+GTotal: 70162.49042500003
+distance= 182.0	
+ estimation= 36.26875897887476	
+
+
+Reading latency in ms: 5
+GTotal: 48400.807939857514
+distance= 182.0	
+ estimation= 120.81256426011811	
+
+
+Reading latency in ms: 5
+GTotal: 64039.536143599704
+distance= -21.0	
+ estimation= 156.45407622984087	
+
+
+Reading latency in ms: 5
+GTotal: 57378.600694054745
+distance= 182.0	
+ estimation= 53.97731684166677	
+
+
+Reading latency in ms: 5
+GTotal: 47980.43877788052
+distance= 182.0	
+ estimation= 128.29284134343644	
+
+
+Reading latency in ms: 4
+GTotal: 34846.689460939335
+distance= 182.0	
+ estimation= 159.558519934867	
+
+
+Reading latency in ms: 5
+GTotal: 32529.464583355726
+distance= 182.0	
+ estimation= 172.7399795254789	
+
+
+Reading latency in ms: 4
+GTotal: 38517.192767324705
+distance= -24.0	
+ estimation= 178.3429021962809	
+
+
+Reading latency in ms: 6
+GTotal: 32758.395984220544
+distance= -24.0	
+ estimation= 61.43135083454824	
+
+
+Reading latency in ms: 4
+GTotal: 49194.2430846262
+distance= 182.0	
+ estimation= 12.2019258465317	
+
+
+Reading latency in ms: 9
+Reading latency in ms: 3
+GTotal: 60709.40027228474
+distance= -26.0	
+ estimation= 110.68341948855374	
+
+
+Reading latency in ms: 3
+GTotal: 74948.02629116707
+distance= 182.0	
+ estimation= 31.786923881024002	
+
+
+Reading latency in ms: 5
+GTotal: 62690.39264124986
+distance= -28.0	
+ estimation= 118.94142001228741	
+
+
+Reading latency in ms: 4
+GTotal: 71916.48612404868
+distance= 182.0	
+ estimation= 34.13669833090882	
+
+
+Reading latency in ms: 7
+GTotal: 56096.03218408687
+distance= 182.0	
+ estimation= 119.90356559171968	
+
+
+Reading latency in ms: 4
+GTotal: 44687.376949072466
+distance= 182.0	
+ estimation= 156.0818128256897	
+
+
+Reading latency in ms: 5
+GTotal: 30466.94523720619
+distance= 182.0	
+ estimation= 171.30089022062825	
+
+
+Reading latency in ms: 5
+GTotal: 16801.502754534897
+distance= 182.0	
+ estimation= 177.7065766489782	
+
+
+Reading latency in ms: 4
+GTotal: 31267.876788618654
+distance= -31.0	
+ estimation= 180.42686029281833	
+
+
+Reading latency in ms: 4
+GTotal: 38513.80455383398
+distance= 182.0	
+ estimation= 58.32720042572605	
+
+
+Reading latency in ms: 5
+GTotal: 39793.275838366346
+distance= 182.0	
+ estimation= 130.1191084509823	
+
+
+Reading latency in ms: 4
+GTotal: 62922.7824663431
+distance= -31.0	
+ estimation= 160.38583529103437	
+
+
+Reading latency in ms: 3
+GTotal: 73974.49027333371
+distance= 182.0	
+ estimation= 49.842772416054636	
+
+
+GTotal: 47610.643282481346
+distance= 182.0	
+ estimation= 126.4908569798244	
+
+
+Reading latency in ms: 115
+Reading latency in ms: 27
+GTotal: 38258.88107972764
+distance= 182.0	
+ estimation= 158.94505460802037	
+
+
+Reading latency in ms: 5
+GTotal: 36610.179018079376
+distance= 182.0	
+ estimation= 172.5736781965803	
+
+
+Reading latency in ms: 5
+GTotal: 13416.650458891545
+distance= 182.0	
+ estimation= 178.33928011844532	
+
+
+Reading latency in ms: 5
+GTotal: 2354.216872403337
+distance= 182.0	
+ estimation= 180.77487921469992	
+
+
+Reading latency in ms: 5
+GTotal: 30452.328156313022
+distance= -36.0	
+ estimation= 181.8053349177166	
+
+
+Reading latency in ms: 4
+GTotal: 40161.94920174576
+distance= 182.0	
+ estimation= 56.06388284603708	
+
+
+Reading latency in ms: 4
+GTotal: 41868.16941335733
+distance= 182.0	
+ estimation= 129.25125968429253	
+
+
+Reading latency in ms: 4
+GTotal: 42164.15385123747
+distance= 182.0	
+ estimation= 160.07591976354283	
+
+
+Reading latency in ms: 4
+GTotal: 70383.7637795106
+distance= -38.0	
+ estimation= 173.07156900513976	
+
+
+Reading latency in ms: 5
+GTotal: 51164.23970499309
+distance= 182.0	
+ estimation= 51.24180955441918	
+
+
+Reading latency in ms: 4
+GTotal: 43017.919864793716
+distance= 182.0	
+ estimation= 127.23247922934041	
+
+
+Reading latency in ms: 12
+Reading latency in ms: 5
+GTotal: 41583.22892507156
+distance= 182.0	
+ estimation= 159.25108553637705	
+
+
+Reading latency in ms: 3
+GTotal: 41333.334747728244
+distance= 182.0	
+ estimation= 172.717618965328	
+
+
+Reading latency in ms: 3
+GTotal: 13121.003372926836
+distance= 182.0	
+ estimation= 178.39563866330343	
+
+
+Reading latency in ms: 3
+GTotal: 2291.527636229923
+distance= 182.0	
+ estimation= 180.8007676117014	
+
+
+Reading latency in ms: 5
+GTotal: 391.5682630473095
+distance= 182.0	
+ estimation= 181.76480160235135	
+
+
+Reading latency in ms: 5
+GTotal: 32476.182744608464
+distance= -44.0	
+ estimation= 182.20526310206685	
+
+
+Reading latency in ms: 5
+GTotal: 43192.24857649649
+distance= 182.0	
+ estimation= 51.60294876850484	
+
+
+Reading latency in ms: 4
+GTotal: 45075.25123997139
+distance= 182.0	
+ estimation= 127.3589144346958	
+
+
+Reading latency in ms: 7
+GTotal: 71773.80076384521
+distance= -46.0	
+ estimation= 159.3043553402198	
+
+
+Reading latency in ms: 5
+GTotal: 84402.35133090375
+distance= 182.0	
+ estimation= 40.80338803701115	
+
+
+Reading latency in ms: 6
+GTotal: 54209.88598821962
+distance= 182.0	
+ estimation= 122.80025955070701	
+
+
+Reading latency in ms: 5
+GTotal: 43823.483755736
+distance= 182.0	
+ estimation= 157.37083826528644	
+
+
+Reading latency in ms: 6
+Reading latency in ms: 2
+GTotal: 41996.51675817326
+distance= 182.0	
+ estimation= 171.92757471409018	
+
+
+Reading latency in ms: 5
+GTotal: 48248.323002879406
+distance= -50.0	
+ estimation= 178.077779970028	
+
+
+Reading latency in ms: 4
+GTotal: 47265.86247462744
+distance= 182.0	
+ estimation= 46.406882918768325	
+
+
+Reading latency in ms: 3
+GTotal: 64705.7028046161
+distance= -51.0	
+ estimation= 125.17184627096377	
+
+
+Reading latency in ms: 5
+GTotal: 80229.05004050466
+distance= 182.0	
+ estimation= 23.529250946759078	
+
+
+Reading latency in ms: 6
+GTotal: 82963.23830520861
+distance= 182.0	
+ estimation= 115.53302009031353	
+
+
+Reading latency in ms: 3
+GTotal: 50497.61358681171
+distance= 182.0	
+ estimation= 154.31114121900669	
+
+
+Reading latency in ms: 3
+GTotal: 38933.19428516219
+distance= 182.0	
+ estimation= 170.6427468950232	
+
+
+Reading latency in ms: 5
+GTotal: 19286.08382056755
+distance= 182.0	
+ estimation= 177.52359490213533	
+
+
+Reading latency in ms: 5
+GTotal: 38763.91709643316
+distance= -56.0	
+ estimation= 180.3519096050512	
+
+
+Reading latency in ms: 6
+GTotal: 48064.69406233448
+distance= 182.0	
+ estimation= 43.794352713931175	
+
+
+Reading latency in ms: 5
+GTotal: 49710.86304413201
+distance= 182.0	
+ estimation= 123.98754146098385	
+
+
+Reading latency in ms: 6
+GTotal: 79126.60941656746
+distance= -58.0	
+ estimation= 157.7939040758976	
+
+
+Reading latency in ms: 2
+Reading latency in ms: 10
+GTotal: 93158.74926888534
+distance= 182.0	
+ estimation= 33.09639668503357	
+
+
+Reading latency in ms: 3
+GTotal: 60248.249217523175
+distance= 182.0	
+ estimation= 119.49312836923534	
+
+
+Reading latency in ms: 3
+GTotal: 48582.3595934418
+distance= 182.0	
+ estimation= 155.84458621542947	
+
+
+Reading latency in ms: 3
+GTotal: 46524.244409200386
+distance= 182.0	
+ estimation= 171.2138018341825	
+
+
+Reading latency in ms: 4
+GTotal: 52820.21978421467
+distance= -60.0	
+ estimation= 177.71060832519436	
+
+
+Reading latency in ms: 5
+GTotal: 51476.42153568051
+distance= 182.0	
+ estimation= 40.39895138180064	
+
+
+Reading latency in ms: 4
+GTotal: 51238.29190499771
+distance= 182.0	
+ estimation= 122.57627790529394	
+
+
+Reading latency in ms: 3
+GTotal: 80680.20522725215
+distance= -60.0	
+ estimation= 157.17144546032802	
+
+
+Reading latency in ms: 5
+GTotal: 94918.78659520244
+distance= 182.0	
+ estimation= 31.68535720256951	
+
+
+Reading latency in ms: 4
+GTotal: 61647.583728656704
+distance= 182.0	
+ estimation= 118.89862784041547	
+
+
+Reading latency in ms: 3
+GTotal: 49385.65162522959
+distance= 182.0	
+ estimation= 155.67127163370336	
+
+
+Reading latency in ms: 4
+GTotal: 47223.6733045367
+distance= 182.0	
+ estimation= 171.13220732583616	
+
+
+Reading latency in ms: 4
+GTotal: 17360.367479871038
+distance= 182.0	
+ estimation= 177.6569406074813	
+
+
+Reading latency in ms: 3
+GTotal: 38754.34030455957
+Reading latency in ms: 11
+distance= -57.0	
+ estimation= 180.4209511074794	
+
+
+Reading latency in ms: 4
+GTotal: 48424.75108269426
+distance= 182.0	
+ estimation= 43.2619092007652	
+
+
+Reading latency in ms: 4
+GTotal: 50133.34605807996
+distance= 182.0	
+ estimation= 123.77178528152403	
+
+
+Reading latency in ms: 3
+GTotal: 50432.743150981994
+distance= 182.0	
+ estimation= 157.69442803226457	
+
+
+Reading latency in ms: 4
+GTotal: 50484.71567031628
+distance= 182.0	
+ estimation= 171.95459850982456	
+
+
+Reading latency in ms: 4
+GTotal: 14788.703043267336
+distance= 182.0	
+ estimation= 177.97985430196255	
+
+
+Reading latency in ms: 3
+GTotal: 2597.462083599678
+distance= 182.0	
+ estimation= 180.51627757969106	
+
+
+Reading latency in ms: 3
+GTotal: 449.87598817572274
+distance= 182.0	
+ estimation= 181.58063918502876	
+
+
+Reading latency in ms: 4
+GTotal: 35077.58807030529
+distance= -53.0	
+ estimation= 182.0676575330634	
+
+
+Reading latency in ms: 7
+GTotal: 46686.932365101355
+distance= 182.0	
+ estimation= 46.24898366035853	
+
+
+Reading latency in ms: 4
+GTotal: 48731.319734748315
+distance= 182.0	
+ estimation= 125.0474492816485	
+
+
+Reading latency in ms: 3
+GTotal: 76457.28627916359
+distance= -51.0	
+ estimation= 158.21903187103666	
+
+
+Reading latency in ms: 5
+GTotal: 89709.90558381655
+distance= 182.0	
+ estimation= 37.35627216508101	
+
+
+Reading latency in ms: 2
+Reading latency in ms: 7
+GTotal: 57042.98354925436
+distance= 182.0	
+ estimation= 121.28575989474922	
+
+
+Reading latency in ms: 4
+GTotal: 45776.87801907084
+distance= 182.0	
+ estimation= 156.64701339542083	
+
+
+Reading latency in ms: 3
+GTotal: 43790.44044542452
+distance= 182.0	
+ estimation= 171.6247554750588	
+
+
+Reading latency in ms: 4
+GTotal: 48404.293796409926
+distance= -48.0	
+ estimation= 177.95662595335438	
+
+
+Reading latency in ms: 3
+GTotal: 46612.803049116534
+distance= 182.0	
+ estimation= 47.48747592288681	
+
+
+Reading latency in ms: 4
+GTotal: 46289.130344340025
+distance= 182.0	
+ estimation= 125.6506997277388	
+
+
+Reading latency in ms: 6
+GTotal: 72647.6860725245
+distance= -47.0	
+ estimation= 158.55892833642778	
+
+
+Reading latency in ms: 3
+GTotal: 85369.82606452006
+distance= 182.0	
+ estimation= 39.90207153967633	
+
+
+Reading latency in ms: 4
+GTotal: 55276.176026237954
+distance= 182.0	
+ estimation= 122.43337616634928	
+
+
+Reading latency in ms: 4
+GTotal: 44203.94953792136
+distance= 182.0	
+ estimation= 157.21840596051834	
+
+
+Reading latency in ms: 3
+Reading latency in ms: 1
+GTotal: 42257.54212664098
+distance= 182.0	
+ estimation= 171.8762119470069	
+
+
+Reading latency in ms: 3
+GTotal: 46439.43610153743
+distance= -43.0	
+ estimation= 178.03470615898348	
+
+
+Reading latency in ms: 4
+GTotal: 44613.526581087106
+distance= 182.0	
+ estimation= 50.43520148216442	
+
+
+Reading latency in ms: 3
+GTotal: 60430.10531425293
+distance= -42.0	
+ estimation= 126.87120473086432	
+
+
+Reading latency in ms: 3
+GTotal: 74779.08510295897
+distance= 182.0	
+ estimation= 29.4661977037307	
+
+
+Reading latency in ms: 4
+GTotal: 77305.2557926392
+distance= 182.0	
+ estimation= 118.04295371935055	
+
+
+Reading latency in ms: 4
+GTotal: 46806.75742464359
+distance= 182.0	
+ estimation= 155.37291561976213	
+
+
+Reading latency in ms: 5
+GTotal: 35917.82462321323
+distance= 182.0	
+ estimation= 171.0836646395038	
+
+
+Reading latency in ms: 7
+GTotal: 47603.11453518814
+distance= -39.0	
+ estimation= 177.71364951560494	
+
+
+Reading latency in ms: 3
+GTotal: 38066.31455573865
+distance= -38.0	
+ estimation= 52.6146496893378	
+
+
+Reading latency in ms: 4
+GTotal: 56342.34113375709
+distance= 182.0	
+ estimation= 0.4993564475201955	
+
+
+Reading latency in ms: 7
+GTotal: 59568.36790448669
+distance= 182.0	
+ estimation= 105.83004251341787	
+
+
+Reading latency in ms: 3
+Reading latency in ms: 4
+GTotal: 81452.92515544576
+distance= -36.0	
+ estimation= 150.19306621756417	
+
+
+Reading latency in ms: 3
+GTotal: 63984.88773357417
+distance= 182.0	
+ estimation= 42.75783117330956	
+
+
+Reading latency in ms: 4
+GTotal: 60941.37830789911
+distance= 182.0	
+ estimation= 123.63656759612601	
+
+
+Reading latency in ms: 5
+GTotal: 40447.454082383636
+distance= 182.0	
+ estimation= 157.72747910537788	
+
+
+Reading latency in ms: 4
+GTotal: 36834.436236491296
+distance= 182.0	
+ estimation= 172.09712522013376	
+
+
+Reading latency in ms: 3
+GTotal: 42581.54916481379
+distance= -31.0	
+ estimation= 178.14278507434233	
+
+
+Reading latency in ms: 3
+GTotal: 40131.17492188129
+distance= 182.0	
+ estimation= 57.420598990448696	
+
+
+Reading latency in ms: 4
+GTotal: 54153.69629144435
+distance= -30.0	
+ estimation= 129.82287265142415	
+
+
+Reading latency in ms: 3
+GTotal: 56677.95951754671
+distance= -30.0	
+ estimation= 37.632512020768914	
+
+
+Reading latency in ms: 3
+GTotal: 77874.19614880225
+distance= 182.0	
+ estimation= -1.194216974972042	
+
+
+Reading latency in ms: 4
+GTotal: 53910.52127851392
+distance= 182.0	
+ estimation= 105.12507794985424	
+
+
+Reading latency in ms: 3
+GTotal: 44731.231763120566
+distance= 182.0	
+ estimation= 149.9239135411501	
+
+
+Reading latency in ms: 6
+GTotal: 28662.931371040897
+distance= 182.0	
+ estimation= 168.70858145751302	
+
+
+Reading latency in ms: 5
+Reading latency in ms: 9
+GTotal: 25783.963103962393
+distance= 182.0	
+ estimation= 176.59723571651617	
+
+
+Reading latency in ms: 4
+GTotal: 31133.213597958023
+distance= -25.0	
+ estimation= 179.95089825087896	
+
+
+Reading latency in ms: 5
+GTotal: 32028.258341169647
+distance= -24.0	
+ estimation= 61.5730214719341	
+
+
+Reading latency in ms: 6
+GTotal: 49624.826905715134
+distance= 182.0	
+ estimation= 12.270188097433753	
+
+
+Reading latency in ms: 3
+GTotal: 52734.169258170645
+distance= 182.0	
+ estimation= 110.68860284657745	
+
+
+Reading latency in ms: 4
+GTotal: 53280.16822070009
+distance= 182.0	
+ estimation= 152.14791510838967	
+
+
+Reading latency in ms: 6
+GTotal: 26769.479312518244
+distance= 182.0	
+ estimation= 169.63059644355175	
+
+
+Reading latency in ms: 5
+GTotal: 22146.89474756543
+distance= 182.0	
+ estimation= 176.98355660829077	
+
+
+Reading latency in ms: 3
+GTotal: 3900.910219657501
+distance= 182.0	
+ estimation= 180.08794302520008	
+
+
+Reading latency in ms: 3
+GTotal: 26120.430814505984
+distance= -19.0	
+ estimation= 181.40660293341912	
+
+
+Reading latency in ms: 3
+GTotal: 34127.58520297962
+distance= 182.0	
+ estimation= 65.67341806355405	
+
+
+Reading latency in ms: 4
+GTotal: 35538.02488903139
+distance= 182.0	
+ estimation= 133.2185107398876	
+
+
+Reading latency in ms: 4
+Reading latency in ms: 3
+GTotal: 55746.85313247635
+distance= -17.0	
+ estimation= 161.68524840158918	
+
+
+Reading latency in ms: 4
+GTotal: 65403.20456464725
+distance= 182.0	
+ estimation= 58.51746909998136	
+
+
+Reading latency in ms: 3
+GTotal: 41661.596125589575
+distance= 182.0	
+ estimation= 130.2078460741029	
+
+
+Reading latency in ms: 4
+GTotal: 33385.031611437626
+distance= 182.0	
+ estimation= 160.41679223282011	
+
+
+Reading latency in ms: 4
+GTotal: 54054.06949773208
+distance= -14.0	
+ estimation= 173.1080177258368	
+
+
+Reading latency in ms: 4
+GTotal: 42494.16406129851
+distance= 182.0	
+ estimation= 65.04258151375335	
+
+
+Reading latency in ms: 4
+GTotal: 34360.52352705904
+distance= 182.0	
+ estimation= 132.93343583041786	
+
+
+Reading latency in ms: 3
+GTotal: 32925.379525724835
+distance= 182.0	
+ estimation= 161.58443060312592	
+
+
+Reading latency in ms: 3
+GTotal: 54451.670839874845
+distance= -12.0	
+ estimation= 173.6042549810585	
+
+
+Reading latency in ms: 5
+GTotal: 40737.91361662331
+distance= 182.0	
+ estimation= 66.41544480976147	
+
+
+Reading latency in ms: 14
+GTotal: 33562.333876972276
+distance= 182.0	
+ estimation= 133.51185193118422	
+
+
+Reading latency in ms: 3
+Reading latency in ms: 2
+GTotal: 32296.92273629557
+distance= 182.0	
+ estimation= 161.75525519796147	
+
+
+Reading latency in ms: 3
+GTotal: 32076.79548401412
+distance= 182.0	
+ estimation= 173.67622696570334	
+
+
+Reading latency in ms: 3
+GTotal: 10262.185861590327
+distance= 182.0	
+ estimation= 178.73307615951256	
+
+
+Reading latency in ms: 4
+GTotal: 24633.438910539026
+distance= -9.0	
+ estimation= 180.8614894262004	
+
+
+Reading latency in ms: 5
+GTotal: 30921.5101662743
+distance= 182.0	
+ estimation= 71.19410345187708	
+
+
+Reading latency in ms: 3
+GTotal: 32030.951675988304
+distance= 182.0	
+ estimation= 135.5101975237309	
+
+
+Reading latency in ms: 5
+GTotal: 32225.692345521635
+distance= 182.0	
+ estimation= 162.5907700289992	
+
+
+******Delta G High!: 194.74066953333022
+Reading latency in ms: 3
+GTotal: 32259.555036116795
+distance= 182.0	
+ estimation= 173.99180976793923	
+
+
+Reading latency in ms: 4
+GTotal: 9431.716253949591
+distance= 182.0	
+ estimation= 178.90890501306467	
+
+
+Reading latency in ms: 6
+GTotal: 23575.92688704294
+distance= -5.0	
+ estimation= 181.0298776500008	
+
+
+Reading latency in ms: 5
+GTotal: 29639.104736568454
+distance= 182.0	
+ estimation= 73.68050296711093	
+
+
+Reading latency in ms: 5
+GTotal: 30702.366887881304
+distance= 182.0	
+ estimation= 136.6649377887413	
+
+
+Reading latency in ms: 9
+Reading latency in ms: 3
+GTotal: 48375.45219365739
+distance= -4.0	
+ estimation= 163.2251781619377	
+
+
+Reading latency in ms: 4
+GTotal: 56778.86769307537
+distance= 182.0	
+ estimation= 66.7791222668124	
+
+
+Reading latency in ms: 5
+GTotal: 36329.32386094756
+distance= 182.0	
+ estimation= 133.79367847153748	
+
+
+Reading latency in ms: 5
+GTotal: 29150.616774039187
+distance= 182.0	
+ estimation= 161.9940227903854	
+
+
+Reading latency in ms: 4
+GTotal: 27890.25224996477
+distance= 182.0	
+ estimation= 173.90328300025493	
+
+
+Reading latency in ms: 5
+GTotal: 30671.740314298906
+distance= -1.0	
+ estimation= 178.87589354909665	
+
+
+Reading latency in ms: 6
+GTotal: 29503.525701251787
+distance= 182.0	
+ estimation= 75.08127031297764	
+
+
+Reading latency in ms: 4
+GTotal: 29298.86932349993
+distance= 182.0	
+ estimation= 137.27011397096697	
+
+
+Reading latency in ms: 5
+GTotal: 45971.86985327005
+distance= 0.0	
+ estimation= 163.46729142035264	
+
+
+Reading latency in ms: 4
+GTotal: 53994.10863021385
+distance= 182.0	
+ estimation= 69.17226880542336	
+
+
+Reading latency in ms: 5
+GTotal: 34911.666458850676
+distance= 182.0	
+ estimation= 134.77409762162753	
+
+
+Reading latency in ms: 4
+GTotal: 27913.154267900118
+distance= 182.0	
+ estimation= 162.42424082143202	
+
+
+Reading latency in ms: 12
+GTotal: 26685.756977710313
+distance= 182.0	
+ estimation= 174.05667920004115	
+
+
+Reading latency in ms: 5
+Reading latency in ms: 10
+GTotal: 29148.975070752833
+distance= 4.0	
+ estimation= 178.9576694653676	
+
+
+Reading latency in ms: 5
+GTotal: 27935.588528883178
+distance= 182.0	
+ estimation= 78.00697599266175	
+
+
+Reading latency in ms: 4
+GTotal: 37640.19081971524
+distance= 6.0	
+ estimation= 138.47919817697922	
+
+
+Reading latency in ms: 6
+GTotal: 46500.020432229234
+distance= 182.0	
+ estimation= 62.12490862396707	
+
+
+Reading latency in ms: 4
+GTotal: 48056.44674863489
+distance= 182.0	
+ estimation= 131.79846688726767	
+
+
+Reading latency in ms: 5
+GTotal: 28941.811758947533
+distance= 182.0	
+ estimation= 161.15982838276685	
+
+
+Reading latency in ms: 3
+GTotal: 22136.711784767725
+distance= 182.0	
+ estimation= 173.5453893200998	
+
+
+Reading latency in ms: 6
+GTotal: 11026.024708135772
+distance= 182.0	
+ estimation= 178.7551124752574	
+
+
+Reading latency in ms: 4
+GTotal: 20652.29551859439
+distance= 9.0	
+ estimation= 180.9500781082089	
+
+
+Reading latency in ms: 4
+GTotal: 25421.41097755494
+distance= 182.0	
+ estimation= 81.75481819327575	
+
+
+Reading latency in ms: 3
+GTotal: 26258.99862815277
+distance= 182.0	
+ estimation= 140.08824974258496	
+
+
+Reading latency in ms: 5
+GTotal: 40972.170266615474
+distance= 12.0	
+ estimation= 164.6396276079471	
+
+
+Reading latency in ms: 4
+Reading latency in ms: 2
+GTotal: 48002.26103823595
+distance= 182.0	
+ estimation= 76.60177350401807	
+
+
+Reading latency in ms: 5
+GTotal: 30504.383086157195
+distance= 182.0	
+ estimation= 137.91716393607982	
+
+
+Reading latency in ms: 5
+GTotal: 24350.47920717221
+distance= 182.0	
+ estimation= 163.72276026175027	
+
+
+Reading latency in ms: 5
+GTotal: 39162.18346756749
+distance= 16.0	
+ estimation= 174.5544753951323	
+
+
+Reading latency in ms: 5
+GTotal: 30609.46116323553
+distance= 182.0	
+ estimation= 83.02094869358476	
+
+
+Reading latency in ms: 4
+GTotal: 24663.106012190146
+distance= 182.0	
+ estimation= 140.51024235793113	
+
+
+Reading latency in ms: 7
+GTotal: 23621.31253721414
+distance= 182.0	
+ estimation= 164.7188273875805	
+
+
+Reading latency in ms: 6
+GTotal: 23441.242859270616
+distance= 182.0	
+ estimation= 174.94413232655577	
+
+
+******Delta G High!: 180.06967794352386
+Reading latency in ms: 5
+GTotal: 7521.614491240267
+distance= 182.0	
+ estimation= 179.25441112083126	
+
+
+Reading latency in ms: 5
+GTotal: 1316.4802593587372
+distance= 182.0	
+ estimation= 181.03184149977832	
+
+
+Reading latency in ms: 5
+GTotal: 16824.019892790828
+distance= 20.0	
+ estimation= 181.87287467789534	
+
+
+Reading latency in ms: 3
+Reading latency in ms: 2
+GTotal: 22182.90335669088
+distance= 182.0	
+ estimation= 88.41262983085063	
+
+
+Reading latency in ms: 4
+GTotal: 23125.212703317924
+distance= 182.0	
+ estimation= 142.79044414509488	
+
+
+Reading latency in ms: 3
+GTotal: 36024.591165900245
+distance= 23.0	
+ estimation= 165.72882150500539	
+
+
+Reading latency in ms: 5
+GTotal: 42191.07100301636
+distance= 182.0	
+ estimation= 83.32969182559873	
+
+
+Reading latency in ms: 3
+GTotal: 26676.25556068125
+distance= 182.0	
+ estimation= 140.64889575496485	
+
+
+Reading latency in ms: 7
+GTotal: 21315.90829123763
+distance= 182.0	
+ estimation= 164.7858184118392	
+
+
+Reading latency in ms: 4
+GTotal: 20373.289927734415
+distance= 182.0	
+ estimation= 174.9787871301322	
+
+
+Reading latency in ms: 5
+GTotal: 22350.794271034658
+distance= 26.0	
+ estimation= 179.27544199642088	
+
+
+Reading latency in ms: 5
+GTotal: 21457.40642995147
+distance= 182.0	
+ estimation= 90.75605736132489	
+
+
+Reading latency in ms: 3
+GTotal: 21300.21404988141
+distance= 182.0	
+ estimation= 143.7670625142605	
+
+
+******Delta G High!: 157.19238007005697
+Reading latency in ms: 3
+GTotal: 33368.38308826122
+distance= 27.0	
+ estimation= 166.0974241073317	
+
+
+Reading latency in ms: 8
+Reading latency in ms: 5
+GTotal: 39201.945773523315
+distance= 182.0	
+ estimation= 85.77827433776156	
+
+
+Reading latency in ms: 4
+GTotal: 25350.59462102596
+distance= 182.0	
+ estimation= 141.66981812341527	
+
+
+Reading latency in ms: 4
+GTotal: 20255.26072015876
+distance= 182.0	
+ estimation= 165.22024113828738	
+
+
+Reading latency in ms: 3
+GTotal: 32674.403608093045
+distance= 30.0	
+ estimation= 175.1468150162795	
+
+
+Reading latency in ms: 3
+GTotal: 25621.744094751186
+distance= 182.0	
+ estimation= 91.36773344640714	
+
+
+Reading latency in ms: 4
+GTotal: 20670.141563540627
+distance= 182.0	
+ estimation= 144.0312045580766	
+
+
+Reading latency in ms: 2
+GTotal: 19798.13594629652
+distance= 182.0	
+ estimation= 166.19156581045343	
+
+
+Reading latency in ms: 7
+GTotal: 32677.460346349108
+distance= 32.0	
+ estimation= 175.57534471303103	
+
+
+Reading latency in ms: 4
+GTotal: 24381.89883098681
+distance= 182.0	
+ estimation= 92.7163568479471	
+
+
+Reading latency in ms: 3
+GTotal: 20063.220245206332
+distance= 182.0	
+ estimation= 144.6315582829008	
+
+
+Reading latency in ms: 5
+GTotal: 30270.920812382145
+distance= 34.0	
+ estimation= 166.50023478641992	
+
+
+Reading latency in ms: 7
+GTotal: 35465.47099906401
+distance= 182.0	
+ estimation= 90.07375770874205	
+
+
+Reading latency in ms: 3
+Reading latency in ms: 5
+GTotal: 23347.394394788098
+distance= 182.0	
+ estimation= 143.4860254402119	
+
+
+Reading latency in ms: 3
+GTotal: 29181.241074125403
+distance= 35.0	
+ estimation= 166.0776118536201	
+
+
+Reading latency in ms: 4
+GTotal: 33600.51576950432
+distance= 182.0	
+ estimation= 90.49581042934679	
+
+
+Reading latency in ms: 4
+GTotal: 23408.906591896124
+distance= 182.0	
+ estimation= 143.69813886345142	
+
+
+Reading latency in ms: 5
+GTotal: 18215.839556975967
+distance= 182.0	
+ estimation= 166.11768240765508	
+
+
+Reading latency in ms: 5
+GTotal: 17302.447457531875
+distance= 182.0	
+ estimation= 175.5677930458165	
+
+
+Reading latency in ms: 5
+GTotal: 19280.737140308593
+distance= 37.0	
+ estimation= 179.49359550239	
+
+
+Reading latency in ms: 4
+GTotal: 18522.756566050204
+distance= 182.0	
+ estimation= 97.28631353711407	
+
+
+Reading latency in ms: 4
+GTotal: 18387.96092664961
+distance= 182.0	
+ estimation= 146.58484056539754	
+
+
+******Delta G High!: 134.79563940059234
+Reading latency in ms: 4
+GTotal: 28827.772468590418
+distance= 38.0	
+ estimation= 167.35748733978477	
+
+
+Reading latency in ms: 4
+GTotal: 33846.83333130311
+distance= 182.0	
+ estimation= 92.75393901412306	
+
+
+Reading latency in ms: 8
+Reading latency in ms: 4
+GTotal: 21868.053691456855
+distance= 182.0	
+ estimation= 144.66668267775154	
+
+
+Reading latency in ms: 3
+GTotal: 17475.080068770585
+distance= 182.0	
+ estimation= 166.46573615066248	
+
+
+Reading latency in ms: 3
+GTotal: 16705.45295630862
+distance= 182.0	
+ estimation= 175.73586898775454	
+
+
+Reading latency in ms: 5
+GTotal: 18289.440683385576
+distance= 41.0	
+ estimation= 179.68658094191946	
+
+
+Reading latency in ms: 4
+GTotal: 17535.82290769954
+distance= 182.0	
+ estimation= 99.6887685352316	
+
+
+Reading latency in ms: 3
+GTotal: 17409.031024282125
+distance= 182.0	
+ estimation= 147.45129676471146	
+
+
+******Delta G High!: 126.7918834174161
+Reading latency in ms: 4
+GTotal: 27111.15408280261
+distance= 43.0	
+ estimation= 167.73111694943344	
+
+
+Reading latency in ms: 4
+GTotal: 31791.354386180366
+distance= 182.0	
+ estimation= 95.81546893610776	
+
+
+Reading latency in ms: 6
+GTotal: 20429.02939200576
+distance= 182.0	
+ estimation= 145.99300656579533	
+
+
+Reading latency in ms: 5
+GTotal: 16277.168889161205
+distance= 182.0	
+ estimation= 167.14457238274534	
+
+
+Reading latency in ms: 4
+GTotal: 15543.609957134271
+distance= 182.0	
+ estimation= 176.03688045010537	
+
+
+Reading latency in ms: 3
+GTotal: 17022.321654082323
+distance= 46.0	
+ estimation= 179.76196274436163	
+
+
+Reading latency in ms: 1
+Reading latency in ms: 7
+GTotal: 16307.79630348071
+distance= 182.0	
+ estimation= 102.62892712065084	
+
+
+Reading latency in ms: 3
+GTotal: 22033.828925445727
+distance= 47.0	
+ estimation= 148.66647028304223	
+
+
+Reading latency in ms: 4
+GTotal: 27245.831700617415
+distance= 182.0	
+ estimation= 90.08284602230587	
+
+
+Reading latency in ms: 7
+GTotal: 28164.080014463652
+distance= 182.0	
+ estimation= 143.4619908573328	
+
+
+Reading latency in ms: 5
+GTotal: 16992.788038609928
+distance= 182.0	
+ estimation= 165.98818125975663	
+
+
+Reading latency in ms: 4
+GTotal: 13029.140790706098
+distance= 182.0	
+ estimation= 175.48536781607586	
+
+
+Reading latency in ms: 4
+GTotal: 6485.662001087098
+distance= 182.0	
+ estimation= 179.54674578433017	
+
+
+Reading latency in ms: 5
+GTotal: 11719.95706664895
+distance= 52.0	
+ estimation= 181.27503638487875	
+
+
+Reading latency in ms: 3
+GTotal: 14372.087217692602
+distance= 182.0	
+ estimation= 106.6870502975114	
+
+
+Reading latency in ms: 3
+GTotal: 14837.084799440183
+distance= 182.0	
+ estimation= 150.52842125171134	
+
+
+Reading latency in ms: 4
+GTotal: 22908.08254679691
+distance= 56.0	
+ estimation= 169.0661545147954	
+
+
+Reading latency in ms: 5
+GTotal: 26764.120139827162
+distance= 182.0	
+ estimation= 103.93935608382333	
+
+
+Reading latency in ms: 9
+Reading latency in ms: 4
+GTotal: 16849.692252415654
+distance= 182.0	
+ estimation= 149.43720420989982	
+
+
+Reading latency in ms: 3
+GTotal: 13370.566920777605
+distance= 182.0	
+ estimation= 168.59782844811383	
+
+
+Reading latency in ms: 4
+GTotal: 21363.685276094082
+distance= 60.0	
+ estimation= 176.65774115074498	
+
+
+Reading latency in ms: 4
+GTotal: 16600.868383876263
+distance= 182.0	
+ estimation= 109.43970670276323	
+
+
+Reading latency in ms: 4
+GTotal: 13321.465564200054
+distance= 182.0	
+ estimation= 151.72889696890468	
+
+
+Reading latency in ms: 5
+GTotal: 12747.982439031224
+distance= 182.0	
+ estimation= 169.55050651298473	
+
+
+Reading latency in ms: 4
+GTotal: 21168.053658983576
+distance= 61.0	
+ estimation= 177.06984120075285	
+
+
+Reading latency in ms: 4
+GTotal: 15812.439359158932
+distance= 182.0	
+ estimation= 110.20701564333648	
+
+
+Reading latency in ms: 4
+GTotal: 13044.677510810105
+distance= 182.0	
+ estimation= 152.07361391895128	
+
+
+Reading latency in ms: 5
+GTotal: 12560.364052454393
+distance= 182.0	
+ estimation= 169.6807394740632	
+
+
+Reading latency in ms: 7
+Reading latency in ms: 1
+GTotal: 20426.689457028267
+distance= 65.0	
+ estimation= 177.1311411587351	
+
+
+Reading latency in ms: 5
+GTotal: 14949.276024355802
+distance= 182.0	
+ estimation= 112.5368419061334	
+
+
+Reading latency in ms: 4
+GTotal: 16373.218654041644
+distance= 67.0	
+ estimation= 153.03592834877418	
+
+
+Reading latency in ms: 5
+GTotal: 19702.99401747659
+distance= 182.0	
+ estimation= 103.56381503356202	
+
+
+Reading latency in ms: 4
+GTotal: 20286.13013836199
+distance= 182.0	
+ estimation= 149.25326056890245	
+
+
+Reading latency in ms: 4
+GTotal: 12437.017986596346
+distance= 182.0	
+ estimation= 168.5031822541648	
+
+
+Reading latency in ms: 54
+GTotal: 9398.844211244299
+distance= 182.0	
+ estimation= 176.63072488414406	
+
+
+Reading latency in ms: 2
+GTotal: 12240.847746247215
+distance= 71.0	
+ estimation= 180.03573881959565	
+
+
+Reading latency in ms: 3
+GTotal: 10997.94250956649
+distance= 182.0	
+ estimation= 117.26912109830906	
+
+
+Reading latency in ms: 5
+GTotal: 10779.361372200763
+distance= 182.0	
+ estimation= 155.0318801863079	
+
+
+Reading latency in ms: 5
+GTotal: 16616.117448476034
+distance= 74.0	
+ estimation= 170.93569253858107	
+
+
+Reading latency in ms: 6
+GTotal: 19429.04438737264
+distance= 182.0	
+ estimation= 115.14539749618531	
+
+
+Reading latency in ms: 4
+GTotal: 12389.886330692043
+distance= 182.0	
+ estimation= 154.13925425018232	
+
+
+Reading latency in ms: 6
+GTotal: 9818.154714026454
+distance= 182.0	
+ estimation= 170.59176090993483	
+
+
+Reading latency in ms: 5
+GTotal: 9370.244598535419
+distance= 182.0	
+ estimation= 177.50854351724783	
+
+
+Reading latency in ms: 3
+GTotal: 10190.740343290781
+distance= 77.0	
+ estimation= 180.40129550091336	
+
+
+Reading latency in ms: 4
+GTotal: 9726.848217944938
+distance= 182.0	
+ estimation= 120.8673482724695	
+
+
+Reading latency in ms: 5
+Reading latency in ms: 9
+GTotal: 9645.991237149525
+distance= 182.0	
+ estimation= 156.53288524327334	
+
+
+******Delta G High!: 80.85698079541362
+Reading latency in ms: 3
+GTotal: 14993.926568497905
+distance= 79.0	
+ estimation= 171.58953105085823	
+
+
+Reading latency in ms: 6
+GTotal: 17550.47679505474
+distance= 182.0	
+ estimation= 118.31212514589245	
+
+
+Reading latency in ms: 3
+GTotal: 11226.084667285371
+distance= 182.0	
+ estimation= 155.39844542731151	
+
+
+Reading latency in ms: 113
+GTotal: 8935.851829802712
+distance= 182.0	
+ estimation= 170.97010600288138	
+
+
+Reading latency in ms: 15
+GTotal: 8537.513587998232
+distance= 182.0	
+ estimation= 177.55863688023993	
+
+
+Reading latency in ms: 40
+GTotal: 3108.94437593873
+distance= 182.0	
+ estimation= 180.31094616539002	
+
+
+Reading latency in ms: 52
+GTotal: 6560.009352340816
+distance= 84.0	
+ estimation= 181.48984203360405	
+
+
+Reading latency in ms: 82
+GTotal: 7140.721443186871
+distance= 85.0	
+ estimation= 125.30385470105833	
+
+
+Reading latency in ms: 10
+GTotal: 7209.544510648561
+distance= 87.0	
+ estimation= 102.17590507048247	
+
+
+Reading latency in ms: 86
+GTotal: 7224.639534326676
+distance= 87.0	
+ estimation= 93.599689662569	
+
+
+Reading latency in ms: 42
+GTotal: 12581.62129100581
+distance= 182.0	
+ estimation= 90.02278735540136	
+
+
+Reading latency in ms: 66
+GTotal: 7501.142984240518
+distance= 182.0	
+ estimation= 143.47955408130755	
+
+
+Reading latency in ms: 38
+GTotal: 6634.214260005243
+distance= 182.0	
+ estimation= 166.00629781438474	
+
+
+Reading latency in ms: 68
+GTotal: 6515.130557241951
+distance= 182.0	
+ estimation= 175.49514406051367	
+
+
+******Delta G High!: 119.08370276329242
+Reading latency in ms: 42
+GTotal: 6491.494505978944
+distance= 182.0	
+ estimation= 179.50156744115677	
+
+
+Reading latency in ms: 63
+GTotal: 1133.115082595339
+distance= 182.0	
+ estimation= 181.19598772133835	
+
+
+Reading latency in ms: 43
+GTotal: 193.20981174410932
+distance= 182.0	
+ estimation= 181.87344540380832	
+
+
+Reading latency in ms: 67
+GTotal: 4953.31404831744
+distance= 94.0	
+ estimation= 182.1502990942938	
+
+
+Reading latency in ms: 41
+GTotal: 6551.8544453618115
+distance= 182.0	
+ estimation= 131.3453324150354	
+
+
+Reading latency in ms: 63
+GTotal: 9214.753497728656
+distance= 96.0	
+ estimation= 160.88532228566427	
+
+
+Reading latency in ms: 42
+GTotal: 11377.341794404843
+distance= 182.0	
+ estimation= 123.56474333062445	
+
+
+Reading latency in ms: 66
+GTotal: 11754.764710206768
+distance= 182.0	
+ estimation= 157.59005003589442	
+
+
+Reading latency in ms: 43
+GTotal: 6896.58920391509
+distance= 182.0	
+ estimation= 171.9513457107508	
+
+
+Reading latency in ms: 62
+GTotal: 5281.403132263948
+distance= 182.0	
+ estimation= 177.99563070948923	
+
+
+Reading latency in ms: 5
+GTotal: 6822.177369612144
+distance= 99.0	
+ estimation= 180.50149091107326	
+
+
+Reading latency in ms: 3
+GTotal: 6145.696426700984
+distance= 182.0	
+ estimation= 133.5569102366816	
+
+
+Reading latency in ms: 4
+GTotal: 6026.623971513486
+distance= 182.0	
+ estimation= 161.8042462471114	
+
+
+******Delta G High!: 119.07245518749824
+Reading latency in ms: 5
+GTotal: 6006.490636823802
+distance= 182.0	
+ estimation= 173.68186440223857	
+
+
+Reading latency in ms: 4
+Reading latency in ms: 18
+GTotal: 9725.617597456763
+distance= 102.0	
+ estimation= 178.72902124976335	
+
+
+Reading latency in ms: 3
+GTotal: 6943.641526051165
+distance= 182.0	
+ estimation= 134.5590288315548	
+
+
+Reading latency in ms: 4
+GTotal: 7605.325210150337
+distance= 104.0	
+ estimation= 162.2350332693649	
+
+
+Reading latency in ms: 4
+GTotal: 7704.199729195476
+distance= 105.0	
+ estimation= 128.74783356623587	
+
+
+******Delta G High!: 98.8745190451391
+Reading latency in ms: 4
+GTotal: 7726.780326051649
+distance= 105.0	
+ estimation= 115.23908660373081	
+
+
+Reading latency in ms: 3
+GTotal: 7322.652688617802
+distance= 182.0	
+ estimation= 109.54756817869087	
+
+
+Reading latency in ms: 3
+GTotal: 7166.400675501648
+distance= 107.0	
+ estimation= 151.76576783097786	
+
+
+******Delta G High!: 156.25201311615365
+Reading latency in ms: 3
+GTotal: 5250.916087183689
+distance= 107.0	
+ estimation= 126.1672573753844	
+
+
+Reading latency in ms: 3
+GTotal: 7703.955273963509
+distance= 182.0	
+ estimation= 115.3927848224431	
+
+
+Reading latency in ms: 4
+GTotal: 8124.886193371667
+distance= 182.0	
+ estimation= 154.26277395938664	
+
+
+Reading latency in ms: 3
+GTotal: 4881.636250927373
+distance= 182.0	
+ estimation= 170.62879883410014	
+
+
+Reading latency in ms: 3
+GTotal: 3625.060925006115
+distance= 182.0	
+ estimation= 177.50057141152465	
+
+
+Reading latency in ms: 8
+Reading latency in ms: 2
+GTotal: 3393.940481618058
+distance= 182.0	
+ estimation= 180.41294020556683	
+
+
+Reading latency in ms: 4
+GTotal: 583.7502388011519
+distance= 182.0	
+ estimation= 181.63569554193302	
+
+
+Reading latency in ms: 4
+GTotal: 96.4221312552762
+distance= 182.0	
+ estimation= 182.1380078509681	
+
+
+Reading latency in ms: 4
+GTotal: 14.592979230045312
+distance= 182.0	
+ estimation= 182.3496425621617	
+
+
+******Delta G High!: 81.82915202523088
+Reading latency in ms: 4
+GTotal: 3327.0522958410716
+distance= 110.0	
+ estimation= 182.45381222477135	
+
+
+Reading latency in ms: 12
+GTotal: 4398.637634834627
+distance= 182.0	
+ estimation= 140.8392412819531	
+
+
+Reading latency in ms: 3
+GTotal: 6244.126469830036
+distance= 111.0	
+ estimation= 164.97746969462807	
+
+
+Reading latency in ms: 3
+GTotal: 7700.494107930948
+distance= 182.0	
+ estimation= 134.0504839349188	
+
+
+Reading latency in ms: 6
+GTotal: 7951.4798850677935
+distance= 182.0	
+ estimation= 162.091503518294	
+
+
+Reading latency in ms: 4
+GTotal: 4667.675511038346
+distance= 182.0	
+ estimation= 173.90791655546394	
+
+
+Reading latency in ms: 3
+GTotal: 3600.5848853837824
+distance= 182.0	
+ estimation= 178.89927936308948	
+
+
+Reading latency in ms: 3
+GTotal: 1755.637174372475
+distance= 182.0	
+ estimation= 181.0065319217798	
+
+
+Reading latency in ms: 4
+GTotal: 2967.206108891929
+distance= 117.0	
+ estimation= 181.89864834184655	
+
+
+Reading latency in ms: 7
+Reading latency in ms: 5
+GTotal: 3599.924730123826
+distance= 182.0	
+ estimation= 144.6475188375921	
+
+
+Reading latency in ms: 3
+GTotal: 3709.3177690035504
+distance= 182.0	
+ estimation= 166.56697338286483	
+
+
+******Delta G High!: 109.39303887972437
+Reading latency in ms: 3
+GTotal: 3727.493283326868
+distance= 182.0	
+ estimation= 175.8106727570107	
+
+
+Reading latency in ms: 4
+GTotal: 3730.1912997551053
+distance= 182.0	
+ estimation= 179.7095238988263	
+
+
+Reading latency in ms: 3
+GTotal: 1062.5120193362836
+distance= 182.0	
+ estimation= 181.3479049385913	
+
+
+Reading latency in ms: 4
+GTotal: 178.7310058898371
+distance= 182.0	
+ estimation= 182.0360458737181	
+
+
+Reading latency in ms: 4
+GTotal: 27.922916692559756
+distance= 182.0	
+ estimation= 182.31740064261632	
+
+
+******Delta G High!: 150.80808919727733
+Reading latency in ms: 3
+GTotal: 2240.240948349681
+distance= 123.0	
+ estimation= 182.4209377878314	
+
+
+Reading latency in ms: 4
+GTotal: 2954.527352020904
+distance= 182.0	
+ estimation= 148.34178785278817	
+
+
+Reading latency in ms: 4
+GTotal: 3076.53422093566
+distance= 182.0	
+ estimation= 168.1062995218208	
+
+
+******Delta G High!: 122.00686891475607
+Reading latency in ms: 4
+GTotal: 4755.315452326848
+distance= 125.0	
+ estimation= 176.4806567448691	
+
+
+Reading latency in ms: 2
+Reading latency in ms: 4
+GTotal: 5531.377327976369
+distance= 182.0	
+ estimation= 146.9963809115337	
+
+
+Reading latency in ms: 3
+GTotal: 3426.701670957729
+distance= 182.0	
+ estimation= 167.5694583991762	
+
+
+Reading latency in ms: 3
+GTotal: 2730.5364283209533
+distance= 182.0	
+ estimation= 176.1816000803014	
+
+
+Reading latency in ms: 4
+GTotal: 4242.350397796203
+distance= 129.0	
+ estimation= 179.7907857598836	
+
+
+Reading latency in ms: 5
+GTotal: 3185.873183317261
+distance= 182.0	
+ estimation= 150.65642651634423	
+
+
+Reading latency in ms: 5
+GTotal: 2516.656917188299
+distance= 182.0	
+ estimation= 169.00863109754184	
+
+
+Reading latency in ms: 3
+GTotal: 2402.355081608801
+distance= 182.0	
+ estimation= 176.727939643041	
+
+
+******Delta G High!: 114.30183557949795
+Reading latency in ms: 6
+GTotal: 3839.548639400207
+distance= 132.0	
+ estimation= 179.98667631648163	
+
+
+Reading latency in ms: 3
+GTotal: 2758.9288116323282
+distance= 182.0	
+ estimation= 152.44070263501266	
+
+
+Reading latency in ms: 4
+GTotal: 2231.5851069902697
+distance= 182.0	
+ estimation= 169.75609732938457	
+
+
+Reading latency in ms: 3
+Reading latency in ms: 3
+GTotal: 2140.2817680224216
+distance= 182.0	
+ estimation= 177.03643276372247	
+
+
+******Delta G High!: 91.30333896784805
+Reading latency in ms: 5
+GTotal: 2124.896836432473
+distance= 182.0	
+ estimation= 180.12736773849727	
+
+
+Reading latency in ms: 5
+GTotal: 666.4409360259901
+distance= 182.0	
+ estimation= 181.46393723201723	
+
+
+Reading latency in ms: 3
+GTotal: 1395.6428630527219
+distance= 137.0	
+ estimation= 181.9991983125764	
+
+
+Reading latency in ms: 4
+GTotal: 1722.3527648607544
+distance= 182.0	
+ estimation= 156.19916237320575	
+
+
+Reading latency in ms: 3
+GTotal: 1778.2420635408307
+distance= 182.0	
+ estimation= 171.3760523662625	
+
+
+Reading latency in ms: 4
+GTotal: 1787.6300421965652
+distance= 182.0	
+ estimation= 177.7189537973696	
+
+
+Reading latency in ms: 3
+GTotal: 1788.9671766958227
+distance= 182.0	
+ estimation= 180.4513652850315	
+
+
+Reading latency in ms: 3
+GTotal: 506.4261836195466
+distance= 182.0	
+ estimation= 181.5447168338313	
+
+
+Reading latency in ms: 4
+GTotal: 1203.2293001157993
+distance= 140.0	
+ estimation= 182.02037229307575	
+
+
+Reading latency in ms: 3
+GTotal: 1499.473648039374
+distance= 182.0	
+ estimation= 157.90554001389347	
+
+
+Reading latency in ms: 3
+GTotal: 1550.603933029975
+distance= 182.0	
+ estimation= 172.047831135505	
+
+
+Reading latency in ms: 1
+Reading latency in ms: 4
+GTotal: 2371.288502958731
+distance= 142.0	
+ estimation= 178.02770860260398	
+
+
+Reading latency in ms: 3
+GTotal: 2754.6909154868554
+distance= 182.0	
+ estimation= 157.3935652721771	
+
+
+Reading latency in ms: 3
+GTotal: 1702.0649023553035
+distance= 182.0	
+ estimation= 171.80426175876482	
+
+
+Reading latency in ms: 4
+GTotal: 1345.11063602712
+distance= 182.0	
+ estimation= 177.87364707560837	
+
+
+Reading latency in ms: 4
+GTotal: 2125.551154880121
+distance= 144.0	
+ estimation= 180.48439040765908	
+
+
+Reading latency in ms: 3
+GTotal: 1621.0333749759602
+distance= 182.0	
+ estimation= 159.60526513499897	
+
+
+Reading latency in ms: 4
+GTotal: 1291.3094961645643
+distance= 182.0	
+ estimation= 172.7832512187189	
+
+
+Reading latency in ms: 3
+GTotal: 1234.047751686
+distance= 182.0	
+ estimation= 178.31826626821467	
+
+
+Reading latency in ms: 6
+Reading latency in ms: 3
+GTotal: 1941.3564799990818
+distance= 147.0	
+ estimation= 180.66957443885747	
+
+
+Reading latency in ms: 3
+GTotal: 1366.1441124025796
+distance= 182.0	
+ estimation= 161.43218428995993	
+
+
+Reading latency in ms: 4
+GTotal: 1462.4131829792068
+distance= 148.0	
+ estimation= 173.5636873761382	
+
+
+******Delta G High!: 96.2690705766272
+Reading latency in ms: 3
+GTotal: 1743.7602485160946
+distance= 182.0	
+ estimation= 158.99771381919453	
+
+
+Reading latency in ms: 4
+GTotal: 1791.2961457355277
+distance= 182.0	
+ estimation= 172.58729118671167	
+
+
+Reading latency in ms: 4
+GTotal: 1081.7336490839527
+distance= 182.0	
+ estimation= 178.33001203670378	
+
+
+Reading latency in ms: 8
+GTotal: 814.7837429557783
+distance= 182.0	
+ estimation= 180.7323938974753	
+
+
+Reading latency in ms: 3
+GTotal: 1038.0382486163926
+distance= 150.0	
+ estimation= 181.71670408249142	
+
+
+Reading latency in ms: 5
+GTotal: 915.9730624577621
+distance= 182.0	
+ estimation= 163.65869632971362	
+
+
+******Delta G High!: 122.06518615863047
+Reading latency in ms: 6
+GTotal: 1179.7867214465875
+distance= 152.0	
+ estimation= 174.47389991690125	
+
+
+Reading latency in ms: 6
+Reading latency in ms: 5
+GTotal: 1432.3394885412122
+distance= 182.0	
+ estimation= 161.69806491803848	
+
+
+Reading latency in ms: 4
+GTotal: 1475.8959398862437
+distance= 182.0	
+ estimation= 173.6114076612744	
+
+
+Reading latency in ms: 6
+GTotal: 1254.8161468260987
+distance= 153.0	
+ estimation= 178.63074882704962	
+
+
+Reading latency in ms: 3
+GTotal: 1247.9323479283985
+distance= 182.0	
+ estimation= 163.95738069499686	
+
+
+Reading latency in ms: 4
+GTotal: 962.3052980127702
+distance= 182.0	
+ estimation= 174.6404657445408	
+
+
+Reading latency in ms: 3
+GTotal: 706.2427138528759
+distance= 182.0	
+ estimation= 179.18434074078664	
+
+
+Reading latency in ms: 3
+GTotal: 662.2381699836673
+distance= 182.0	
+ estimation= 181.05161665902352	
+
+
+Reading latency in ms: 4
+GTotal: 636.8380331642497
+distance= 157.0	
+ estimation= 181.83619580724556	
+
+
+Reading latency in ms: 5
+GTotal: 557.3473284996786
+distance= 182.0	
+ estimation= 167.85624508295854	
+
+
+Reading latency in ms: 5
+GTotal: 543.0481969344701
+distance= 182.0	
+ estimation= 176.379590285185	
+
+
+Reading latency in ms: 4
+GTotal: 814.4339647968721
+distance= 159.0	
+ estimation= 179.8892067058077	
+
+
+Reading latency in ms: 5
+Reading latency in ms: 1
+GTotal: 937.9736731251735
+distance= 182.0	
+ estimation= 168.00253675116866	
+
+
+******Delta G High!: 123.53970832830134
+Reading latency in ms: 3
+GTotal: 567.166086939515
+distance= 182.0	
+ estimation= 176.3919287532939	
+
+
+Reading latency in ms: 7
+GTotal: 443.4491018668817
+distance= 182.0	
+ estimation= 179.8236742812065	
+
+
+******Delta G High!: 123.71698507263335
+Reading latency in ms: 5
+GTotal: 684.1868624670324
+distance= 161.0	
+ estimation= 181.28883088885524	
+
+
+Reading latency in ms: 5
+GTotal: 501.3833724371166
+distance= 182.0	
+ estimation= 169.84389366732523	
+
+
+******Delta G High!: 182.8034900299158
+Reading latency in ms: 5
+GTotal: 392.4084215158605
+distance= 182.0	
+ estimation= 177.1120036823196	
+
+
+******Delta G High!: 108.9749509212561
+Reading latency in ms: 5
+GTotal: 374.5979884260655
+distance= 182.0	
+ estimation= 180.17421087151152	
+
+
+Reading latency in ms: 6
+GTotal: 587.659264029632
+distance= 163.0	
+ estimation= 181.46866970643455	
+
+
+Reading latency in ms: 3
+GTotal: 403.589906900476
+distance= 182.0	
+ estimation= 170.99771726547752	
+
+
+******Delta G High!: 184.069357129156
+Reading latency in ms: 4
+GTotal: 321.5180975617543
+distance= 182.0	
+ estimation= 177.73316544428474	
+
+
+******Delta G High!: 82.07180933872172
+Reading latency in ms: 4
+GTotal: 498.436365852921
+distance= 163.0	
+ estimation= 180.412342389949	
+
+
+******Delta G High!: 176.91826829116673
+Reading latency in ms: 1
+GTotal: 579.3940180581461
+distance= 182.0	
+ estimation= 170.5483776918459	
+
+
+Reading latency in ms: 12
+******Delta G High!: 80.95765220522509
+Reading latency in ms: 6
+GTotal: 376.63497057173305
+distance= 182.0	
+ estimation= 177.4173910175561	
+
+
+Reading latency in ms: 6
+GTotal: 510.6186698694859
+distance= 162.0	
+ estimation= 180.23643280097906	
+
+
+******Delta G High!: 133.98369929775288
+Reading latency in ms: 3
+GTotal: 591.3382009327609
+distance= 182.0	
+ estimation= 169.9320213863191	
+
+
+******Delta G High!: 80.71953106327493
+Reading latency in ms: 3
+GTotal: 414.4421953795225
+distance= 182.0	
+ estimation= 177.10840989870465	
+
+
+******Delta G High!: 176.89600555323835
+Reading latency in ms: 3
+GTotal: 333.53293909859036
+distance= 182.0	
+ estimation= 180.15340649509923	
+
+
+******Delta G High!: 80.90925628093214
+Reading latency in ms: 4
+GTotal: 320.4553598520554
+distance= 182.0	
+ estimation= 181.40417702630523	
+
+
+Reading latency in ms: 5
+GTotal: 443.12979798963784
+distance= 159.0	
+ estimation= 181.9397263245114	
+
+
+******Delta G High!: 122.67443813758246
+Reading latency in ms: 5
+GTotal: 459.6768903737096
+distance= 182.0	
+ estimation= 168.89432735371386	
+
+
+Reading latency in ms: 4
+GTotal: 462.2478297261384
+distance= 182.0	
+ estimation= 176.7097881183826	
+
+
+Reading latency in ms: 4
+GTotal: 795.6289354051224
+distance= 157.0	
+ estimation= 180.01546581843664	
+
+
+Reading latency in ms: 3
+GTotal: 939.9480660894001
+distance= 182.0	
+ estimation= 166.8940875910494	
+
+
+Reading latency in ms: 4
+******Delta G High!: 144.31913068427764
+Reading latency in ms: 5
+GTotal: 630.2546213979848
+distance= 182.0	
+ estimation= 175.89062211374636	
+
+
+Reading latency in ms: 6
+GTotal: 525.1446888437252
+distance= 182.0	
+ estimation= 179.5867429596607	
+
+
+******Delta G High!: 105.10993255425956
+Reading latency in ms: 4
+GTotal: 975.9047426702733
+distance= 154.0	
+ estimation= 181.1954368337382	
+
+
+Reading latency in ms: 3
+GTotal: 808.9682743510164
+distance= 182.0	
+ estimation= 165.68520408966572	
+
+
+******Delta G High!: 166.93646831925696
+Reading latency in ms: 4
+GTotal: 692.6790942077236
+distance= 182.0	
+ estimation= 175.32128005973442	
+
+
+******Delta G High!: 116.28918014329281
+Reading latency in ms: 4
+GTotal: 673.2956520954191
+distance= 182.0	
+ estimation= 179.40688129103992	
+
+
+Reading latency in ms: 4
+GTotal: 1206.577581382957
+distance= 152.0	
+ estimation= 181.11537062036587	
+
+
+Reading latency in ms: 7
+GTotal: 932.9729933368928
+distance= 182.0	
+ estimation= 164.4598187022763	
+
+
+Reading latency in ms: 5
+GTotal: 796.7707944001528
+distance= 182.0	
+ estimation= 174.84786669504112	
+
+
+******Delta G High!: 136.20219893674005
+Reading latency in ms: 5
+GTotal: 773.585603082154
+distance= 182.0	
+ estimation= 179.17098519121816	
+
+
+Reading latency in ms: 6
+GTotal: 1379.7018828968642
+distance= 150.0	
+ estimation= 181.0417029658737	
+
+
+Reading latency in ms: 3
+Reading latency in ms: 3
+GTotal: 954.9850507723658
+distance= 150.0	
+ estimation= 163.31214676194517	
+
+
+Reading latency in ms: 4
+GTotal: 1193.5888230945002
+distance= 182.0	
+ estimation= 155.84016951709106	
+
+
+Reading latency in ms: 5
+GTotal: 1235.3477366197526
+distance= 182.0	
+ estimation= 171.17979058653756	
+
+
+Reading latency in ms: 4
+GTotal: 1241.9406947775278
+distance= 182.0	
+ estimation= 177.7091388332165	
+
+
+Reading latency in ms: 4
+GTotal: 633.1261934325724
+distance= 182.0	
+ estimation= 180.43008315477672	
+
+
+Reading latency in ms: 4
+GTotal: 521.0035848766811
+distance= 182.0	
+ estimation= 181.54432366598786	
+
+
+******Delta G High!: 112.12260855589136
+Reading latency in ms: 4
+GTotal: 87.51734345390928
+distance= 182.0	
+ estimation= 182.0330668032171	
+
+
+Reading latency in ms: 4
+GTotal: 844.4442245483335
+distance= 146.0	
+ estimation= 182.2218376577318	
+
+
+Reading latency in ms: 5
+GTotal: 1098.9015973025403
+distance= 182.0	
+ estimation= 161.50321959472615	
+
+
+Reading latency in ms: 3
+GTotal: 1142.241016853373
+distance= 182.0	
+ estimation= 173.58075587991635	
+
+
+Reading latency in ms: 5
+GTotal: 1903.0087292885923
+distance= 144.0	
+ estimation= 178.65855842867916	
+
+
+Reading latency in ms: 5
+Reading latency in ms: 3
+GTotal: 2042.2717427558148
+distance= 144.0	
+ estimation= 158.82743038762274	
+
+
+******Delta G High!: 139.26301346722244
+Reading latency in ms: 5
+GTotal: 1842.0259540295142
+distance= 182.0	
+ estimation= 150.4421531698424	
+
+
+Reading latency in ms: 4
+GTotal: 1684.6263480004527
+distance= 182.0	
+ estimation= 168.89906300253463	
+
+
+******Delta G High!: 157.3996060290615
+Reading latency in ms: 3
+GTotal: 2451.942546976118
+distance= 141.0	
+ estimation= 176.8082345465553	
+
+
+Reading latency in ms: 4
+GTotal: 2107.994567783308
+distance= 182.0	
+ estimation= 156.34396344915916	
+
+
+Reading latency in ms: 5
+GTotal: 2039.694598219797
+distance= 182.0	
+ estimation= 171.41562649659028	
+
+
+Reading latency in ms: 4
+GTotal: 1419.586099352191
+distance= 182.0	
+ estimation= 177.88351904849657	
+
+
+Reading latency in ms: 4
+Initializing distance
+ Initial_distance= 58.0	
+
+
+GTotal: 21951.794727150118
+distance= 0.0	
+ estimation= 180.51426999688965	
+
+
+Reading latency in ms: 5
+GTotal: 21354.62466664921
+distance= 58.0	
+ estimation= 76.4252492996118	
+
+
+Reading latency in ms: 4
+GTotal: 24132.66188688942
+distance= -5.0	
+ estimation= 66.02014717739226	
+
+
+Reading latency in ms: 5
+GTotal: 24742.785104694893
+distance= 58.0	
+ estimation= 25.20948780809048	
+
+
+Reading latency in ms: 5
+GTotal: 24848.455277763085
+distance= 58.0	
+ estimation= 44.44401603195366	
+
+
+******Delta G High!: 105.67017306819253
+Reading latency in ms: 9
+Reading latency in ms: 4
+GTotal: 4227.0274875329615
+distance= 58.0	
+ estimation= 52.45147499378609	
+
+
+Reading latency in ms: 3
+GTotal: 9964.243372407313
+distance= -41.0	
+ estimation= 55.93664012123672	
+
+
+Reading latency in ms: 3
+GTotal: 8897.312908424672
+distance= 58.0	
+ estimation= 0.038628732632527744	
+
+
+Reading latency in ms: 3
+GTotal: 8584.950498244703
+distance= 58.0	
+ estimation= 33.87329893493733	
+
+
+Reading latency in ms: 4
+GTotal: 13961.070009275576
+distance= -45.0	
+ estimation= 48.11783833272291	
+
+
+Reading latency in ms: 3
+GTotal: 16486.941433906304
+distance= 58.0	
+ estimation= -5.390270315647479	
+
+
+Reading latency in ms: 3
+GTotal: 10979.648068471724
+distance= 58.0	
+ estimation= 31.495968781262345	
+
+
+Reading latency in ms: 3
+GTotal: 14698.567599861344
+distance= -49.0	
+ estimation= 47.075495437336066	
+
+
+Reading latency in ms: 4
+GTotal: 17120.06871569742
+distance= 58.0	
+ estimation= -8.369200144169877	
+
+
+Reading latency in ms: 7
+GTotal: 15908.960433912458
+distance= -52.0	
+ estimation= 30.213019485031932	
+
+
+Reading latency in ms: 6
+GTotal: 14228.774221635833
+distance= -54.0	
+ estimation= -17.042569931652707	
+
+
+Reading latency in ms: 4
+GTotal: 19642.77821626392
+distance= 58.0	
+ estimation= -38.17399973451458	
+
+
+Reading latency in ms: 7
+Reading latency in ms: 2
+GTotal: 17722.62185197707
+distance= -61.0	
+ estimation= 17.73493661775929	
+
+
+Reading latency in ms: 3
+GTotal: 19568.747541417528
+distance= 58.0	
+ estimation= -27.552969752243822	
+
+
+Reading latency in ms: 4
+GTotal: 20918.386126614274
+distance= -72.0	
+ estimation= 22.284816912632497	
+
+
+Reading latency in ms: 4
+GTotal: 21063.049341434576
+distance= -72.0	
+ estimation= -32.072209923958	
+
+
+******Delta G High!: 144.66321482030253
+Reading latency in ms: 5
+GTotal: 15433.788854220977
+distance= -74.0	
+ estimation= -54.95681852354058	
+
+
+Reading latency in ms: 4
+GTotal: 11562.18158290134
+distance= -75.0	
+ estimation= -65.66377767611688	
+
+
+Reading latency in ms: 3
+GTotal: 17424.58142629246
+distance= 58.0	
+ estimation= -70.74066299890244	
+
+
+Reading latency in ms: 3
+GTotal: 16155.610892883273
+distance= -79.0	
+ estimation= 3.9839112978401148	
+
+
+Reading latency in ms: 4
+GTotal: 21710.438680891013
+distance= 58.0	
+ estimation= -43.801368082387086	
+
+
+Reading latency in ms: 4
+GTotal: 22638.704939408493
+distance= 58.0	
+ estimation= 15.243980145510868	
+
+
+Reading latency in ms: 4
+GTotal: 22781.917849526853
+distance= 58.0	
+ estimation= 40.30106599915937	
+
+
+******Delta G High!: 143.21291011836
+Reading latency in ms: 1
+Reading latency in ms: 5
+GTotal: 12315.534240196977
+distance= 58.0	
+ estimation= 50.85171173157074	
+
+
+Reading latency in ms: 4
+GTotal: 7958.035256755147
+distance= 58.0	
+ estimation= 55.30978022575312	
+
+
+Reading latency in ms: 5
+GTotal: 1393.782081431749
+distance= 58.0	
+ estimation= 57.18162790498236	
+
+
+Reading latency in ms: 3
+GTotal: 15641.537665087886
+distance= -98.0	
+ estimation= 57.95098635199766	
+
+
+Reading latency in ms: 3
+GTotal: 20571.15758578312
+distance= 58.0	
+ estimation= -31.97521792534243	
+
+
+Reading latency in ms: 4
+GTotal: 31982.721009071945
+distance= -114.0	
+ estimation= 20.41091420596402	
+
+
+Reading latency in ms: 4
+GTotal: 40363.06541397026
+distance= 58.0	
+ estimation= -57.05264545759889	
+
+
+Reading latency in ms: 3
+GTotal: 41831.644441985256
+distance= 58.0	
+ estimation= 9.843124657712844	
+
+
+Reading latency in ms: 4
+GTotal: 41650.19339976599
+distance= -117.0	
+ estimation= 38.02985902569542	
+
+
+******Delta G High!: 181.45104221926886
+Reading latency in ms: 4
+Reading latency in ms: 2
+GTotal: 44098.31190444391
+distance= 58.0	
+ estimation= -51.36330818745251	
+
+
+Reading latency in ms: 3
+GTotal: 43724.833536052305
+distance= -120.0	
+ estimation= 12.199437936638907	
+
+
+Reading latency in ms: 3
+GTotal: 44767.283613960695
+distance= 58.0	
+ estimation= -63.9951035929232	
+
+
+Reading latency in ms: 5
+GTotal: 44950.3227202402
+distance= 58.0	
+ estimation= 6.930981595582792	
+
+
+******Delta G High!: 183.03910627950245
+Reading latency in ms: 5
+GTotal: 46925.821480337654
+distance= -128.0	
+ estimation= 36.7814784749183	
+
+
+Reading latency in ms: 4
+GTotal: 42431.53500306243
+distance= -128.0	
+ estimation= -58.24831630499365	
+
+
+Reading latency in ms: 4
+GTotal: 46838.666305834486
+distance= 58.0	
+ estimation= -98.31422566153617	
+
+
+Reading latency in ms: 4
+GTotal: 40132.331202198046
+distance= 58.0	
+ estimation= -7.5412444942742285	
+
+
+Reading latency in ms: 5
+GTotal: 38952.71620418649
+distance= 58.0	
+ estimation= 30.690456165707925	
+
+
+Reading latency in ms: 5
+GTotal: 21832.17404272328
+distance= 58.0	
+ estimation= 46.815420397743715	
+
+
+Reading latency in ms: 3
+GTotal: 45008.462322791354
+distance= -150.0	
+ estimation= 53.60063259045073	
+
+
+Reading latency in ms: 5
+GTotal: 34447.22550261701
+distance= -152.0	
+ estimation= -63.901565931004164	
+
+
+Reading latency in ms: 8
+GTotal: 50590.16899684575
+distance= 58.0	
+ estimation= -114.56935140792925	
+
+
+Reading latency in ms: 6
+Reading latency in ms: 4
+GTotal: 53439.12411432937
+distance= 58.0	
+ estimation= -14.411303502961362	
+
+
+Reading latency in ms: 3
+GTotal: 53936.778402055425
+distance= 58.0	
+ estimation= 27.82167653411483	
+
+
+Reading latency in ms: 4
+GTotal: 56578.83580376897
+distance= -168.0	
+ estimation= 45.59816992974765	
+
+
+Reading latency in ms: 5
+GTotal: 57657.85943792196
+distance= -175.0	
+ estimation= -77.71297072362492	
+
+
+Reading latency in ms: 5
+GTotal: 39874.09416600842
+distance= -175.0	
+ estimation= -133.70443360731613	
+
+
+Reading latency in ms: 4
+GTotal: 36939.06178038424
+distance= -182.0	
+ estimation= -157.30338471387452	
+
+
+Reading latency in ms: 5
+GTotal: 69668.4968347605
+distance= 58.0	
+ estimation= -171.30330103812312	
+
+
+Reading latency in ms: 8
+GTotal: 54212.98609958679
+distance= -184.0	
+ estimation= -38.31236304858868	
+
+
+Reading latency in ms: 3
+Round trip finished
+Initializing distance
+ Initial_distance= 242.0	
+
+
+GTotal: 57690.41979611463
+distance= 0.0	
+ estimation= -122.28866548923153	
+
+
+Reading latency in ms: 3
+GTotal: 58408.13352871319
+distance= 2.0	
+ estimation= -51.27629322843994	
+
+
+Reading latency in ms: 9
+GTotal: 58358.14148796709
+distance= 3.0	
+ estimation= -20.04346806337984	
+
+
+Reading latency in ms: 1
+Reading latency in ms: 4
+GTotal: 64144.853425283174
+distance= 242.0	
+ estimation= -6.425772884157435	
+
+
+Reading latency in ms: 4
+GTotal: 61499.172507369585
+distance= 7.0	
+ estimation= 137.56878105180604	
+
+
+Reading latency in ms: 5
+GTotal: 72494.02632287929
+distance= 242.0	
+ estimation= 62.2449922204278	
+
+
+Reading latency in ms: 5
+GTotal: 74298.14118800816
+distance= 242.0	
+ estimation= 166.59123579715674	
+
+
+Reading latency in ms: 5
+GTotal: 74590.02194869163
+distance= 242.0	
+ estimation= 210.50734283311792	
+
+
+Reading latency in ms: 5
+GTotal: 35605.992233147495
+distance= 242.0	
+ estimation= 228.88151821494745	
+
+
+Reading latency in ms: 4
+GTotal: 24824.551180245362
+distance= 242.0	
+ estimation= 236.730111679564	
+
+
+Reading latency in ms: 4
+GTotal: 4359.398457945939
+distance= 242.0	
+ estimation= 240.01116840102466	
+
+
+Reading latency in ms: 5
+GTotal: 757.5678503095226
+distance= 242.0	
+ estimation= 241.41069329399855	
+
+
+Reading latency in ms: 3
+GTotal: 129.33032889362735
+distance= 242.0	
+ estimation= 242.04535304476147	
+
+
+Reading latency in ms: 4
+GTotal: 20.368452419040715
+distance= 242.0	
+ estimation= 242.28059810898364	
+
+
+******Delta G High!: 108.96187647458663
+Reading latency in ms: 4
+GTotal: 25178.079868237244
+distance= 43.0	
+ estimation= 242.35827818852303	
+
+
+Reading latency in ms: 6
+GTotal: 29575.28458956571
+distance= 44.0	
+ estimation= 127.34104822117736	
+
+
+Reading latency in ms: 3
+Reading latency in ms: 12
+GTotal: 46313.95938331447
+distance= 242.0	
+ estimation= 79.44126567393278	
+
+
+Reading latency in ms: 3
+GTotal: 56494.09060858357
+distance= 47.0	
+ estimation= 173.7720856742925	
+
+
+Reading latency in ms: 5
+GTotal: 58251.36009097683
+distance= 48.0	
+ estimation= 100.6710851467576	
+
+
+Reading latency in ms: 4
+GTotal: 51731.654565266974
+distance= 242.0	
+ estimation= 70.38647864505472	
+
+
+Reading latency in ms: 3
+GTotal: 55717.94442375147
+distance= 55.0	
+ estimation= 170.05999526574772	
+
+
+Reading latency in ms: 4
+GTotal: 40480.720265094445
+distance= 55.0	
+ estimation= 103.68938189061363	
+
+
+Reading latency in ms: 5
+GTotal: 47804.76995340439
+distance= 242.0	
+ estimation= 75.76677427179958	
+
+
+Reading latency in ms: 5
+GTotal: 49127.127091347735
+distance= 242.0	
+ estimation= 172.2732426585316	
+
+
+Reading latency in ms: 5
+GTotal: 44892.05314817323
+distance= 62.0	
+ estimation= 212.88200125708204	
+
+
+Reading latency in ms: 4
+GTotal: 45053.507124369935
+distance= 242.0	
+ estimation= 125.8376716982977	
+
+
+******Delta G High!: 161.45397619670257
+Reading latency in ms: 5
+GTotal: 51826.57203482168
+distance= 79.0	
+ estimation= 193.29414432122772	
+
+
+Reading latency in ms: 5
+GTotal: 42638.5251199236
+distance= 242.0	
+ estimation= 127.420296824884	
+
+
+Reading latency in ms: 4
+Reading latency in ms: 1
+GTotal: 41015.59012045092
+distance= 242.0	
+ estimation= 194.044528520719	
+
+
+Reading latency in ms: 12
+GTotal: 26846.46333292431
+distance= 242.0	
+ estimation= 222.07827757738394	
+
+
+Reading latency in ms: 4
+GTotal: 30693.719275942043
+distance= 94.0	
+ estimation= 233.88305394916034	
+
+
+Reading latency in ms: 6
+GTotal: 24567.86860540965
+distance= 95.0	
+ estimation= 153.24430834776595	
+
+
+Reading latency in ms: 3
+GTotal: 16612.058939124378
+distance= 96.0	
+ estimation= 119.85033591129984	
+
+
+Reading latency in ms: 5
+GTotal: 26823.59497535615
+distance= 242.0	
+ estimation= 106.27798627156977	
+
+
+Reading latency in ms: 4
+GTotal: 28628.725288223024
+distance= 242.0	
+ estimation= 185.02108821004668	
+
+
+Reading latency in ms: 3
+GTotal: 16592.259681284817
+distance= 242.0	
+ estimation= 218.21864219867905	
+
+
+Reading latency in ms: 4
+GTotal: 14504.195830837309
+distance= 242.0	
+ estimation= 232.20118125289727	
+
+
+Reading latency in ms: 4
+GTotal: 14153.606594634635
+distance= 242.0	
+ estimation= 238.07945806339583	
+
+
+Reading latency in ms: 4
+GTotal: 2486.5686398713033
+distance= 242.0	
+ estimation= 240.60110993345214	
+
+
+Reading latency in ms: 3
+GTotal: 12077.21728288592
+distance= 106.0	
+ estimation= 241.59923395492504	
+
+
+Reading latency in ms: 5
+GTotal: 15636.102450712537
+distance= 242.0	
+ estimation= 163.36228417621734	
+
+
+Reading latency in ms: 2
+Reading latency in ms: 4
+GTotal: 16260.576843031205
+distance= 242.0	
+ estimation= 209.10833731183556	
+
+
+Reading latency in ms: 4
+GTotal: 16368.532118421166
+distance= 242.0	
+ estimation= 228.36924880637133	
+
+
+******Delta G High!: 107.95527538996066
+Reading latency in ms: 4
+GTotal: 16386.71392343268
+distance= 242.0	
+ estimation= 236.46284119349554	
+
+
+Reading latency in ms: 4
+GTotal: 4742.36396687815
+distance= 242.0	
+ estimation= 239.88784493956666	
+
+
+Reading latency in ms: 3
+GTotal: 9108.393456952803
+distance= 127.0	
+ estimation= 241.35230445312484	
+
+
+Reading latency in ms: 3
+GTotal: 11230.611526478328
+distance= 242.0	
+ estimation= 175.4255106682912	
+
+
+Reading latency in ms: 4
+GTotal: 11604.000427852146
+distance= 242.0	
+ estimation= 214.15653388462772	
+
+
+Reading latency in ms: 3
+GTotal: 11668.189054278257
+distance= 242.0	
+ estimation= 230.5111634223463	
+
+
+Reading latency in ms: 4
+GTotal: 17919.346202692563
+distance= 138.0	
+ estimation= 237.36313138529133	
+
+
+Reading latency in ms: 4
+GTotal: 12066.85296886195
+distance= 242.0	
+ estimation= 180.0545303149175	
+
+
+Reading latency in ms: 4
+GTotal: 12738.68917018018
+distance= 142.0	
+ estimation= 216.11326702987665	
+
+
+Reading latency in ms: 7
+GTotal: 15223.980847705592
+distance= 242.0	
+ estimation= 173.45266999641464	
+
+
+Reading latency in ms: 8
+Reading latency in ms: 11
+GTotal: 17446.701867096628
+distance= 153.0	
+ estimation= 213.34033825160344	
+
+
+Reading latency in ms: 4
+GTotal: 11517.314965180114
+distance= 156.0	
+ estimation= 178.6369860714954	
+
+
+Reading latency in ms: 4
+GTotal: 12769.757417973122
+distance= 242.0	
+ estimation= 165.74748629550513	
+
+
+Reading latency in ms: 5
+GTotal: 10360.55569853138
+distance= 169.0	
+ estimation= 210.10255619144007	
+
+
+Reading latency in ms: 6
+GTotal: 9332.509016342174
+distance= 242.0	
+ estimation= 186.54027844018435	
+
+
+Reading latency in ms: 6
+GTotal: 7366.4040415689915
+distance= 242.0	
+ estimation= 218.82441514582575	
+
+
+Reading latency in ms: 5
+GTotal: 7099.839191318897
+distance= 242.0	
+ estimation= 232.42854242088993	
+
+
+Reading latency in ms: 4
+GTotal: 4825.944118114611
+distance= 191.0	
+ estimation= 238.16667665209846	
+
+
+Reading latency in ms: 5
+GTotal: 4361.218771920531
+distance= 242.0	
+ estimation= 211.08450277790027	
+
+
+Reading latency in ms: 5
+GTotal: 3289.2582807385083
+distance= 192.0	
+ estimation= 229.19541868492064	
+
+
+Reading latency in ms: 3
+GTotal: 2998.8514137333905
+distance= 199.0	
+ estimation= 207.86839914117303	
+
+
+Reading latency in ms: 4
+GTotal: 3905.1274891323746
+distance= 242.0	
+ estimation= 202.98292896219266	
+
+
+Reading latency in ms: 1
+Reading latency in ms: 4
+GTotal: 2856.7674653825798
+distance= 202.0	
+ estimation= 225.86779011558642	
+
+
+Reading latency in ms: 54
+GTotal: 2807.2648470626427
+distance= 242.0	
+ estimation= 212.37536121391668	
+
+
+Reading latency in ms: 5
+GTotal: 2024.662637682578
+distance= 242.0	
+ estimation= 229.83359225821906	
+
+
+Reading latency in ms: 4
+GTotal: 1989.438978651425
+distance= 242.0	
+ estimation= 237.19982796260342	
+
+
+Reading latency in ms: 3
+GTotal: 1026.9780857906858
+distance= 242.0	
+ estimation= 240.29266076280382	
+
+
+Reading latency in ms: 4
+GTotal: 666.2317111343157
+distance= 242.0	
+ estimation= 241.58930600998016	
+
+
+Reading latency in ms: 3
+GTotal: 110.32337346127122
+distance= 242.0	
+ estimation= 242.13560984819165	
+
+
+Reading latency in ms: 4
+GTotal: 16.630106910622672
+distance= 242.0	
+ estimation= 242.33148535329678	
+
+
+******Delta G High!: 93.69326655064854
+Reading latency in ms: 4
+GTotal: 2.160673612150226
+distance= 242.0	
+ estimation= 242.44616221185095	
+
+
+Reading latency in ms: 4
+GTotal: 0.46907021700391405
+distance= 242.0	
+ estimation= 242.49447797756915	
+
+
+AUTOTEST FAILURE

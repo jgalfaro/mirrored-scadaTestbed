@@ -1,0 +1,1315 @@
+PING 192.168.2.3 (192.168.2.3) 56(84) bytes of data.
+64 bytes from 192.168.2.3: icmp_seq=1 ttl=64 time=49.3 ms
+
+--- 192.168.2.3 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 49.351/49.351/49.351/0.000 ms
+New dnp3, port: 20000
+server state: CLOSED
+server state: OPENING
+Outstation state: COMMS_DOWN from port 20000
+Enter something to update a counter or type <quit> to exit
+server state: OPEN
+Outstation state: COMMS_UP from port 20000
+Device ID: 20001
+New dnp3, port: 20001
+server state: CLOSED
+server state: OPENING
+Outstation state: COMMS_DOWN from port 20001
+IP received: /192.168.2.3
+Succesful connection to: /192.168.2.3
+server state: OPEN
+Outstation state: COMMS_UP from port 20001
+Writing: true to: 1
+Response BoolRW: true ID: 20001
+Writing: true to: 2
+Response BoolRW: true ID: 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 138 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 153 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 145 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 133 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 148 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 145 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 149 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 134 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 139 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 135 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 140 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 142 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 148 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 150 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 141 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 144 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 141 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 145 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 144 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 151 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 145 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 144 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 145 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 147 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 140 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 146 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 142 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 136 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 145 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 152 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 133 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 156 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 98 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 148 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 150 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 89 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 105 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 138 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 78 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 102 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 95 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 95 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 119 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 101 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 127 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 128 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 70 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 105 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 127 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 138 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 198 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 113 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 125 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 166 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 115 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 142 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 132 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 150 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 126 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 84 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 144 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 117 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 148 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 138 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 150 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 145 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 141 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 146 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 139 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 145 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 145 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 149 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 132 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 146 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 150 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 141 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 154 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 150 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 157 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 148 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 147 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 146 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 141 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 142 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 140 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 145 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 143 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 138 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 146 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 148 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 144 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 148 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 139 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 133 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 148 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 98 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 73 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 140 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 181 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 151 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 108 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 146 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 132 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 102 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 171 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 155 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 164 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 138 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 121 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 138 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 148 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 139 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 83 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 114 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 128 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 129 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 125 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 100 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 86 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 134 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 84 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 132 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 139 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 119 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 161 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 152 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 174 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 110 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 99 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 85 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 106 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 105 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 93 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 95 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 89 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 99 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 88 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 90 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 89 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 126 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 114 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 95 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 114 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 102 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 106 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 115 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 106 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 88 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 111 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 95 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 119 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 85 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 100 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 92 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 92 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 100 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 90 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 90 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 99 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 144 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 143 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 144 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 149 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 150 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 145 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 137 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 148 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 141 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 142 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 144 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 136 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 146 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 146 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 145 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 145 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 144 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 148 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 135 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 137 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 148 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 139 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 148 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 145 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 146 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 145 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 141 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 142 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 146 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 151 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 141 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 148 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 180 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 155 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 98 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 87 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 80 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 129 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 122 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 99 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 87 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 165 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 200 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 66 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 140 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 120 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 54 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 111 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 210 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 83 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 156 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 116 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 124 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 159 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 128 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 129 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 120 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 97 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 130 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 116 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 141 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 166 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 145 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 83 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 142 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 148 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 152 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 153 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 143 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 143 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 138 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 153 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 145 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 147 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 150 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 147 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 144 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 132 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 140 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 132 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 138 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 149 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 144 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 138 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 141 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 145 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 147 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 138 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 150 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 146 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 142 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 139 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 149 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 141 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 144 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 147 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 96 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 95 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 102 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 81 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 95 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 92 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 102 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 111 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 80 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 96 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 98 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 98 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 84 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 108 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 91 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 97 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 97 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 94 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 111 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 106 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 102 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 101 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 100 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 101 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 97 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 103 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 93 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 105 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 95 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 89 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 90 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 102 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 157 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 123 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 120 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 135 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 139 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 86 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 116 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 127 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 97 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 166 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 120 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 97 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 166 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 111 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 125 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 103 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 79 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 148 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 98 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 76 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 62 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 147 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 74 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 115 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 102 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 173 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 130 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 127 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 101 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 120 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 144 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 158 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 136 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 144 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 143 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 148 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 136 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 147 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 144 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 139 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 147 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 141 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 147 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 160 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 144 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 150 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 144 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 146 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 142 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 136 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 148 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 143 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 150 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 144 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 147 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 148 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 147 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 145 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 144 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 150 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 142 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 139 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 146 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 144 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 91 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 103 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 93 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 109 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 106 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 96 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 109 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 84 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 97 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 94 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 103 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 99 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 95 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 115 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 100 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 111 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 115 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 92 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 80 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 108 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 95 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 100 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 111 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 95 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 96 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 74 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 99 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 117 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 110 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 103 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 113 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 92 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 142 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 148 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 148 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 132 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 141 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 140 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 143 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 149 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 142 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 148 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 142 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 145 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 137 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 145 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 145 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 140 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 143 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 143 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 139 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 145 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 138 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 153 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 129 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 143 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 135 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 152 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 147 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 145 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 139 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 147 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 133 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 147 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 115 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 134 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 167 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 111 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 128 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 132 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 85 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 119 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 104 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 115 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 151 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 95 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 153 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 96 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 148 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 110 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 144 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 138 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 92 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 155 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 110 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 110 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 70 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 131 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 123 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 102 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 63 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 130 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 110 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 109 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 132 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 98 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 137 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 140 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 142 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 139 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 140 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 151 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 149 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 137 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 142 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 144 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 149 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 143 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 153 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 140 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 142 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 146 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 139 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 137 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 147 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 150 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 147 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 149 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 147 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 148 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 142 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 148 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 145 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 145 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 152 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 147 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 139 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 143 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 97 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 91 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 114 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 102 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 103 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 94 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 87 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 108 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 99 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 94 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 100 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 97 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 119 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 103 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 74 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 102 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 111 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 92 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 107 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 97 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 105 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 101 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 88 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 118 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 96 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 103 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 110 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 112 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 104 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 108 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 97 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 99 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 147 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 90 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 62 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 120 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 121 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 77 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 155 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 82 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 105 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 126 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 151 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 93 at index: 0 and port 20001
+Response BoolRW: false ID: 20001
+Writing succesful: 191 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 100 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 133 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 104 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 133 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 105 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 141 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 156 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 180 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 104 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 132 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 111 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 125 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 85 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 77 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 134 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 154 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 159 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 99 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 107 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 101 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 101 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 85 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 108 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 93 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 104 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 97 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 107 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 86 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 110 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 114 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 106 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 101 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 85 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 99 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 94 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 82 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 102 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 111 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 109 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 102 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 98 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 103 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 98 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 105 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 85 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 98 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 98 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 99 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 114 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 99 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 101 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 136 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 84 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 127 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 114 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 161 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 147 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 107 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 101 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 88 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 101 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 83 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 159 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 143 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 106 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 106 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 114 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 66 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 125 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 85 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 105 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 119 at index: 0 and port 20001
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.readBoolRW(ModBusConnection.java:80)
+	at rtu.PlcCommandHandler.select(PlcCommandHandler.java:92)
+	at com.automatak.dnp3.impl.CommandHandlerAdapter.Select(CommandHandlerAdapter.java:78)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+Outstation state: COMMS_DOWN from port 20000
+server state: CLOSED
+server state: OPENING
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.readBoolRW(ModBusConnection.java:80)
+	at rtu.PlcCommandHandler.select(PlcCommandHandler.java:92)
+	at com.automatak.dnp3.impl.CommandHandlerAdapter.Select(CommandHandlerAdapter.java:78)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.readBoolRW(ModBusConnection.java:80)
+	at rtu.PlcCommandHandler.select(PlcCommandHandler.java:92)
+	at com.automatak.dnp3.impl.CommandHandlerAdapter.Select(CommandHandlerAdapter.java:78)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.readBoolRW(ModBusConnection.java:80)
+	at rtu.PlcCommandHandler.select(PlcCommandHandler.java:92)
+	at com.automatak.dnp3.impl.CommandHandlerAdapter.Select(CommandHandlerAdapter.java:78)
+Read coil failed
+Outstation state: COMMS_DOWN from port 20001
+server state: CLOSED
+server state: OPENING
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+AUTOTEST FAILURE
