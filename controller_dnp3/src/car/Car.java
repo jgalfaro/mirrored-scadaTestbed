@@ -268,7 +268,7 @@ public class Car {
 			    //Residue=distance -Cx
 			    Matrix residue=new Matrix(1,1,0.0);
 			    // sensor noise R
-			    Matrix R = new Matrix(1,1,1);
+			    Matrix R = new Matrix(1,1,0.8);
 			    //Process noise
 			    double [][] Q_m={{1,0.0}, {0.0,1}}; //new double [2][2];
 			    Matrix Q = new Matrix(Q_m);
@@ -303,7 +303,7 @@ public class Car {
 						//////////////////////////////////////////////////////////////////////
 						if(ancienEtat!=etat) d_initial.set(0,0,wallDistance);				
 						if((ancienEtat!=etat)||(speed0==1)){
-						if (!(ancienEtat)){
+								if (!(ancienEtat)){
 		     	    				System.out.println("Round trip finished");
 		     	    			}
 								System.out.println("Initializing distance"); 		
@@ -354,7 +354,7 @@ public class Car {
         	    		else {
         	    			sens=1;
         	    		}
-						speed = sens*250;//+(int)variation;
+						speed = sens*250+(int)variation;
 
 						u.set(0, 0, (double)speed);
 
@@ -413,7 +413,7 @@ public class Car {
 						//System.out.println("Distance: " + wallDistance + " estimation: " + (Math.abs(estimation.get(0,0)) + dInitialInt));			
 						//***********************************************************************
 						if((g_total+g_total_old)/2 < lowthreshold && alarme_cycle > 0 ) stabled++;
-						if(stabled>10) {
+						if(stabled>8) {
 							stabled = 0;
 							alarme_cycle--;
 						}
