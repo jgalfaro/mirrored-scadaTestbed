@@ -354,7 +354,7 @@ public class Car {
         	    		else {
         	    			sens=1;
         	    		}
-						speed = sens*250;//+(int)variation;
+						speed = sens*250+(int)variation;
 
 						u.set(0, 0, (double)speed);
 
