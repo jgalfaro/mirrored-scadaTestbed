@@ -188,7 +188,7 @@ public class Car {
 			    //Multi watermark
 			    boolean multiWater = false;
 			    int mwCounter = 1;
-		        int mwPeriod = 32;            
+		        int mwPeriod = 24;            
 			    int watermark = ThreadLocalRandom.current().nextInt(1, 4);
 			    ////////////////////////////////////////////////////
 			    boolean dumpVars = true;
@@ -319,19 +319,22 @@ public class Car {
 								mwCounter = 0;
 								int prevwm = watermark;
 								while(prevwm == watermark) {
-									watermark = ThreadLocalRandom.current().nextInt(1, 4);
+									watermark = ThreadLocalRandom.current().nextInt(1, 5);
 								}
 								
 							}
 							switch (watermark){
 					    		case 1:
-					    			variation=25+5*randomno.nextGaussian();
+					    			variation=30+5*randomno.nextGaussian();
 					    		break;
 					    		case 2:
-					    			variation=30*randomno.nextGaussian();
+					    			variation=5*randomno.nextGaussian();
 					    		break;
 					    		case 3:
-					    			variation=-20+10*randomno.nextGaussian();
+					    			variation=0;
+					    		break;
+					    		case 4:
+					    			variation=-30-5*randomno.nextGaussian();
 					    		break;
 					    	}
 
@@ -439,13 +442,16 @@ public class Car {
 						 	 alerte=false;
 						}
 						if ((alarm==1)||alerte){
-						    if (wallDistance > 50){
-							if (wallDistance<180){
+						    if (wallDistance > 50 && sens == -1){
+								//alarme_cycle++;
+							    stabled = 0;
+							    conAlarm++;
+						    }
+						    if (wallDistance<180 && sens == 1){
 							    //alarme_cycle++;
 							    stabled = 0;
 							    conAlarm++;
 							}
-						    }
 						}
 						if(conAlarm>wind){
 							alarme_cycle++;	

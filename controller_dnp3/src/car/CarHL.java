@@ -406,7 +406,7 @@ public class CarHL {
 						//Matrix estimation = (C.times(state_pre));
 						//System.out.println(" x_pre= " + (car.getState_pre()).toString() + "\n x_post= " + (car.getState_post()).toString() + "\n distance= " + data[1] +" estimation= " + estimation.toString() + "\n");
 						System.out.println("Real distance= " + wallDistance +" distance= " + data[1] +" estimation= " + estimation.toString() + "\n");
-						//System.out.println("Distance: " + wallDistance + " estimation: " + (Math.abs(estimation.get(0,0)) + dInitialInt));			
+						System.out.println("Alarmcycle: " + alarme_cycle);			
 						//***********************************************************************
 						if((g_total+g_total_old)/2 < lowthreshold && alarme_cycle > 0 ) stabled++;
 						if(stabled>10) {
@@ -435,13 +435,16 @@ public class CarHL {
 						 	 alerte=false;
 						}
 						if ((alarm==1)||alerte){
-						    if (wallDistance > 50){
-							if (wallDistance<180){
+						    if (wallDistance > 50 && sens == -1){
+								//alarme_cycle++;
+							    stabled = 0;
+							    conAlarm++;
+						    }
+						    if (wallDistance<180 && sens == 1){
 							    //alarme_cycle++;
 							    stabled = 0;
 							    conAlarm++;
 							}
-						    }
 						}
 						if(conAlarm>wind){
 							alarme_cycle++;	
