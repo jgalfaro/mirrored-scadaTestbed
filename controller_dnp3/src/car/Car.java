@@ -186,10 +186,10 @@ public class Car {
 			    boolean gRising = false;
 			    ///////////////////////////////////////////////////
 			    //Multi watermark
-			    boolean multiWater = false;
+			    boolean multiWater = true;
 			    int mwCounter = 1;
-		        int mwPeriod = 24;            
-			    int watermark = ThreadLocalRandom.current().nextInt(1, 4);
+			    int mwPeriod = 16;            
+			    int watermark = ThreadLocalRandom.current().nextInt(1, 5);
 			    ////////////////////////////////////////////////////
 			    boolean dumpVars = true;
 
@@ -325,7 +325,7 @@ public class Car {
 							}
 							switch (watermark){
 					    		case 1:
-					    			variation=30+5*randomno.nextGaussian();
+					    			variation=30+10*randomno.nextGaussian();
 					    		break;
 					    		case 2:
 					    			variation=5*randomno.nextGaussian();
@@ -334,7 +334,7 @@ public class Car {
 					    			variation=0;
 					    		break;
 					    		case 4:
-					    			variation=-30-5*randomno.nextGaussian();
+					    			variation=-30-10*randomno.nextGaussian();
 					    		break;
 					    	}
 
@@ -447,7 +447,7 @@ public class Car {
 							    stabled = 0;
 							    conAlarm++;
 						    }
-						    if (wallDistance<180 && sens == 1){
+						    if (wallDistance<190 && sens == 1){
 							    //alarme_cycle++;
 							    stabled = 0;
 							    conAlarm++;
@@ -455,6 +455,10 @@ public class Car {
 						}
 						if(conAlarm>wind){
 							alarme_cycle++;	
+						}
+						if((System.currentTimeMillis() - initialTime)/1000.0 < 8){
+							alarme_cycle=0;
+							System.out.println("Omiting alarm!");
 						}
 						long duration = 0;
 						if(enableControl) {

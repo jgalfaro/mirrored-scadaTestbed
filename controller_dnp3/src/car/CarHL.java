@@ -449,6 +449,11 @@ public class CarHL {
 						if(conAlarm>wind){
 							alarme_cycle++;	
 						}
+						if((System.currentTimeMillis() - initialTime)/1000.0 < 8){
+							alarme_cycle=0;
+							System.out.println("Omiting alarm!");
+						}
+
 						long duration = 0;
 						if(enableControl) {
 							
