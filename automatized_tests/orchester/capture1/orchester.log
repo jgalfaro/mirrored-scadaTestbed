@@ -1,0 +1,117 @@
+Thu Aug 25 12:35:56 CEST 2016 -- Starting mitm_gui.py with 25 rounds all PLC, RTU and HMI are up and manageable
+Thu Aug 25 12:35:58 CEST 2016 -- Starting round 1
+Thu Aug 25 12:38:13 CEST 2016 -- Succesful round 1 , storing data
+Thu Aug 25 12:38:24 CEST 2016 -- Starting round 2
+Thu Aug 25 12:40:26 CEST 2016 -- Succesful round 2 , storing data
+Thu Aug 25 12:40:36 CEST 2016 -- Starting round 3
+Thu Aug 25 12:42:33 CEST 2016 -- Succesful round 3 , storing data
+Thu Aug 25 12:42:44 CEST 2016 -- Starting round 4
+Thu Aug 25 12:44:30 CEST 2016 -- Succesful round 4 , storing data
+Thu Aug 25 12:44:40 CEST 2016 -- Starting round 5
+Thu Aug 25 12:46:54 CEST 2016 -- Succesful round 5 , storing data
+Thu Aug 25 12:47:05 CEST 2016 -- Starting round 6
+Thu Aug 25 12:48:53 CEST 2016 -- Succesful round 6 , storing data
+Thu Aug 25 12:49:04 CEST 2016 -- Starting round 7
+Thu Aug 25 12:50:52 CEST 2016 -- Succesful round 7 , storing data
+Thu Aug 25 12:51:02 CEST 2016 -- Starting round 8
+Thu Aug 25 12:53:25 CEST 2016 -- Starting mitm_gui.py with 25 rounds all PLC, RTU and HMI are up and manageable
+Thu Aug 25 12:53:27 CEST 2016 -- Starting round 7
+Thu Aug 25 12:55:20 CEST 2016 -- Succesful round 7 , storing data
+Thu Aug 25 12:55:30 CEST 2016 -- Starting round 8
+Thu Aug 25 12:57:38 CEST 2016 -- Succesful round 8 , storing data
+Thu Aug 25 12:57:49 CEST 2016 -- Starting round 9
+Thu Aug 25 12:59:34 CEST 2016 -- Succesful round 9 , storing data
+Thu Aug 25 12:59:45 CEST 2016 -- Starting round 10
+Thu Aug 25 13:01:58 CEST 2016 -- Succesful round 10 , storing data
+Thu Aug 25 13:02:08 CEST 2016 -- Starting round 11
+Thu Aug 25 13:02:57 CEST 2016 -- Succesful round 11 , storing data
+Thu Aug 25 13:03:07 CEST 2016 -- Starting round 12
+Thu Aug 25 13:05:00 CEST 2016 -- Succesful round 12 , storing data
+Thu Aug 25 13:05:10 CEST 2016 -- Starting round 13
+Thu Aug 25 13:07:12 CEST 2016 -- Succesful round 13 , storing data
+Thu Aug 25 13:07:23 CEST 2016 -- Starting round 14
+Thu Aug 25 13:09:42 CEST 2016 -- Succesful round 14 , storing data
+Thu Aug 25 13:09:53 CEST 2016 -- Starting round 15
+Thu Aug 25 13:11:44 CEST 2016 -- Starting mitm_gui.py with 25 rounds all PLC, RTU and HMI are up and manageable
+Thu Aug 25 13:11:47 CEST 2016 -- Starting round 14
+Thu Aug 25 13:13:48 CEST 2016 -- Succesful round 14 , storing data
+Thu Aug 25 13:13:58 CEST 2016 -- Starting round 15
+Thu Aug 25 13:15:52 CEST 2016 -- Succesful round 15 , storing data
+Thu Aug 25 13:16:02 CEST 2016 -- Starting round 16
+Thu Aug 25 13:17:48 CEST 2016 -- Succesful round 16 , storing data
+Thu Aug 25 13:17:59 CEST 2016 -- Starting round 17
+Thu Aug 25 13:30:26 CEST 2016 -- Starting mitm_gui.py with 25 rounds all PLC, RTU and HMI are up and manageable
+Thu Aug 25 13:30:28 CEST 2016 -- Starting round 14
+Thu Aug 25 13:32:46 CEST 2016 -- Succesful round 14 , storing data
+Thu Aug 25 13:32:56 CEST 2016 -- Starting round 15
+Thu Aug 25 13:35:06 CEST 2016 -- Succesful round 15 , storing data
+Thu Aug 25 13:35:16 CEST 2016 -- Starting round 16
+Thu Aug 25 13:36:25 CEST 2016 -- Failure detected in round 16 , repeating this round
+Thu Aug 25 13:36:35 CEST 2016 -- Starting round 16
+Thu Aug 25 13:36:51 CEST 2016 -- Error starting the controller
+Thu Aug 25 13:36:51 CEST 2016 -- Starting round 16
+Thu Aug 25 13:37:55 CEST 2016 -- Failure detected in round 16 , repeating this round
+Thu Aug 25 13:38:05 CEST 2016 -- Starting round 16
+Thu Aug 25 13:39:26 CEST 2016 -- Failure detected in round 16 , repeating this round
+Thu Aug 25 13:39:36 CEST 2016 -- Starting round 16
+Thu Aug 25 13:39:51 CEST 2016 -- Error starting the controller
+Thu Aug 25 13:39:51 CEST 2016 -- Starting round 16
+Thu Aug 25 13:41:26 CEST 2016 -- Failure detected in round 16 , repeating this round
+Thu Aug 25 13:41:36 CEST 2016 -- Starting round 16
+Thu Aug 25 13:41:51 CEST 2016 -- Error starting the controller
+Thu Aug 25 13:41:51 CEST 2016 -- Starting round 16
+Thu Aug 25 13:43:26 CEST 2016 -- Failure detected in round 16 , repeating this round
+Thu Aug 25 13:43:36 CEST 2016 -- Starting round 16
+Thu Aug 25 13:43:51 CEST 2016 -- Error starting the controller
+Thu Aug 25 13:43:51 CEST 2016 -- Starting round 16
+Thu Aug 25 13:45:26 CEST 2016 -- Failure detected in round 16 , repeating this round
+Thu Aug 25 13:45:36 CEST 2016 -- Starting round 16
+Thu Aug 25 13:45:51 CEST 2016 -- Error starting the controller
+Thu Aug 25 13:45:51 CEST 2016 -- Starting round 16
+Thu Aug 25 13:47:54 CEST 2016 -- Succesful round 16 , storing data
+Thu Aug 25 13:48:04 CEST 2016 -- Starting round 17
+Thu Aug 25 13:49:54 CEST 2016 -- Succesful round 17 , storing data
+Thu Aug 25 13:50:05 CEST 2016 -- Starting round 18
+Thu Aug 25 13:52:04 CEST 2016 -- Succesful round 18 , storing data
+Thu Aug 25 13:52:14 CEST 2016 -- Starting round 19
+Thu Aug 25 13:54:18 CEST 2016 -- Failure detected in round 19 , repeating this round
+Thu Aug 25 13:54:28 CEST 2016 -- Starting round 19
+Thu Aug 25 13:54:43 CEST 2016 -- Error starting the controller
+Thu Aug 25 13:54:43 CEST 2016 -- Starting round 19
+Thu Aug 25 13:56:29 CEST 2016 -- Failure detected in round 19 , repeating this round
+Thu Aug 25 13:56:39 CEST 2016 -- Starting round 19
+Thu Aug 25 13:56:54 CEST 2016 -- Error starting the controller
+Thu Aug 25 13:56:54 CEST 2016 -- Starting round 19
+Thu Aug 25 13:58:09 CEST 2016 -- Starting mitm_gui.py with 25 rounds all PLC, RTU and HMI are up and manageable
+Thu Aug 25 13:58:11 CEST 2016 -- Starting round 19
+Thu Aug 25 13:58:32 CEST 2016 -- Error starting the controller
+Thu Aug 25 13:58:32 CEST 2016 -- Starting round 19
+Thu Aug 25 13:58:52 CEST 2016 -- Error starting the controller
+Thu Aug 25 13:58:52 CEST 2016 -- Starting round 19
+Thu Aug 25 13:59:12 CEST 2016 -- Error starting the controller
+Thu Aug 25 13:59:12 CEST 2016 -- Starting round 19
+Thu Aug 25 13:59:20 CEST 2016 -- Starting mitm_gui.py with 25 rounds all PLC, RTU and HMI are up and manageable
+Thu Aug 25 13:59:23 CEST 2016 -- Starting round 19
+Thu Aug 25 13:59:43 CEST 2016 -- Error starting the controller
+Thu Aug 25 14:00:03 CEST 2016 -- Starting round 19
+Thu Aug 25 14:02:22 CEST 2016 -- Succesful round 19 , storing data
+Thu Aug 25 14:02:33 CEST 2016 -- Starting round 20
+Thu Aug 25 14:03:31 CEST 2016 -- Starting mitm_gui.py with 25 rounds all PLC, RTU and HMI are up and manageable
+Thu Aug 25 14:03:34 CEST 2016 -- Starting round 20
+Thu Aug 25 14:05:49 CEST 2016 -- Succesful round 20 , storing data
+Thu Aug 25 14:06:00 CEST 2016 -- Starting round 21
+Thu Aug 25 14:06:20 CEST 2016 -- Error starting the controller
+Thu Aug 25 14:06:40 CEST 2016 -- Starting round 21
+Thu Aug 25 14:07:00 CEST 2016 -- Error starting the controller
+Thu Aug 25 14:07:20 CEST 2016 -- Starting round 21
+Thu Aug 25 14:07:41 CEST 2016 -- Error starting the controller
+Thu Aug 25 14:08:01 CEST 2016 -- Starting round 21
+Thu Aug 25 14:10:03 CEST 2016 -- Succesful round 21 , storing data
+Thu Aug 25 14:10:14 CEST 2016 -- Starting round 22
+Thu Aug 25 14:12:18 CEST 2016 -- Succesful round 22 , storing data
+Thu Aug 25 14:12:28 CEST 2016 -- Starting round 23
+Thu Aug 25 14:14:45 CEST 2016 -- Succesful round 23 , storing data
+Thu Aug 25 14:14:56 CEST 2016 -- Starting round 24
+Thu Aug 25 14:16:55 CEST 2016 -- Succesful round 24 , storing data
+Thu Aug 25 14:17:05 CEST 2016 -- Starting round 25
+Thu Aug 25 14:19:16 CEST 2016 -- Succesful round 25 , storing data

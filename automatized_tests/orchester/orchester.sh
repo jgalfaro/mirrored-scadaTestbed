@@ -28,11 +28,15 @@ function hardErrorsIn {
 LF=$(getParameter logfilename)
 LF=$DIR/logs/$LF.log
 
+ping -c 2 `getParameter rtuip`
+ping -c 2 `getParameter controllerip`
+ping -c 2 `getParameter carip`
+
 timeout 10 ssh -q -i $DIR/keys/id_rsa -o "StrictHostKeyChecking no" `getParameter controlleruser`@`getParameter controllerip` "uptime"
 if [ $? -eq 0 ]; then echo "CONTROLLER HOST UP"; else echo "CONTROLLER HOST DOWN"; exit 0; fi
 timeout 10 ssh -q -i $DIR/keys/id_rsa -o "StrictHostKeyChecking no" `getParameter rtuuser`@`getParameter rtuip` "uptime"
 if [ $? -eq 0 ]; then echo "RTU HOST UP"; else echo "RTU HOST DOWN"; exit 0; fi
-timeout 10 ssh -q -i $DIR/keys/id_rsa -o "StrictHostKeyChecking no" `getParameter caruser`@`getParameter carip` "uptime"
+timeout 10 ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -q -i $DIR/keys/id_rsa -o "StrictHostKeyChecking no" `getParameter caruser`@`getParameter carip` "uptime"
 if [ $? -eq 0 ]; then echo "PLC HOST UP"; else echo "PLC HOST DOWN IP `getParameter carip`"; exit 0; fi
 
 iterations=$(getParameter attackrounds)
@@ -52,18 +56,23 @@ ANAME=$(getParameter attackname)
 timeout 10 ssh -q -i $DIR/keys/id_rsa -o "StrictHostKeyChecking no" `getParameter controlleruser`@`getParameter controllerip` "~/automatizedtesting/remotecompile.sh"
 while [ $i -le $iterations ]; do
 	echo "`date` -- Starting round $i" | tee -a $LF
+	
+	ping -c 1 `getParameter rtuip`
+	ping -c 1 `getParameter controllerip`
+	ping -c 1 `getParameter carip`
 	ssh -q -i $DIR/keys/id_rsa -o "StrictHostKeyChecking no" `getParameter rtuuser`@`getParameter rtuip` "~/automatizedtesting/remotereset.sh `getParameter carip`" 2>&1 | tee $RL$i.log &
 	sleep 5
 	ssh -q -i $DIR/keys/id_rsa -o "StrictHostKeyChecking no" `getParameter controlleruser`@`getParameter controllerip` "~/automatizedtesting/remoterun.sh `getParameter carip` `getParameter attackname`.$i.log" 2>&1 | tee $CL$i.log &
-	sleep 10
+	sleep 15
 	if [ `hardErrorsIn $CL$i.log` -ge 1 ] || [ `errorsIn $CL$i.log` -ge 1 ] ; then
 		ssh -q -i $DIR/keys/id_rsa -o "StrictHostKeyChecking no" `getParameter controlleruser`@`getParameter controllerip` "~/automatizedtesting/killjava.sh"
 		echo "`date` -- Error starting the controller" | tee -a $LF
-		break
+		sleep 20
+		continue
 	fi
 	sudo $ADIR/remote_handler.sh `getParameter attackname` `getParameter attinterface` 2>&1 | tee $AL$i.log
 	sleep 5
-	if [ `errorsIn $RL$i.log` -ge 1 ] || [ `errorsIn $CL$i.log` -ge 1 ] || [ `errorsIn $AL$i.log` -ge 1 ] ; then
+	if [ `errorsIn $RL$i.log` -ge 1 ] || [ `errorsIn $CL$i.log` -ge 1 ] || [ `errorsIn $AL$i.log` -ge 1 ] || [ `hardErrorsIn $CL$i.log` -ge 1 ] ; then
 		echo "`date` -- Failure detected in round $i , repeating this round" | tee -a $LF
 		failure=$(grep "AUTOTEST FAILURE" $DIR/logs/*.$i.log)
 		echo "`date` -- Failure in $failure"
@@ -78,3 +87,5 @@ while [ $i -le $iterations ]; do
 	fi
 	sleep 10
 done
+
+zip -r $DIR/`date +%H:%M`-$ANAME-data.zip  $DIR/logs/

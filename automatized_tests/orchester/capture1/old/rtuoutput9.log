@@ -1,0 +1,725 @@
+PING 192.168.2.3 (192.168.2.3) 56(84) bytes of data.
+64 bytes from 192.168.2.3: icmp_seq=1 ttl=64 time=85.1 ms
+64 bytes from 192.168.2.3: icmp_seq=2 ttl=64 time=6.14 ms
+
+--- 192.168.2.3 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+rtt min/avg/max/mdev = 6.147/45.672/85.197/39.525 ms
+PING 192.168.2.3 (192.168.2.3) 56(84) bytes of data.
+64 bytes from 192.168.2.3: icmp_seq=1 ttl=64 time=8.09 ms
+
+--- 192.168.2.3 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 8.097/8.097/8.097/0.000 ms
+New dnp3, port: 20000
+server state: CLOSED
+server state: OPENING
+Enter something to update a counter or type <quit> to exit
+Outstation state: COMMS_DOWN from port 20000
+server state: OPEN
+Outstation state: COMMS_UP from port 20000
+Device ID: 20001
+New dnp3, port: 20001
+server state: CLOSED
+server state: OPENING
+Outstation state: COMMS_DOWN from port 20001
+IP received: /192.168.2.3
+Succesful connection to: /192.168.2.3
+server state: OPEN
+Outstation state: COMMS_UP from port 20001
+Writing: true to: 1
+Response BoolRW: true ID: 20001
+Writing: true to: 2
+Response BoolRW: true ID: 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 280 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 261 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 242 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 227 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 225 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 207 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 316 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 247 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 204 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 253 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 277 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 253 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 240 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 288 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 280 at index: 0 and port 20001
+Response BoolRW: true ID: 20001
+Writing succesful: 303 at index: 0 and port 20001
+Outstation state: COMMS_DOWN from port 20000
+server state: CLOSED
+server state: OPENING
+Outstation state: COMMS_DOWN from port 20001
+server state: CLOSED
+server state: OPENING
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:196)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:235)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:275)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at java.io.DataInputStream.read(DataInputStream.java:149)
+	at net.wimpi.modbus.io.ModbusTCPTransport.readResponse(ModbusTCPTransport.java:189)
+	at net.wimpi.modbus.io.ModbusTCPTransaction.execute(ModbusTCPTransaction.java:192)
+	at rtu.ModBusConnection.getIntRO(ModBusConnection.java:146)
+	at rtu.CarThread.run(CarThread.java:57)
+server state: OPEN
+Outstation state: COMMS_UP from port 20000
+Outstation state: COMMS_DOWN from port 20000
+server state: CLOSED
+server state: OPENING
+server state: OPEN
+Outstation state: COMMS_UP from port 20000
+Device ID: 20001
+New dnp3, port: 20001
+server state: CLOSED
+server state: OPENING
+server state: OPEN
+Outstation state: COMMS_UP from port 20001
+Writing: true to: 1
+Write coil failed
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Writing: true to: 2
+Write coil failed
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@161c602 -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@eb73e -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@208506 -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@fd5428 -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@1a04c26 -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@e7736c -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@14ad296 -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@1479a6b -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@1eae775 -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@101b455 -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@e6529c -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@1399ae5 -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@e8709d -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@380dbe -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@e5f1d -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@1869929 -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@1b15387 -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@e2da7a -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@175831e -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@1f3329a -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@17f2ee6 -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@e01873 -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@6558bb -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@1a49182 -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@14cf1b9 -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@91cc3a -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@1f713ed -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@3d58b2 -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@18a3745 -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@132ca2b -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@176ed77 -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@e02fc4 -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@600a08 -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@132967d -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@35ee49 -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@af0e38 -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@ce8e44 -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@de4f4b -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@127ffd7 -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Write input register failed
+COMMAND_HANDLER: Error writing: com.automatak.dnp3.ControlRelayOutputBlock@10dae16 -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Read coil failed
+COMMAND_HANDLER: Error reading boolean -- Exception: net.wimpi.modbus.ModbusIOException: Executing transaction failed (tried 3 times)
+Outstation state: COMMS_DOWN from port 20000
+server state: CLOSED
+server state: OPENING
+Outstation state: COMMS_DOWN from port 20001
+server state: CLOSED
+server state: OPENING
+Exception in thread "main" java.lang.NullPointerException
+	at rtu.MainRTU.main(MainRTU.java:31)

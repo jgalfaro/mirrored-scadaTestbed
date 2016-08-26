@@ -1,0 +1,34 @@
+vie ago 26 14:39:12 CEST 2016 -- Starting mitm_parattack.py with 25 rounds all PLC, RTU and HMI are up and manageable
+vie ago 26 14:39:22 CEST 2016 -- Starting round 1
+vie ago 26 14:44:45 CEST 2016 -- Starting mitm_parattack.py with 25 rounds all PLC, RTU and HMI are up and manageable
+vie ago 26 14:44:47 CEST 2016 -- Starting round 1
+vie ago 26 14:46:24 CEST 2016 -- Succesful round 1 , storing data
+vie ago 26 14:46:34 CEST 2016 -- Starting round 2
+vie ago 26 14:48:17 CEST 2016 -- Succesful round 2 , storing data
+vie ago 26 14:48:28 CEST 2016 -- Starting round 3
+vie ago 26 14:50:10 CEST 2016 -- Succesful round 3 , storing data
+vie ago 26 14:50:20 CEST 2016 -- Starting round 4
+vie ago 26 14:52:00 CEST 2016 -- Succesful round 4 , storing data
+vie ago 26 14:52:11 CEST 2016 -- Starting round 5
+vie ago 26 14:53:52 CEST 2016 -- Succesful round 5 , storing data
+vie ago 26 14:54:03 CEST 2016 -- Starting round 6
+vie ago 26 14:55:49 CEST 2016 -- Succesful round 6 , storing data
+vie ago 26 14:56:00 CEST 2016 -- Starting round 7
+vie ago 26 14:57:41 CEST 2016 -- Succesful round 7 , storing data
+vie ago 26 14:57:52 CEST 2016 -- Starting round 8
+vie ago 26 14:59:29 CEST 2016 -- Succesful round 8 , storing data
+vie ago 26 14:59:39 CEST 2016 -- Starting round 9
+vie ago 26 15:01:22 CEST 2016 -- Succesful round 9 , storing data
+vie ago 26 15:01:33 CEST 2016 -- Starting round 10
+vie ago 26 15:03:14 CEST 2016 -- Succesful round 10 , storing data
+vie ago 26 15:03:25 CEST 2016 -- Starting round 11
+vie ago 26 15:05:14 CEST 2016 -- Succesful round 11 , storing data
+vie ago 26 15:05:24 CEST 2016 -- Starting round 12
+vie ago 26 15:05:45 CEST 2016 -- Error starting the controller
+vie ago 26 15:06:05 CEST 2016 -- Starting round 12
+vie ago 26 15:06:25 CEST 2016 -- Error starting the controller
+vie ago 26 15:06:45 CEST 2016 -- Starting round 12
+vie ago 26 15:10:08 CEST 2016 -- Failure detected in round 12 , repeating this round
+vie ago 26 15:10:18 CEST 2016 -- Starting round 12
+vie ago 26 15:10:39 CEST 2016 -- Error starting the controller
+vie ago 26 15:10:59 CEST 2016 -- Starting round 12
