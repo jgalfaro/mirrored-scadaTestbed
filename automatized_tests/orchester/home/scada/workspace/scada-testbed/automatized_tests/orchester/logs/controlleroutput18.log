@@ -1,0 +1,2862 @@
+java: no process found
+Starting program, PLC at: 192.168.2.3
+Starting time: 14:08:27.945
+Connecting to 192.168.2.2 in port 20000... Connected
+Creating new connection in port 20001
+Response: SUCCESS
+Connecting to 192.168.2.2 in port 20001... Connected
+Reading latency in ms: 1
+Initializing distance
+ Initial_distance= 0.0	
+
+
+GTotal: 27.962624909519995
+Real distance= 0 distance= 0.0	
+ estimation= 4.729704	
+
+
+Alarmcycle: 0
+Omiting alarm!
+Reading latency in ms: 3
+GTotal: 20277.19554620053
+Real distance= 121 distance= -121.0	
+ estimation= 6.2768098949404365	
+
+
+Alarmcycle: 0
+Omiting alarm!
+Reading latency in ms: 3
+GTotal: 23653.457105516674
+Real distance= 118 distance= -118.0	
+ estimation= -66.02876519214773	
+
+
+Alarmcycle: 0
+Omiting alarm!
+Reading latency in ms: 2
+GTotal: 24281.77989335231
+Real distance= 115 distance= -115.0	
+ estimation= -92.57995918227377	
+
+
+Alarmcycle: 0
+Omiting alarm!
+Reading latency in ms: 2
+GTotal: 24386.80671074267
+Real distance= 112 distance= -112.0	
+ estimation= -101.68537185159354	
+
+
+Alarmcycle: 0
+******Delta G High!: 105.02681739035688
+Omiting alarm!
+Reading latency in ms: 3
+GTotal: 4164.668919885746
+Real distance= 109 distance= -109.0	
+ estimation= -104.34423965959674	
+
+
+Alarmcycle: 0
+Omiting alarm!
+Reading latency in ms: 3
+GTotal: 800.873039134591
+Real distance= 106 distance= -106.0	
+ estimation= -102.8420666802493	
+
+
+Alarmcycle: 0
+Omiting alarm!
+Reading latency in ms: 3
+GTotal: 182.03117612190323
+Real distance= 103 distance= -103.0	
+ estimation= -100.24595935789607	
+
+
+Alarmcycle: 0
+Omiting alarm!
+Reading latency in ms: 2
+GTotal: 91.46467787785431
+Real distance= 103 distance= -103.0	
+ estimation= -97.17433649747433	
+
+
+Alarmcycle: 0
+******Delta G High!: 90.56649824404892
+Omiting alarm!
+Reading latency in ms: 4
+GTotal: 86.25306261251843
+Real distance= 100 distance= -100.0	
+ estimation= -95.81588574068499	
+
+
+Alarmcycle: 0
+Omiting alarm!
+Reading latency in ms: 2
+GTotal: 85.55335737608135
+Real distance= 97 distance= -97.0	
+ estimation= -93.93197479429487	
+
+
+Alarmcycle: 0
+Omiting alarm!
+Reading latency in ms: 3
+GTotal: 84.9662173131822
+Real distance= 94 distance= -94.0	
+ estimation= -91.33259905375272	
+
+
+Alarmcycle: 0
+Omiting alarm!
+Reading latency in ms: 3
+GTotal: 43.37943754369967
+Real distance= 90 distance= -90.0	
+ estimation= -89.18211771686039	
+
+
+Alarmcycle: 0
+Omiting alarm!
+Reading latency in ms: 2
+GTotal: 25.259440907473834
+Real distance= 88 distance= -88.0	
+ estimation= -86.26483002964478	
+
+
+Alarmcycle: 0
+Omiting alarm!
+Reading latency in ms: 4
+GTotal: 13.838113436509975
+Real distance= 84 distance= -84.0	
+ estimation= -83.47491268719298	
+
+
+Alarmcycle: 0
+Omiting alarm!
+Reading latency in ms: 3
+GTotal: 12.175287273596783
+Real distance= 82 distance= -82.0	
+ estimation= -79.59484576841518	
+
+
+Alarmcycle: 0
+Omiting alarm!
+Reading latency in ms: 2
+GTotal: 26.361332002364648
+Real distance= 80 distance= -80.0	
+ estimation= -76.53333485723124	
+
+
+Alarmcycle: 0
+Omiting alarm!
+Reading latency in ms: 2
+GTotal: 33.07810377060023
+Real distance= 77 distance= -77.0	
+ estimation= -74.10444612541728	
+
+
+Alarmcycle: 0
+Omiting alarm!
+Reading latency in ms: 2
+GTotal: 50.2990629877105
+Real distance= 75 distance= -75.0	
+ estimation= -71.25133569657683	
+
+
+Alarmcycle: 0
+Omiting alarm!
+Reading latency in ms: 3
+GTotal: 52.23194759554395
+Real distance= 72 distance= -72.0	
+ estimation= -69.29240428350592	
+
+
+Alarmcycle: 0
+Omiting alarm!
+Reading latency in ms: 2
+GTotal: 38.822910898508404
+Real distance= 68 distance= -68.0	
+ estimation= -66.86398157829218	
+
+
+Alarmcycle: 0
+Omiting alarm!
+Reading latency in ms: 3
+GTotal: 33.84733474291421
+Real distance= 66 distance= -66.0	
+ estimation= -63.90148354399218	
+
+
+Alarmcycle: 0
+Omiting alarm!
+Reading latency in ms: 4
+GTotal: 16.680676753052566
+Real distance= 63 distance= -63.0	
+ estimation= -62.43505958909829	
+
+
+Alarmcycle: 0
+Omiting alarm!
+Reading latency in ms: 3
+GTotal: 14.285170895368282
+Real distance= 60 distance= -60.0	
+ estimation= -57.673055677969565	
+
+
+Alarmcycle: 0
+Omiting alarm!
+Reading latency in ms: 2
+GTotal: 22.692135728167173
+Real distance= 58 distance= -58.0	
+ estimation= -55.16872648430099	
+
+
+Alarmcycle: 0
+Omiting alarm!
+Reading latency in ms: 3
+GTotal: 24.211395124364564
+Real distance= 55 distance= -55.0	
+ estimation= -52.629519282277634	
+
+
+Alarmcycle: 0
+Omiting alarm!
+Reading latency in ms: 2
+GTotal: 30.72746793338284
+Real distance= 52 distance= -52.0	
+ estimation= -49.6479762086483	
+
+
+Alarmcycle: 0
+Omiting alarm!
+Reading latency in ms: 2
+GTotal: 31.330699830863065
+Real distance= 49 distance= -49.0	
+ estimation= -46.571573473251895	
+
+
+Alarmcycle: 0
+Omiting alarm!
+Reading latency in ms: 3
+GTotal: 31.548108368694177
+Real distance= 46 distance= -46.0	
+ estimation= -43.13817600978615	
+
+
+Alarmcycle: 0
+Omiting alarm!
+Reading latency in ms: 2
+GTotal: 27.863231239171668
+Real distance= 42 distance= -42.0	
+ estimation= -40.36559578761081	
+
+
+Alarmcycle: 0
+Omiting alarm!
+Reading latency in ms: 4
+GTotal: 32.91801823834286
+Real distance= 39 distance= -39.0	
+ estimation= -35.90551369135015	
+
+
+Alarmcycle: 0
+Omiting alarm!
+Reading latency in ms: 2
+GTotal: 34.17795861685417
+Real distance= 36 distance= -36.0	
+ estimation= -33.3722238111622	
+
+
+Alarmcycle: 0
+Omiting alarm!
+Reading latency in ms: 2
+GTotal: 24.744162212365325
+Real distance= 32 distance= -32.0	
+ estimation= -31.19812754918725	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 40.54641922945817
+Real distance= 32 distance= -32.0	
+ estimation= -28.086806579895416	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 34.928042990304235
+Real distance= 29 distance= -29.0	
+ estimation= -26.74586058037702	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 43.47890232567944
+Real distance= 27 distance= -27.0	
+ estimation= -23.292454293346733	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 57.80677068871578
+Real distance= 24 distance= -24.0	
+ estimation= -20.520733681104375	
+
+
+Alarmcycle: 0
+Reading latency in ms: 26
+GTotal: 48.58326587139376
+Real distance= 21 distance= -21.0	
+ estimation= -18.183214795322122	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+Initializing distance
+ Initial_distance= 19.0	
+
+
+GTotal: 720.8546503415399
+Real distance= 19 distance= 0.0	
+ estimation= -23.30017708300122	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 1117.4553644069097
+Real distance= 15 distance= 4.0	
+ estimation= -14.194132747103357	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 1364.3031034328278
+Real distance= 12 distance= 7.0	
+ estimation= -7.476998492040265	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 1390.986801736017
+Real distance= 17 distance= 2.0	
+ estimation= -3.411214053412004	
+
+
+Alarmcycle: 0
+Reading latency in ms: 4
+GTotal: 733.4891189877459
+Real distance= 19 distance= 0.0	
+ estimation= -4.110973838471659	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 326.71291175661406
+Real distance= 22 distance= -3.0	
+ estimation= -5.367593849103591	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 71.4459817805608
+Real distance= 25 distance= -6.0	
+ estimation= -8.317313392205186	
+
+
+Alarmcycle: 0
+Reading latency in ms: 4
+GTotal: 41.43968619469808
+Real distance= 28 distance= -9.0	
+ estimation= -11.296998272344453	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 20.901082038658828
+Real distance= 32 distance= -13.0	
+ estimation= -13.684998230484572	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 21.51887411161955
+Real distance= 34 distance= -15.0	
+ estimation= -17.469764015585646	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 16.141873674382104
+Real distance= 37 distance= -18.0	
+ estimation= -19.033605828110286	
+
+
+Alarmcycle: 0
+Reading latency in ms: 230
+Reading latency in ms: 114
+GTotal: 16.306502432152225
+Real distance= 39 distance= -20.0	
+ estimation= -22.325490070795723	
+
+
+Alarmcycle: 0
+Reading latency in ms: 4
+GTotal: 15.845644071243633
+Real distance= 44 distance= -25.0	
+ estimation= -25.317073945697405	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 8.436694798205142
+Real distance= 47 distance= -28.0	
+ estimation= -28.415421321372584	
+
+
+Alarmcycle: 0
+Reading latency in ms: 13
+GTotal: 12.519888047751163
+Real distance= 50 distance= -31.0	
+ estimation= -33.08204121177761	
+
+
+Alarmcycle: 0
+Reading latency in ms: 47
+GTotal: 11.367835602281314
+Real distance= 53 distance= -34.0	
+ estimation= -36.11807981742748	
+
+
+Alarmcycle: 0
+Reading latency in ms: 43
+GTotal: 13.143367731085071
+Real distance= 57 distance= -38.0	
+ estimation= -39.23327271521068	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 46.00524998415211
+Real distance= 57 distance= -38.0	
+ estimation= -43.14413070175171	
+
+
+Alarmcycle: 0
+Reading latency in ms: 4
+GTotal: 57.458947542498045
+Real distance= 60 distance= -41.0	
+ estimation= -44.67394252189894	
+
+
+Alarmcycle: 0
+Reading latency in ms: 35
+GTotal: 57.43460340245809
+Real distance= 64 distance= -45.0	
+ estimation= -47.11347741908014	
+
+
+Alarmcycle: 0
+Reading latency in ms: 25
+GTotal: 59.15027675437081
+Real distance= 68 distance= -49.0	
+ estimation= -50.70102918011811	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 51.32357694096761
+Real distance= 68 distance= -49.0	
+ estimation= -53.49452120097147	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 38.165724932092914
+Real distance= 72 distance= -53.0	
+ estimation= -54.72382483075206	
+
+
+Alarmcycle: 0
+Reading latency in ms: 4
+GTotal: 38.04629355089413
+Real distance= 75 distance= -56.0	
+ estimation= -58.09075146681824	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 40.235220303150705
+Real distance= 78 distance= -59.0	
+ estimation= -61.15514307492996	
+
+
+Alarmcycle: 0
+Reading latency in ms: 24
+GTotal: 19.967671198384274
+Real distance= 81 distance= -62.0	
+ estimation= -63.99666760933533	
+
+
+Alarmcycle: 0
+Reading latency in ms: 31
+GTotal: 23.9791584214343
+Real distance= 84 distance= -65.0	
+ estimation= -67.48611379980028	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 57.24700439000915
+Real distance= 84 distance= -65.0	
+ estimation= -70.56646373120876	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 60.064621085238045
+Real distance= 88 distance= -69.0	
+ estimation= -71.62654431327584	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 60.21075038857736
+Real distance= 92 distance= -73.0	
+ estimation= -75.02573072861136	
+
+
+Alarmcycle: 0
+Reading latency in ms: 16
+GTotal: 55.10401443502384
+Real distance= 96 distance= -77.0	
+ estimation= -78.44754034925268	
+
+
+Alarmcycle: 0
+Reading latency in ms: 59
+GTotal: 17.69679603658831
+Real distance= 100 distance= -81.0	
+ estimation= -82.02943856160243	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 32.989560107327115
+Real distance= 100 distance= -81.0	
+ estimation= -85.37412234467587	
+
+
+Alarmcycle: 0
+Reading latency in ms: 4
+GTotal: 36.51398612695633
+Real distance= 104 distance= -85.0	
+ estimation= -87.63118334605244	
+
+
+Alarmcycle: 0
+Reading latency in ms: 4
+GTotal: 37.735737712998315
+Real distance= 107 distance= -88.0	
+ estimation= -89.75293306533597	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 47.10076535474049
+Real distance= 110 distance= -91.0	
+ estimation= -93.92434024448384	
+
+
+Alarmcycle: 0
+Reading latency in ms: 10
+GTotal: 34.148122402653
+Real distance= 113 distance= -94.0	
+ estimation= -96.96155903613666	
+
+
+Alarmcycle: 0
+Reading latency in ms: 33
+GTotal: 28.270117880938354
+Real distance= 117 distance= -98.0	
+ estimation= -99.49020877167328	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 53.17035773833973
+Real distance= 117 distance= -98.0	
+ estimation= -102.79509814471709	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 48.70248979932154
+Real distance= 121 distance= -102.0	
+ estimation= -104.23102476774537	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 42.8765160832129
+Real distance= 124 distance= -105.0	
+ estimation= -107.02732655278714	
+
+
+Alarmcycle: 0
+Reading latency in ms: 20
+GTotal: 42.42734214500939
+Real distance= 128 distance= -109.0	
+ estimation= -110.36432511983368	
+
+
+Alarmcycle: 0
+Reading latency in ms: 42
+GTotal: 13.91252016969965
+Real distance= 132 distance= -113.0	
+ estimation= -113.42556860460031	
+
+
+Alarmcycle: 0
+Reading latency in ms: 4
+GTotal: 40.240333161376334
+Real distance= 132 distance= -113.0	
+ estimation= -118.10291308054866	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 39.011696313506384
+Real distance= 136 distance= -117.0	
+ estimation= -118.7683731148544	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 52.243893658485604
+Real distance= 138 distance= -119.0	
+ estimation= -122.52805058192092	
+
+
+Alarmcycle: 0
+Reading latency in ms: 23
+GTotal: 53.96899510604519
+Real distance= 142 distance= -123.0	
+ estimation= -124.24947580819683	
+
+
+Alarmcycle: 0
+Reading latency in ms: 57
+GTotal: 21.757606235655384
+Real distance= 147 distance= -128.0	
+ estimation= -127.47979733629789	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 37.67723929273622
+Real distance= 147 distance= -128.0	
+ estimation= -131.9828193430037	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 28.01087834114059
+Real distance= 151 distance= -132.0	
+ estimation= -134.17118680617676	
+
+
+Alarmcycle: 0
+Reading latency in ms: 4
+GTotal: 38.494807703468446
+Real distance= 153 distance= -134.0	
+ estimation= -137.15409785598536	
+
+
+Alarmcycle: 0
+Reading latency in ms: 37
+GTotal: 40.2679049128345
+Real distance= 157 distance= -138.0	
+ estimation= -139.2996494061152	
+
+
+Alarmcycle: 0
+Reading latency in ms: 40
+GTotal: 24.348484799151738
+Real distance= 160 distance= -141.0	
+ estimation= -142.76842128127274	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 46.936769237986525
+Real distance= 160 distance= -141.0	
+ estimation= -145.7733300428929	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 42.67844529940489
+Real distance= 164 distance= -145.0	
+ estimation= -147.55766966871528	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+Reading latency in ms: 8
+GTotal: 45.86474184505979
+Real distance= 167 distance= -148.0	
+ estimation= -150.05867088562974	
+
+
+Alarmcycle: 0
+GTotal: 42.2138457360525
+Real distance= 171 distance= -152.0	
+ estimation= -152.45452936192558	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 41.88425446214433
+Real distance= 171 distance= -152.0	
+ estimation= -156.7456302720774	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 41.91997474919775
+Real distance= 175 distance= -156.0	
+ estimation= -158.56324996126185	
+
+
+Alarmcycle: 0
+Reading latency in ms: 4
+GTotal: 42.73779809483682
+Real distance= 178 distance= -159.0	
+ estimation= -161.21187352528366	
+
+
+Alarmcycle: 0
+Reading latency in ms: 12
+GTotal: 47.44144858697444
+Real distance= 182 distance= -163.0	
+ estimation= -164.99236475941595	
+
+
+Alarmcycle: 0
+Reading latency in ms: 41
+GTotal: 21.348158475962613
+Real distance= 186 distance= -167.0	
+ estimation= -168.2831112930872	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 36.888749321888476
+Real distance= 186 distance= -167.0	
+ estimation= -171.35921128653447	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 37.231127311976906
+Real distance= 190 distance= -171.0	
+ estimation= -173.27294674022986	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 34.08626438212105
+Real distance= 193 distance= -174.0	
+ estimation= -175.20566454317853	
+
+
+Alarmcycle: 0
+Reading latency in ms: 24
+GTotal: 35.41736121070547
+Real distance= 196 distance= -177.0	
+ estimation= -178.64658800351376	
+
+
+Alarmcycle: 0
+Reading latency in ms: 45
+GTotal: 41.167575255236976
+Real distance= 196 distance= -177.0	
+ estimation= -181.8582810001352	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 35.35744473922693
+Real distance= 201 distance= -182.0	
+ estimation= -182.71984892242295	
+
+
+Alarmcycle: 0
+Reading latency in ms: 4
+GTotal: 35.874362099592965
+Real distance= 204 distance= -185.0	
+ estimation= -186.3664409533422	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 35.02865195520726
+Real distance= 207 distance= -188.0	
+ estimation= -189.42642347772562	
+
+
+Alarmcycle: 0
+Reading latency in ms: 5
+GTotal: 8.404477473093555
+Real distance= 210 distance= -191.0	
+ estimation= -192.51774658312374	
+
+
+Alarmcycle: 0
+Reading latency in ms: 32
+GTotal: 18.937230225944354
+Real distance= 212 distance= -193.0	
+ estimation= -195.9907164147398	
+
+
+Alarmcycle: 0
+Reading latency in ms: 47
+GTotal: 20.088190999902057
+Real distance= 216 distance= -197.0	
+ estimation= -198.66970940529689	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 37.8361177992537
+Real distance= 216 distance= -197.0	
+ estimation= -201.02902288120683	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 45.261315795372795
+Real distance= 219 distance= -200.0	
+ estimation= -202.8711867036957	
+
+
+Alarmcycle: 0
+Reading latency in ms: 4
+Reading latency in ms: 9
+GTotal: 35.46202525872045
+Real distance= 223 distance= -204.0	
+ estimation= -205.0511670866576	
+
+
+Alarmcycle: 0
+GTotal: 42.87847800267956
+Real distance= 225 distance= -206.0	
+ estimation= -208.95314945326243	
+
+
+Alarmcycle: 0
+Reading latency in ms: 45
+GTotal: 23.46714576705942
+Real distance= 230 distance= -211.0	
+ estimation= -211.83902299658118	
+
+
+Alarmcycle: 0
+Reading latency in ms: 8
+GTotal: 45.917905066611716
+Real distance= 230 distance= -211.0	
+ estimation= -216.11901558184002	
+
+
+Alarmcycle: 0
+Reading latency in ms: 8
+GTotal: 55.60849950114914
+Real distance= 233 distance= -214.0	
+ estimation= -216.97614310672424	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 48.6730891802039
+Real distance= 237 distance= -218.0	
+ estimation= -219.7812252627189	
+
+
+Alarmcycle: 0
+Reading latency in ms: 34
+GTotal: 52.6924879645039
+Real distance= 240 distance= -221.0	
+ estimation= -222.97976731365887	
+
+
+Alarmcycle: 0
+Reading latency in ms: 59
+GTotal: 27.79032446083125
+Real distance= 242 distance= -223.0	
+ estimation= -225.5065094701961	
+
+
+Alarmcycle: 0
+Reading latency in ms: 6
+GTotal: 55.565200018089314
+Real distance= 242 distance= -223.0	
+ estimation= -228.57470431839292	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 94.99243828545073
+Real distance= 242 distance= -223.0	
+ estimation= -228.8919058080079	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 138.83410798803723
+Real distance= 243 distance= -224.0	
+ estimation= -230.24442266172792	
+
+
+Alarmcycle: 0
+Reading latency in ms: 45
+Round trip finished
+Initializing distance
+ Initial_distance= 243.0	
+
+
+GTotal: 62068.49829027191
+Real distance= 243 distance= 0.0	
+ estimation= -222.59832419753587	
+
+
+Alarmcycle: 0
+Reading latency in ms: 54
+GTotal: 71766.57679068825
+Real distance= 240 distance= 3.0	
+ estimation= -85.25837143620191	
+
+
+Alarmcycle: 0
+Reading latency in ms: 10
+GTotal: 73041.29420344013
+Real distance= 240 distance= 3.0	
+ estimation= -29.47288844947331	
+
+
+Alarmcycle: 0
+Reading latency in ms: 4
+GTotal: 73174.90584216415
+Real distance= 237 distance= 6.0	
+ estimation= -6.078167301272172	
+
+
+Alarmcycle: 0
+******Delta G High!: 133.61163872401812
+Reading latency in ms: 4
+GTotal: 11248.807470400778
+Real distance= 235 distance= 8.0	
+ estimation= 4.977544352586417	
+
+
+Alarmcycle: 0
+Reading latency in ms: 25
+GTotal: 1511.8980012260013
+Real distance= 232 distance= 11.0	
+ estimation= 10.887958798822376	
+
+
+Alarmcycle: 0
+Reading latency in ms: 45
+GTotal: 194.0999667779668
+Real distance= 227 distance= 16.0	
+ estimation= 15.499943309704229	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 37.18248258998438
+Real distance= 227 distance= 16.0	
+ estimation= 20.51089104358932	
+
+
+Alarmcycle: 0
+******Delta G High!: 156.91748418798244
+Reading latency in ms: 8
+GTotal: 38.56387362337224
+Real distance= 224 distance= 19.0	
+ estimation= 22.20005483816958	
+
+
+Alarmcycle: 0
+Reading latency in ms: 6
+GTotal: 46.80300726928396
+Real distance= 221 distance= 22.0	
+ estimation= 24.569797686101126	
+
+
+Alarmcycle: 0
+Reading latency in ms: 12
+GTotal: 50.035824954164106
+Real distance= 217 distance= 26.0	
+ estimation= 27.684135042511045	
+
+
+Alarmcycle: 0
+Reading latency in ms: 57
+GTotal: 25.303266337130417
+Real distance= 214 distance= 29.0	
+ estimation= 29.749727359449693	
+
+
+Alarmcycle: 0
+Reading latency in ms: 47
+GTotal: 6179.935002429088
+Real distance= 140 distance= 103.0	
+ estimation= 32.75794892060129	
+
+
+Alarmcycle: 0
+Reading latency in ms: 9
+GTotal: 6917.230877101585
+Real distance= 140 distance= 103.0	
+ estimation= 78.57786741733048	
+
+
+Alarmcycle: 0
+Reading latency in ms: 11
+GTotal: 11956.600034398289
+Real distance= 208 distance= 35.0	
+ estimation= 98.51638872510603	
+
+
+Alarmcycle: 0
+Reading latency in ms: 12
+GTotal: 12849.582328490043
+Real distance= 205 distance= 38.0	
+ estimation= 64.73851017515582	
+
+
+Alarmcycle: 0
+Reading latency in ms: 24
+GTotal: 6852.304699129284
+Real distance= 201 distance= 42.0	
+ estimation= 53.66720345036684	
+
+
+Alarmcycle: 0
+Reading latency in ms: 53
+GTotal: 6153.39217412314
+Real distance= 198 distance= 45.0	
+ estimation= 51.10823541463267	
+
+
+Alarmcycle: 0
+Reading latency in ms: 66
+GTotal: 1124.2146205865738
+Real distance= 194 distance= 49.0	
+ estimation= 52.3150556329454	
+
+
+Alarmcycle: 0
+Reading latency in ms: 4
+GTotal: 260.2769049808415
+Real distance= 194 distance= 49.0	
+ estimation= 53.87829415906068	
+
+
+Alarmcycle: 0
+Reading latency in ms: 8
+GTotal: 99.19703785502472
+Real distance= 191 distance= 52.0	
+ estimation= 54.6943909611633	
+
+
+Alarmcycle: 0
+******Delta G High!: 161.07986712581678
+Reading latency in ms: 2
+GTotal: 53.25250871530023
+Real distance= 187 distance= 56.0	
+ estimation= 56.74492722382331	
+
+
+Alarmcycle: 0
+Reading latency in ms: 26
+GTotal: 40.95918104452844
+Real distance= 184 distance= 59.0	
+ estimation= 60.07467749250908	
+
+
+Alarmcycle: 0
+Reading latency in ms: 57
+GTotal: 11.214007561641845
+Real distance= 180 distance= 63.0	
+ estimation= 63.04018850602186	
+
+
+Alarmcycle: 0
+Reading latency in ms: 4
+GTotal: 26.826255947482377
+Real distance= 180 distance= 63.0	
+ estimation= 67.44404560735721	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 37.80380191212365
+Real distance= 177 distance= 66.0	
+ estimation= 69.0556428686131	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 46.610837596533614
+Real distance= 174 distance= 69.0	
+ estimation= 71.86366203669944	
+
+
+Alarmcycle: 0
+Reading latency in ms: 26
+GTotal: 48.83076598622323
+Real distance= 170 distance= 73.0	
+ estimation= 74.33325084952831	
+
+
+Alarmcycle: 0
+Reading latency in ms: 57
+GTotal: 38.050568434963154
+Real distance= 168 distance= 75.0	
+ estimation= 78.33547347752352	
+
+
+Alarmcycle: 0
+Reading latency in ms: 49
+GTotal: 30.245604815803084
+Real distance= 164 distance= 79.0	
+ estimation= 80.75868770541506	
+
+
+Alarmcycle: 0
+Reading latency in ms: 4
+GTotal: 55.634669760754775
+Real distance= 164 distance= 79.0	
+ estimation= 84.33964532683538	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 67.86888979123793
+Real distance= 161 distance= 82.0	
+ estimation= 85.40072548909119	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 56.01621911255801
+Real distance= 157 distance= 86.0	
+ estimation= 87.28189187387974	
+
+
+Alarmcycle: 0
+Reading latency in ms: 30
+GTotal: 55.597042106419934
+Real distance= 154 distance= 89.0	
+ estimation= 90.66061459714999	
+
+
+Alarmcycle: 0
+Reading latency in ms: 61
+GTotal: 21.287701059442604
+Real distance= 150 distance= 93.0	
+ estimation= 94.03166825036591	
+
+
+Alarmcycle: 0
+Reading latency in ms: 14
+GTotal: 28.432212172428613
+Real distance= 150 distance= 93.0	
+ estimation= 97.15698721943468	
+
+
+Alarmcycle: 0
+Reading latency in ms: 9
+GTotal: 33.83737123800761
+Real distance= 146 distance= 97.0	
+ estimation= 99.44282091623232	
+
+
+Alarmcycle: 0
+Reading latency in ms: 4
+GTotal: 32.2823796210544
+Real distance= 142 distance= 101.0	
+ estimation= 102.23030384324566	
+
+
+Alarmcycle: 0
+Reading latency in ms: 36
+GTotal: 34.176912550771476
+Real distance= 139 distance= 104.0	
+ estimation= 105.60622717029277	
+
+
+Alarmcycle: 0
+Reading latency in ms: 62
+GTotal: 15.76310268722876
+Real distance= 135 distance= 108.0	
+ estimation= 109.59671376636801	
+
+
+Alarmcycle: 0
+Reading latency in ms: 6
+GTotal: 41.76116843222954
+Real distance= 135 distance= 108.0	
+ estimation= 113.17357000772027	
+
+
+Alarmcycle: 0
+Reading latency in ms: 15
+GTotal: 46.10193153067894
+Real distance= 131 distance= 112.0	
+ estimation= 114.23299306435658	
+
+
+Alarmcycle: 0
+Reading latency in ms: 12
+GTotal: 48.72138918206063
+Real distance= 128 distance= 115.0	
+ estimation= 117.16229781567944	
+
+
+Alarmcycle: 0
+Reading latency in ms: 31
+GTotal: 46.39946448651772
+Real distance= 124 distance= 119.0	
+ estimation= 119.83183838290547	
+
+
+Alarmcycle: 0
+Reading latency in ms: 42
+GTotal: 22.960302752638135
+Real distance= 122 distance= 121.0	
+ estimation= 123.83098873852919	
+
+
+Alarmcycle: 0
+Reading latency in ms: 56
+GTotal: 22.55219065039658
+Real distance= 118 distance= 125.0	
+ estimation= 127.15864965746444	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 41.21494477495929
+Real distance= 118 distance= 125.0	
+ estimation= 129.4278363952773	
+
+
+Alarmcycle: 0
+Reading latency in ms: 11
+GTotal: 56.42243289091995
+Real distance= 115 distance= 128.0	
+ estimation= 131.58579776173215	
+
+
+Alarmcycle: 0
+Reading latency in ms: 9
+GTotal: 47.32844105133024
+Real distance= 110 distance= 133.0	
+ estimation= 133.85982775368518	
+
+
+Alarmcycle: 0
+Reading latency in ms: 40
+GTotal: 55.775794161365795
+Real distance= 108 distance= 135.0	
+ estimation= 138.37900145482357	
+
+
+Alarmcycle: 0
+Reading latency in ms: 58
+GTotal: 35.67209811849643
+Real distance= 104 distance= 139.0	
+ estimation= 140.87690657973346	
+
+
+Alarmcycle: 0
+Reading latency in ms: 44
+GTotal: 20.400446363811614
+Real distance= 100 distance= 143.0	
+ estimation= 143.80039002011236	
+
+
+Alarmcycle: 0
+Reading latency in ms: 7
+GTotal: 44.59616235912135
+Real distance= 100 distance= 143.0	
+ estimation= 147.4828424645815	
+
+
+Alarmcycle: 0
+Reading latency in ms: 17
+GTotal: 33.50565427305095
+Real distance= 97 distance= 146.0	
+ estimation= 147.59538219961345	
+
+
+Alarmcycle: 0
+Reading latency in ms: 27
+GTotal: 30.45120864000601
+Real distance= 93 distance= 150.0	
+ estimation= 151.03885600667792	
+
+
+Alarmcycle: 0
+Reading latency in ms: 38
+GTotal: 39.358074351814
+Real distance= 90 distance= 153.0	
+ estimation= 155.7867753324841	
+
+
+Alarmcycle: 0
+Reading latency in ms: 59
+GTotal: 23.610798682405175
+Real distance= 87 distance= 156.0	
+ estimation= 158.73825784518698	
+
+
+Alarmcycle: 0
+Reading latency in ms: 10
+GTotal: 45.11547467799735
+Real distance= 87 distance= 156.0	
+ estimation= 160.44398302869365	
+
+
+Alarmcycle: 0
+Reading latency in ms: 9
+GTotal: 50.615286381924726
+Real distance= 83 distance= 160.0	
+ estimation= 162.34074158457372	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 45.46898843690474
+Real distance= 79 distance= 164.0	
+ estimation= 165.91025610788864	
+
+
+Alarmcycle: 0
+Reading latency in ms: 27
+GTotal: 49.57297309999965
+Real distance= 77 distance= 166.0	
+ estimation= 169.28348043350405	
+
+
+Alarmcycle: 0
+Reading latency in ms: 62
+GTotal: 26.09445702444028
+Real distance= 73 distance= 170.0	
+ estimation= 170.98294063852794	
+
+
+Alarmcycle: 0
+Reading latency in ms: 17
+GTotal: 50.82417094613897
+Real distance= 73 distance= 170.0	
+ estimation= 175.0262155050407	
+
+
+Alarmcycle: 0
+Reading latency in ms: 13
+GTotal: 56.25672438017609
+Real distance= 69 distance= 174.0	
+ estimation= 176.827564525339	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 60.40274291856697
+Real distance= 67 distance= 176.0	
+ estimation= 179.75473815171134	
+
+
+Alarmcycle: 0
+Reading latency in ms: 46
+GTotal: 68.07983092888634
+Real distance= 63 distance= 180.0	
+ estimation= 182.66605377048649	
+
+
+Alarmcycle: 0
+Reading latency in ms: 74
+GTotal: 37.18540435612037
+Real distance= 58 distance= 185.0	
+ estimation= 185.73979797573315	
+
+
+Alarmcycle: 0
+Reading latency in ms: 10
+GTotal: 56.93097507445939
+Real distance= 58 distance= 185.0	
+ estimation= 189.87766109109958	
+
+
+Alarmcycle: 0
+Reading latency in ms: 30
+GTotal: 46.39953954623968
+Real distance= 54 distance= 189.0	
+ estimation= 191.3817871788514	
+
+
+Alarmcycle: 0
+Reading latency in ms: 21
+GTotal: 41.13780091705409
+Real distance= 51 distance= 192.0	
+ estimation= 193.70248400984465	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 43.797679275199094
+Real distance= 47 distance= 196.0	
+ estimation= 197.63560500470464	
+
+
+Alarmcycle: 0
+Reading latency in ms: 57
+GTotal: 15.585658441495662
+Real distance= 43 distance= 200.0	
+ estimation= 201.10542347209747	
+
+
+Alarmcycle: 0
+Reading latency in ms: 23
+GTotal: 37.78735113682271
+Real distance= 43 distance= 200.0	
+ estimation= 204.84089499179672	
+
+
+Alarmcycle: 0
+Reading latency in ms: 26
+GTotal: 36.310382029508155
+Real distance= 39 distance= 204.0	
+ estimation= 205.31029634736768	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 33.32806808951352
+Real distance= 35 distance= 208.0	
+ estimation= 208.53791502992496	
+
+
+Alarmcycle: 0
+Reading latency in ms: 54
+GTotal: 39.68182400253984
+Real distance= 33 distance= 210.0	
+ estimation= 212.51096909241932	
+
+
+Alarmcycle: 0
+Reading latency in ms: 119
+GTotal: 12.314300138433957
+Real distance= 29 distance= 214.0	
+ estimation= 215.2410661667767	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 30.57351275439498
+Real distance= 29 distance= 214.0	
+ estimation= 218.04032753755112	
+
+
+Alarmcycle: 0
+Reading latency in ms: 22
+GTotal: 43.10153221149082
+Real distance= 26 distance= 217.0	
+ estimation= 220.2111941929905	
+
+
+Alarmcycle: 0
+Reading latency in ms: 9
+GTotal: 40.7025761281344
+Real distance= 22 distance= 221.0	
+ estimation= 223.09423038761258	
+
+
+Alarmcycle: 0
+Reading latency in ms: 43
+Reading latency in ms: 18
+GTotal: 42.696903004719445
+Real distance= 19 distance= 224.0	
+ estimation= 225.77079268453025	
+
+
+Alarmcycle: 0
+Initializing distance
+ Initial_distance= 16.0	
+
+
+GTotal: 60468.34872069381
+Real distance= 16 distance= 0.0	
+ estimation= 219.9019001754236	
+
+
+Alarmcycle: 0
+Reading latency in ms: 84
+GTotal: 68811.79271200357
+Real distance= 12 distance= 4.0	
+ estimation= 85.76225878235572	
+
+
+Alarmcycle: 0
+Reading latency in ms: 5
+GTotal: 69876.58306514328
+Real distance= 12 distance= 4.0	
+ estimation= 33.2612044083657	
+
+
+Alarmcycle: 0
+Reading latency in ms: 38
+GTotal: 70057.49442844915
+Real distance= 17 distance= -1.0	
+ estimation= 11.159966997335326	
+
+
+Alarmcycle: 0
+******Delta G High!: 180.91136330587324
+Reading latency in ms: 39
+GTotal: 9626.62107884782
+Real distance= 20 distance= -4.0	
+ estimation= -0.51474232216501	
+
+
+Alarmcycle: 0
+Reading latency in ms: 56
+GTotal: 1270.6215738266426
+Real distance= 23 distance= -7.0	
+ estimation= -6.482934070004772	
+
+
+Alarmcycle: 0
+Reading latency in ms: 76
+GTotal: 200.5032809711464
+Real distance= 27 distance= -11.0	
+ estimation= -10.648646696666688	
+
+
+Alarmcycle: 0
+Reading latency in ms: 16
+GTotal: 36.527073245435034
+Real distance= 27 distance= -11.0	
+ estimation= -15.084584580555925	
+
+
+Alarmcycle: 0
+******Delta G High!: 163.9762077257114
+Reading latency in ms: 45
+GTotal: 26.796003015106834
+Real distance= 30 distance= -14.0	
+ estimation= -16.08857963617507	
+
+
+Alarmcycle: 0
+Reading latency in ms: 17
+GTotal: 27.805658957324187
+Real distance= 34 distance= -18.0	
+ estimation= -19.036861576940584	
+
+
+Alarmcycle: 0
+Reading latency in ms: 54
+GTotal: 31.31743118824197
+Real distance= 37 distance= -21.0	
+ estimation= -22.712561510865363	
+
+
+Alarmcycle: 0
+Reading latency in ms: 19
+GTotal: 12.408276511227161
+Real distance= 40 distance= -24.0	
+ estimation= -25.24760067894474	
+
+
+Alarmcycle: 0
+Reading latency in ms: 46
+GTotal: 9.388728441676456
+Real distance= 43 distance= -27.0	
+ estimation= -28.39517971638231	
+
+
+Alarmcycle: 0
+Reading latency in ms: 29
+GTotal: 30.12877228947997
+Real distance= 43 distance= -27.0	
+ estimation= -31.203226975548493	
+
+
+Alarmcycle: 0
+Reading latency in ms: 23
+GTotal: 34.95259002827858
+Real distance= 46 distance= -30.0	
+ estimation= -32.60613144709478	
+
+
+Alarmcycle: 0
+Reading latency in ms: 20
+GTotal: 33.76036494414829
+Real distance= 50 distance= -34.0	
+ estimation= -34.77635519370913	
+
+
+Alarmcycle: 0
+Reading latency in ms: 41
+GTotal: 39.82477256823968
+Real distance= 52 distance= -36.0	
+ estimation= -38.60730752698598	
+
+
+Alarmcycle: 0
+Reading latency in ms: 79
+GTotal: 19.150560169710733
+Real distance= 56 distance= -40.0	
+ estimation= -41.06195437244515	
+
+
+Alarmcycle: 0
+Reading latency in ms: 36
+GTotal: 36.214887087335406
+Real distance= 56 distance= -40.0	
+ estimation= -44.52143590617362	
+
+
+Alarmcycle: 0
+Reading latency in ms: 21
+GTotal: 38.93763734444218
+Real distance= 60 distance= -44.0	
+ estimation= -45.66761134335449	
+
+
+Alarmcycle: 0
+Reading latency in ms: 12
+Reading latency in ms: 30
+GTotal: 31.98584949449443
+Real distance= 63 distance= -47.0	
+ estimation= -48.11203518843584	
+
+
+Alarmcycle: 0
+GTotal: 31.09185604138965
+Real distance= 67 distance= -51.0	
+ estimation= -51.642302363900015	
+
+
+Alarmcycle: 0
+Reading latency in ms: 66
+GTotal: 9.069834622666239
+Real distance= 69 distance= -53.0	
+ estimation= -54.68100134403794	
+
+
+Alarmcycle: 0
+Reading latency in ms: 24
+GTotal: 37.34448106813399
+Real distance= 69 distance= -53.0	
+ estimation= -58.039905232130735	
+
+
+Alarmcycle: 0
+Reading latency in ms: 38
+GTotal: 43.081715159288656
+Real distance= 73 distance= -57.0	
+ estimation= -59.413795669323164	
+
+
+Alarmcycle: 0
+Reading latency in ms: 7
+GTotal: 67.92017356942273
+Real distance= 74 distance= -58.0	
+ estimation= -62.50370059559678	
+
+
+Alarmcycle: 0
+Reading latency in ms: 51
+GTotal: 79.54575377986731
+Real distance= 77 distance= -61.0	
+ estimation= -64.48227363758407	
+
+
+Alarmcycle: 0
+Reading latency in ms: 88
+GTotal: 47.82852368900152
+Real distance= 82 distance= -66.0	
+ estimation= -66.16389227000116	
+
+
+Alarmcycle: 0
+Reading latency in ms: 40
+GTotal: 74.32536989705969
+Real distance= 82 distance= -66.0	
+ estimation= -71.19845039407801	
+
+
+Alarmcycle: 0
+Reading latency in ms: 30
+GTotal: 56.337394812723346
+Real distance= 86 distance= -70.0	
+ estimation= -72.42753763870094	
+
+
+Alarmcycle: 0
+Reading latency in ms: 5
+GTotal: 51.1313968811739
+Real distance= 88 distance= -72.0	
+ estimation= -74.82160084735128	
+
+
+Alarmcycle: 0
+Reading latency in ms: 7
+GTotal: 55.312306802618664
+Real distance= 92 distance= -76.0	
+ estimation= -77.83618861049783	
+
+
+Alarmcycle: 0
+Reading latency in ms: 77
+GTotal: 26.658566541697
+Real distance= 96 distance= -80.0	
+ estimation= -82.0250664905016	
+
+
+Alarmcycle: 0
+Reading latency in ms: 27
+GTotal: 47.809793158133445
+Real distance= 96 distance= -80.0	
+ estimation= -84.77639197307538	
+
+
+Alarmcycle: 0
+Reading latency in ms: 25
+GTotal: 45.20715329076659
+Real distance= 100 distance= -84.0	
+ estimation= -86.42473079905378	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 47.778482537456014
+Real distance= 104 distance= -88.0	
+ estimation= -90.32994678279859	
+
+
+Alarmcycle: 0
+Reading latency in ms: 4
+GTotal: 51.796148150215004
+Real distance= 107 distance= -91.0	
+ estimation= -93.7046306182471	
+
+
+Alarmcycle: 0
+Reading latency in ms: 88
+GTotal: 25.103517678059017
+Real distance= 112 distance= -96.0	
+ estimation= -97.20822841496718	
+
+
+Alarmcycle: 0
+Reading latency in ms: 11
+GTotal: 44.950104761392325
+Real distance= 112 distance= -96.0	
+ estimation= -100.66439590027976	
+
+
+Alarmcycle: 0
+Reading latency in ms: 22
+GTotal: 41.26280475990134
+Real distance= 116 distance= -100.0	
+ estimation= -101.57442434225361	
+
+
+Alarmcycle: 0
+Reading latency in ms: 11
+GTotal: 37.88528585770246
+Real distance= 119 distance= -103.0	
+ estimation= -105.14779227566368	
+
+
+Alarmcycle: 0
+Reading latency in ms: 35
+GTotal: 42.744309436029546
+Real distance= 122 distance= -106.0	
+ estimation= -108.31236562104607	
+
+
+Alarmcycle: 0
+Reading latency in ms: 56
+GTotal: 17.789708205348994
+Real distance= 125 distance= -109.0	
+ estimation= -110.33899519416694	
+
+
+Alarmcycle: 0
+Reading latency in ms: 68
+GTotal: 15.140932831387396
+Real distance= 129 distance= -113.0	
+ estimation= -113.59982640014543	
+
+
+Alarmcycle: 0
+Reading latency in ms: 15
+GTotal: 44.80944905340463
+Real distance= 129 distance= -113.0	
+ estimation= -118.32426752117269	
+
+
+Alarmcycle: 0
+Reading latency in ms: 22
+GTotal: 63.383558448646845
+Real distance= 131 distance= -115.0	
+ estimation= -119.49514430041901	
+
+
+Alarmcycle: 0
+Reading latency in ms: 6
+GTotal: 65.07800959515636
+Real distance= 135 distance= -119.0	
+ estimation= -120.7743925854246	
+
+
+Alarmcycle: 0
+Reading latency in ms: 33
+GTotal: 65.66320992921214
+Real distance= 139 distance= -123.0	
+ estimation= -123.90991866535205	
+
+
+Alarmcycle: 0
+Reading latency in ms: 70
+GTotal: 30.775029941483954
+Real distance= 143 distance= -127.0	
+ estimation= -127.6612719915676	
+
+
+Alarmcycle: 0
+Reading latency in ms: 30
+GTotal: 32.48332354611827
+Real distance= 143 distance= -127.0	
+ estimation= -131.64466975847552	
+
+
+Alarmcycle: 0
+Reading latency in ms: 27
+GTotal: 38.51895853166341
+Real distance= 147 distance= -131.0	
+ estimation= -133.8243542687924	
+
+
+Alarmcycle: 0
+Reading latency in ms: 25
+Reading latency in ms: 13
+GTotal: 39.65334521596367
+Real distance= 151 distance= -135.0	
+ estimation= -136.31736909216676	
+
+
+Alarmcycle: 0
+GTotal: 39.163971928077025
+Real distance= 155 distance= -139.0	
+ estimation= -138.78603267417085	
+
+
+Alarmcycle: 0
+Reading latency in ms: 76
+GTotal: 14.50342006176469
+Real distance= 158 distance= -142.0	
+ estimation= -143.3581294755093	
+
+
+Alarmcycle: 0
+Reading latency in ms: 18
+GTotal: 30.1119958040336
+Real distance= 158 distance= -142.0	
+ estimation= -146.5236973406121	
+
+
+Alarmcycle: 0
+Reading latency in ms: 23
+GTotal: 40.25258066685294
+Real distance= 161 distance= -145.0	
+ estimation= -148.13814104451214	
+
+
+Alarmcycle: 0
+Reading latency in ms: 28
+GTotal: 47.358406335506935
+Real distance= 164 distance= -148.0	
+ estimation= -150.39383427819172	
+
+
+Alarmcycle: 0
+Reading latency in ms: 35
+Reading latency in ms: 4
+GTotal: 48.5548010656772
+Real distance= 167 distance= -151.0	
+ estimation= -152.67380747291418	
+
+
+Alarmcycle: 0
+GTotal: 26.314371904765423
+Real distance= 170 distance= -154.0	
+ estimation= -155.63447064847662	
+
+
+Alarmcycle: 0
+Reading latency in ms: 78
+GTotal: 16.13725363009699
+Real distance= 174 distance= -158.0	
+ estimation= -159.30622915122768	
+
+
+Alarmcycle: 0
+Reading latency in ms: 29
+GTotal: 32.102438279293494
+Real distance= 174 distance= -158.0	
+ estimation= -162.30146373584654	
+
+
+Alarmcycle: 0
+Reading latency in ms: 26
+GTotal: 40.21595102659542
+Real distance= 177 distance= -161.0	
+ estimation= -164.04835064489387	
+
+
+Alarmcycle: 0
+Reading latency in ms: 39
+GTotal: 37.26693249308599
+Real distance= 182 distance= -166.0	
+ estimation= -166.55881971504596	
+
+
+Alarmcycle: 0
+Reading latency in ms: 44
+Reading latency in ms: 19
+GTotal: 41.46824694915739
+Real distance= 184 distance= -168.0	
+ estimation= -170.2510633399294	
+
+
+Alarmcycle: 0
+GTotal: 24.974232364166646
+Real distance= 187 distance= -171.0	
+ estimation= -173.30377485940147	
+
+
+Alarmcycle: 0
+Reading latency in ms: 72
+GTotal: 13.49940092104902
+Real distance= 191 distance= -175.0	
+ estimation= -175.33552421631052	
+
+
+Alarmcycle: 0
+Reading latency in ms: 26
+GTotal: 30.60798999333771
+Real distance= 191 distance= -175.0	
+ estimation= -178.74154389680984	
+
+
+Alarmcycle: 0
+Reading latency in ms: 24
+GTotal: 30.707330257758287
+Real distance= 194 distance= -178.0	
+ estimation= -180.26864681515448	
+
+
+Alarmcycle: 0
+Reading latency in ms: 21
+GTotal: 32.49714789042857
+Real distance= 197 distance= -181.0	
+ estimation= -183.59600321820804	
+
+
+Alarmcycle: 0
+Reading latency in ms: 45
+GTotal: 39.920404669806814
+Real distance= 200 distance= -184.0	
+ estimation= -186.45991502357975	
+
+
+Alarmcycle: 0
+Reading latency in ms: 76
+GTotal: 33.361677379485556
+Real distance= 203 distance= -187.0	
+ estimation= -189.95840647976203	
+
+
+Alarmcycle: 0
+Reading latency in ms: 28
+GTotal: 61.65620008035097
+Real distance= 203 distance= -187.0	
+ estimation= -192.2708990250813	
+
+
+Alarmcycle: 0
+Reading latency in ms: 31
+GTotal: 55.98510348515985
+Real distance= 207 distance= -191.0	
+ estimation= -192.48403350123695	
+
+
+Alarmcycle: 0
+Reading latency in ms: 26
+GTotal: 49.69786535080003
+Real distance= 211 distance= -195.0	
+ estimation= -196.0106391125152	
+
+
+Alarmcycle: 0
+Reading latency in ms: 58
+GTotal: 40.92316744717399
+Real distance= 214 distance= -198.0	
+ estimation= -199.31621068852868	
+
+
+Alarmcycle: 0
+Reading latency in ms: 13
+GTotal: 8.217526170772466
+Real distance= 217 distance= -201.0	
+ estimation= -202.27195263727927	
+
+
+Alarmcycle: 0
+Reading latency in ms: 114
+GTotal: 8.964794117121503
+Real distance= 220 distance= -204.0	
+ estimation= -205.67337078672745	
+
+
+Alarmcycle: 0
+Reading latency in ms: 101
+GTotal: 32.62591133089127
+Real distance= 220 distance= -204.0	
+ estimation= -208.46657421149155	
+
+
+Alarmcycle: 0
+Reading latency in ms: 37
+Reading latency in ms: 19
+GTotal: 34.72331687243976
+Real distance= 224 distance= -208.0	
+ estimation= -209.84670923803287	
+
+
+Alarmcycle: 0
+GTotal: 39.457397994732105
+Real distance= 227 distance= -211.0	
+ estimation= -213.32489320385164	
+
+
+Alarmcycle: 0
+Reading latency in ms: 73
+GTotal: 36.306390536526386
+Real distance= 231 distance= -215.0	
+ estimation= -215.5285487899033	
+
+
+Alarmcycle: 0
+Reading latency in ms: 44
+GTotal: 35.82578683686945
+Real distance= 231 distance= -215.0	
+ estimation= -219.4233247933015	
+
+
+Alarmcycle: 0
+Reading latency in ms: 25
+GTotal: 40.869460386417025
+Real distance= 234 distance= -218.0	
+ estimation= -220.72860291165168	
+
+
+Alarmcycle: 0
+Reading latency in ms: 15
+GTotal: 41.49192782418203
+Real distance= 237 distance= -221.0	
+ estimation= -223.42963008697365	
+
+
+Alarmcycle: 0
+Reading latency in ms: 34
+GTotal: 49.12406475942488
+Real distance= 240 distance= -224.0	
+ estimation= -226.52687027199707	
+
+
+Alarmcycle: 0
+Reading latency in ms: 25
+GTotal: 32.0216121053121
+Real distance= 242 distance= -226.0	
+ estimation= -228.4256628174059	
+
+
+Alarmcycle: 0
+Reading latency in ms: 82
+GTotal: 66.39026612628415
+Real distance= 242 distance= -226.0	
+ estimation= -231.91102335186147	
+
+
+Alarmcycle: 0
+Reading latency in ms: 40
+Round trip finished
+Initializing distance
+ Initial_distance= 242.0	
+
+
+GTotal: 62531.69693980615
+Real distance= 242 distance= 0.0	
+ estimation= -223.55793083964483	
+
+
+Alarmcycle: 0
+Reading latency in ms: 258
+Reading latency in ms: 132
+GTotal: 71782.77918275983
+Real distance= 242 distance= 0.0	
+ estimation= -86.0653871642628	
+
+
+Alarmcycle: 0
+Reading latency in ms: 97
+GTotal: 73248.51984610128
+Real distance= 238 distance= 4.0	
+ estimation= -30.32894363036673	
+
+
+Alarmcycle: 0
+Reading latency in ms: 61
+GTotal: 73313.92862564028
+Real distance= 238 distance= 4.0	
+ estimation= -5.34169260345577	
+
+
+Alarmcycle: 0
+Reading latency in ms: 56
+GTotal: 10853.346926360657
+Real distance= 234 distance= 8.0	
+ estimation= 4.888234925365421	
+
+
+Alarmcycle: 0
+Reading latency in ms: 80
+GTotal: 1594.4887280441742
+Real distance= 231 distance= 11.0	
+ estimation= 11.405350565889613	
+
+
+Alarmcycle: 0
+Reading latency in ms: 63
+GTotal: 121.455203169401
+Real distance= 227 distance= 15.0	
+ estimation= 15.222600262978318	
+
+
+Alarmcycle: 0
+Reading latency in ms: 58
+GTotal: 25.247535178821742
+Real distance= 227 distance= 15.0	
+ estimation= 18.20953054277363	
+
+
+Alarmcycle: 0
+******Delta G High!: 96.20766799057927
+GTotal: 15.817469984682251
+Real distance= 222 distance= 20.0	
+ estimation= 21.462542212862232	
+
+
+Alarmcycle: 0
+Reading latency in ms: 60
+Reading latency in ms: 26
+GTotal: 20.21094827464345
+Real distance= 219 distance= 23.0	
+ estimation= 24.91809585611251	
+
+
+Alarmcycle: 0
+Reading latency in ms: 75
+GTotal: 23.75992874430426
+Real distance= 216 distance= 26.0	
+ estimation= 27.699627974824686	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 19.89353859425882
+Real distance= 213 distance= 29.0	
+ estimation= 31.684767063445253	
+
+
+Alarmcycle: 0
+Reading latency in ms: 33
+GTotal: 54.51476299791116
+Real distance= 213 distance= 29.0	
+ estimation= 34.46223482169394	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 57.69251509759535
+Real distance= 210 distance= 32.0	
+ estimation= 34.494252070858785	
+
+
+Alarmcycle: 0
+Reading latency in ms: 4
+GTotal: 54.94642657395515
+Real distance= 206 distance= 36.0	
+ estimation= 36.831783886532136	
+
+
+Alarmcycle: 0
+Reading latency in ms: 4
+GTotal: 46.05738708908232
+Real distance= 202 distance= 40.0	
+ estimation= 40.31103472002685	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 16.69995504934999
+Real distance= 200 distance= 42.0	
+ estimation= 44.519933256167704	
+
+
+Alarmcycle: 0
+Reading latency in ms: 4
+GTotal: 38.43486368651958
+Real distance= 200 distance= 42.0	
+ estimation= 46.858932012563976	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 43.381444703618605
+Real distance= 196 distance= 46.0	
+ estimation= 48.15618395494766	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 48.16258158632384
+Real distance= 193 distance= 49.0	
+ estimation= 50.98031616244133	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 44.46699559429974
+Real distance= 190 distance= 52.0	
+ estimation= 53.842171224919305	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 17.859923578019764
+Real distance= 186 distance= 56.0	
+ estimation= 57.52432368271802	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 35.76734366700772
+Real distance= 186 distance= 56.0	
+ estimation= 60.356037800428744	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 52.437629302382284
+Real distance= 184 distance= 58.0	
+ estimation= 62.154260537270865	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 52.1900781986409
+Real distance= 180 distance= 62.0	
+ estimation= 63.787611238196824	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 5444.4420907844
+Real distance= 241 distance= 1.0	
+ estimation= 66.69722347830464	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 6714.610495239098
+Real distance= 242 distance= 0.0	
+ estimation= 32.17312215005754	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 7051.054824871253
+Real distance= 242 distance= 0.0	
+ estimation= 16.923750893854788	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 7183.401224332162
+Real distance= 242 distance= 0.0	
+ estimation= 10.443786358771177	
+
+
+Alarmcycle: 0
+******Delta G High!: 132.3463994609092
+Reading latency in ms: 2
+GTotal: 1891.0027636311402
+Real distance= 242 distance= 0.0	
+ estimation= 9.066774740638685	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 655.4815160077832
+Real distance= 242 distance= 0.0	
+ estimation= 6.833212332705398	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 345.5012660352079
+Real distance= 242 distance= 0.0	
+ estimation= 6.199124481665982	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 243.32611120721126
+Real distance= 241 distance= 1.0	
+ estimation= 6.228054097392031	
+
+
+Alarmcycle: 0
+******Delta G High!: 102.17515482799664
+Reading latency in ms: 2
+GTotal: 142.48463712736333
+Real distance= 236 distance= 6.0	
+ estimation= 7.238234603621377	
+
+
+Alarmcycle: 0
+******Delta G High!: 100.84147407984793
+Reading latency in ms: 3
+GTotal: 86.253007580426
+Real distance= 230 distance= 12.0	
+ estimation= 10.693291483808544	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 64.52305209733329
+Real distance= 230 distance= 12.0	
+ estimation= 16.5875025834016	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 30.609416431017245
+Real distance= 224 distance= 18.0	
+ estimation= 18.449044666157793	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 45.74160368358553
+Real distance= 223 distance= 19.0	
+ estimation= 22.693098256973407	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 43.75897205566278
+Real distance= 217 distance= 25.0	
+ estimation= 24.651601027629134	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 35.191396536197516
+Real distance= 217 distance= 25.0	
+ estimation= 28.76711023692487	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 64.86885420717243
+Real distance= 217 distance= 25.0	
+ estimation= 29.893220539581748	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 49.118315705613725
+Real distance= 212 distance= 30.0	
+ estimation= 31.019089757780467	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 94.32804716158242
+Real distance= 213 distance= 29.0	
+ estimation= 35.02404905430924	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 76.61610951204995
+Real distance= 206 distance= 36.0	
+ estimation= 36.146865303997174	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 79.08367386545018
+Real distance= 206 distance= 36.0	
+ estimation= 41.09093888508838	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 77.98636600355384
+Real distance= 200 distance= 42.0	
+ estimation= 42.40087110758444	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 73.10081349054083
+Real distance= 201 distance= 41.0	
+ estimation= 46.69040640010128	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 137.20973535005646
+Real distance= 201 distance= 41.0	
+ estimation= 48.16300962620676	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 104.81267517509669
+Real distance= 194 distance= 48.0	
+ estimation= 48.00325449490199	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 112.36124919449348
+Real distance= 193 distance= 49.0	
+ estimation= 51.48989093343733	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 72.04240432376274
+Real distance= 188 distance= 54.0	
+ estimation= 53.64552982956386	
+
+
+Alarmcycle: 0
+Reading latency in ms: 4
+GTotal: 21.89578963610583
+Real distance= 188 distance= 54.0	
+ estimation= 57.34535725371823	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 22.644665693435822
+Real distance= 182 distance= 60.0	
+ estimation= 59.22597710783139	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 52.03035919511369
+Real distance= 183 distance= 59.0	
+ estimation= 64.4505148070394	
+
+
+Alarmcycle: 0
+Reading latency in ms: 4
+GTotal: 52.06027620335806
+Real distance= 176 distance= 66.0	
+ estimation= 65.61324076181103	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 75.1389791689767
+Real distance= 176 distance= 66.0	
+ estimation= 71.44558330461486	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 150.68427457508534
+Real distance= 177 distance= 65.0	
+ estimation= 72.81251225678962	
+
+
+Alarmcycle: 0
+Reading latency in ms: 3
+GTotal: 113.57863502800537
+Real distance= 170 distance= 72.0	
+ estimation= 71.8463770066308	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 131.39884432121684
+Real distance= 170 distance= 72.0	
+ estimation= 75.79549076443267	
+
+
+Alarmcycle: 0
+Reading latency in ms: 2
+GTotal: 94.44095798013426
+Real distance= 164 distance= 78.0	
+ estimation= 78.29676329731622	
+
+
+Alarmcycle: 1
+Reading latency in ms: 2
+GTotal: 39.62495179917359
+Real distance= 164 distance= 78.0	
+ estimation= 82.14518308615186	
+
+
+Alarmcycle: 2
+Reading latency in ms: 3
+GTotal: 40.09006022791452
+Real distance= 157 distance= 85.0	
+ estimation= 84.3709636202218	
+
+
+Alarmcycle: 2
+Reading latency in ms: 2
+GTotal: 37.714809033773825
+Real distance= 157 distance= 85.0	
+ estimation= 88.53631859248868	
+
+
+Alarmcycle: 2
+Reading latency in ms: 3
+GTotal: 37.6054633032535
+Real distance= 151 distance= 91.0	
+ estimation= 91.02432838296593	
+
+
+Alarmcycle: 2
+Reading latency in ms: 2
+GTotal: 36.479921081746795
+Real distance= 151 distance= 91.0	
+ estimation= 95.0351095450451	
+
+
+Alarmcycle: 2
+Reading latency in ms: 3
+GTotal: 86.0159062549736
+Real distance= 151 distance= 91.0	
+ estimation= 97.32648993563302	
+
+
+Alarmcycle: 2
+Reading latency in ms: 2
+GTotal: 70.75916667734879
+Real distance= 145 distance= 97.0	
+ estimation= 97.54786633906575	
+
+
+Alarmcycle: 2
+Reading latency in ms: 3
+GTotal: 83.9855947424043
+Real distance= 143 distance= 99.0	
+ estimation= 102.25295778058403	
+
+
+Alarmcycle: 2
+Reading latency in ms: 2
+GTotal: 65.7858469135066
+Real distance= 138 distance= 104.0	
+ estimation= 105.31236838478985	
+
+
+Alarmcycle: 2
+Reading latency in ms: 3
+GTotal: 19.96120324906797
+Real distance= 136 distance= 106.0	
+ estimation= 107.83432820785022	
+
+
+Alarmcycle: 2
+Reading latency in ms: 2
+GTotal: 19.594542471476707
+Real distance= 131 distance= 111.0	
+ estimation= 110.9173628206659	
+
+
+Alarmcycle: 2
+Reading latency in ms: 3
+GTotal: 27.30331129945832
+Real distance= 131 distance= 111.0	
+ estimation= 115.09252359610149	
+
+
+Alarmcycle: 2
+Reading latency in ms: 2
+GTotal: 25.986894731067697
+Real distance= 124 distance= 118.0	
+ estimation= 117.18196728507753	
+
+
+Alarmcycle: 2
+Reading latency in ms: 2
+GTotal: 34.918511500493395
+Real distance= 124 distance= 118.0	
+ estimation= 121.24192124976156	
+
+
+Alarmcycle: 2
+Reading latency in ms: 2
+GTotal: 35.19275432425735
+Real distance= 118 distance= 124.0	
+ estimation= 124.47562922788603	
+
+
+Alarmcycle: 2
+Reading latency in ms: 2
+GTotal: 36.31395165717305
+Real distance= 118 distance= 124.0	
+ estimation= 128.20067937969324	
+
+
+Alarmcycle: 2
+Reading latency in ms: 3
+GTotal: 76.02277787784027
+Real distance= 117 distance= 125.0	
+ estimation= 130.6952821263935	
+
+
+Alarmcycle: 2
+Reading latency in ms: 2
+GTotal: 63.43271761226529
+Real distance= 111 distance= 131.0	
+ estimation= 131.661819595657	
+
+
+Alarmcycle: 2
+Reading latency in ms: 3
+GTotal: 77.97314739180646
+Real distance= 110 distance= 132.0	
+ estimation= 135.44362701029777	
+
+
+Alarmcycle: 2
+Reading latency in ms: 2
+GTotal: 59.531805119020554
+Real distance= 103 distance= 139.0	
+ estimation= 137.2992256373195	
+
+
+Alarmcycle: 2
+Reading latency in ms: 3
+GTotal: 45.39059311393488
+Real distance= 103 distance= 139.0	
+ estimation= 143.59600575447297	
+
+
+Alarmcycle: 2
+Reading latency in ms: 2
+GTotal: 44.92243120621205
+Real distance= 97 distance= 145.0	
+ estimation= 144.74805625426035	
+
+
+Alarmcycle: 2
+Reading latency in ms: 3
+GTotal: 54.70901670525407
+Real distance= 98 distance= 144.0	
+ estimation= 148.43709763080395	
+
+
+Alarmcycle: 2
+Reading latency in ms: 3
+GTotal: 51.38433844642675
+Real distance= 93 distance= 149.0	
+ estimation= 149.482587635243	
+
+
+Alarmcycle: 2
+Reading latency in ms: 2
+GTotal: 47.066921248425054
+Real distance= 93 distance= 149.0	
+ estimation= 153.20349082748461	
+
+
+Alarmcycle: 2
+Reading latency in ms: 2
+GTotal: 96.76814611550992
+Real distance= 93 distance= 149.0	
+ estimation= 155.3106620528028	
+
+
+Alarmcycle: 2
+Reading latency in ms: 2
+GTotal: 74.53909788549987
+Real distance= 87 distance= 155.0	
+ estimation= 156.3800713029688	
+
+
+Alarmcycle: 2
+Reading latency in ms: 3
+GTotal: 95.28930319642295
+Real distance= 86 distance= 156.0	
+ estimation= 160.10281063107084	
+
+
+Alarmcycle: 2
+Reading latency in ms: 2
+GTotal: 73.29374821837769
+Real distance= 80 distance= 162.0	
+ estimation= 162.26998361859762	
+
+
+Alarmcycle: 2
+Reading latency in ms: 4
+GTotal: 45.46877091291533
+Real distance= 79 distance= 163.0	
+ estimation= 167.19099912912367	
+
+
+Alarmcycle: 2
+Reading latency in ms: 3
+GTotal: 43.08976057115016
+Real distance= 73 distance= 169.0	
+ estimation= 169.0372629556776	
+
+
+Alarmcycle: 2
+Reading latency in ms: 2
+GTotal: 47.2842701440041
+Real distance= 73 distance= 169.0	
+ estimation= 173.4931795793971	
+
+
+Alarmcycle: 2
+Reading latency in ms: 2
+GTotal: 110.36619644304663
+Real distance= 74 distance= 168.0	
+ estimation= 175.10903876719948	
+
+
+Alarmcycle: 2
+Reading latency in ms: 2
+GTotal: 88.5527507089205
+Real distance= 67 distance= 175.0	
+ estimation= 174.66278031935482	
+
+
+Alarmcycle: 2
+Reading latency in ms: 2
+GTotal: 120.09177668931113
+Real distance= 68 distance= 174.0	
+ estimation= 179.02320707438767	
+
+
+Alarmcycle: 2
+Reading latency in ms: 2
+GTotal: 135.26710384812625
+Real distance= 68 distance= 174.0	
+ estimation= 179.68585301074194	
+
+
+Alarmcycle: 2
+Reading latency in ms: 2
+GTotal: 72.31793840847993
+Real distance= 62 distance= 180.0	
+ estimation= 180.4232018925147	
+
+
+Alarmcycle: 2
+Reading latency in ms: 2
+GTotal: 88.00829574718537
+Real distance= 62 distance= 180.0	
+ estimation= 183.55893284342073	
+
+
+Alarmcycle: 3
+Reading latency in ms: 3
+GTotal: 92.41418624295626
+Real distance= 62 distance= 180.0	
+ estimation= 185.36258535678408	
+
+
+Alarmcycle: 4
+Reading latency in ms: 2
+GTotal: 52.06659465865345
+Real distance= 56 distance= 186.0	
+ estimation= 186.22550208939364	
+
+
+Alarmcycle: 5
+Reading latency in ms: 3
+GTotal: 77.74886889827813
+Real distance= 56 distance= 186.0	
+ estimation= 190.55246298540996	
+
+
+Alarmcycle: 6
+Reading latency in ms: 2
+GTotal: 63.13744294011537
+Real distance= 50 distance= 192.0	
+ estimation= 192.98836340353566	
+
+
+Alarmcycle: 7
+Reading latency in ms: 3
+GTotal: 43.472852945436685
+Real distance= 49 distance= 193.0	
+ estimation= 196.60910649788173	
+
+
+Alarmcycle: 8
+Reading latency in ms: 2
+GTotal: 44.54480115477178
+Real distance= 44 distance= 198.0	
+ estimation= 198.95310532460425	
+
+
+Alarmcycle: 8
+Reading latency in ms: 3
+GTotal: 36.33492147363965
+Real distance= 43 distance= 199.0	
+ estimation= 202.76258096107208	
+
+
+Alarmcycle: 8
+Reading latency in ms: 2
+GTotal: 35.76699009204947
+Real distance= 37 distance= 205.0	
+ estimation= 204.2771465486169	
+
+
+Alarmcycle: 8
+Reading latency in ms: 3
+AUTOTEST FAILURE
