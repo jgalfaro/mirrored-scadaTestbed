@@ -87,3 +87,5 @@ while [ $i -le $iterations ]; do
 	fi
 	sleep 10
 done
+
+zip -r $DIR/`date +%H:%M`-$ANAME-data.zip  $DIR/logs/
