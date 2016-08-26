@@ -41,8 +41,8 @@ public class CarHL {
 	private String filename;
 
 	//Time between reading and writings to car, in milliseconds
-	private int readPause = 500;
-	private int writePause = 500;
+	private int readPause = 250;
+	private int writePause = 250;
 
 	/////////////////////////////////////////////MODBUS INDEXES
 	// Bool RW
@@ -227,7 +227,7 @@ public class CarHL {
 				//double [][] B_b = {{0.09245},{0.004745}};  //new double [2][1];
 				//double [][] B_b = {{0.0571},{0.0039}};        
 				// double [][] B_b = {{0.0551},{0.0257}};//015s
-				double [][] B_b = {{0.0551},{0.0357}};//015s
+				double [][] B_b = {{0.0551},{0.02}};//015s
 				// double [][] B_b = {{0.5},{0.125}};//vel=250
 				// double [][] B_b = {{0.0571},{0.0034}};//01s
 				Matrix B = new Matrix(B_b);
@@ -252,7 +252,7 @@ public class CarHL {
 			    Matrix kf = new Matrix(2,1); //{{0.0001},{0.0198}};
 			    //Detector
 			    // ChiÂ² detector
-			    int wind=3;
+			    int wind=4;
 			    Matrix g = new Matrix(wind, 1, 0.0);
 			    //Parametres
 			    double g_next=0.0; 
@@ -268,10 +268,10 @@ public class CarHL {
 			    //Process noise
 			    double [][] Q_m={{1,0.0}, {0.0,1}}; //new double [2][2];
 			    Matrix Q = new Matrix(Q_m);
-			    double threshold=22*wind;//threshold
+			    double threshold=12*wind;//threshold
 			    int dInitialInt = 0;
 			//**************************************************************************************
-		    	int lowthreshold = 35;
+		    	int lowthreshold = 18;
 		    	int stabled = 0;
 		        long durationMean = 0;
 		        long iterationCounter = 0;
@@ -406,10 +406,10 @@ public class CarHL {
 						//Matrix estimation = (C.times(state_pre));
 						//System.out.println(" x_pre= " + (car.getState_pre()).toString() + "\n x_post= " + (car.getState_post()).toString() + "\n distance= " + data[1] +" estimation= " + estimation.toString() + "\n");
 						System.out.println("Real distance= " + wallDistance +" distance= " + data[1] +" estimation= " + estimation.toString() + "\n");
-						//System.out.println("Distance: " + wallDistance + " estimation: " + (Math.abs(estimation.get(0,0)) + dInitialInt));			
+						System.out.println("Alarmcycle: " + alarme_cycle);			
 						//***********************************************************************
 						if((g_total+g_total_old)/2 < lowthreshold && alarme_cycle > 0 ) stabled++;
-						if(stabled>8) {
+						if(stabled>10) {
 							stabled = 0;
 							alarme_cycle--;
 						}
@@ -435,13 +435,16 @@ public class CarHL {
 						 	 alerte=false;
 						}
 						if ((alarm==1)||alerte){
-						    if (wallDistance > 50){
-							if (wallDistance<180){
+						    if (wallDistance > 50 && sens == -1){
+								//alarme_cycle++;
+							    stabled = 0;
+							    conAlarm++;
+						    }
+						    if (wallDistance<180 && sens == 1){
 							    //alarme_cycle++;
 							    stabled = 0;
 							    conAlarm++;
 							}
-						    }
 						}
 						if(conAlarm>wind){
 							alarme_cycle++;	
@@ -460,7 +463,7 @@ public class CarHL {
 						}
 						if(dumpVars) {
 							long estimatedTime = System.currentTimeMillis() - initialTime;
-							try(FileWriter fw = new FileWriter("data/" + filename, true);
+							try(FileWriter fw = new FileWriter("data/"+ filename, true);
 							    BufferedWriter bw = new BufferedWriter(fw);
 							    PrintWriter out = new PrintWriter(bw))
 							{
