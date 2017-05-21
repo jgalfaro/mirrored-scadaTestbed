@@ -42,3 +42,5 @@ which represent the SCADA network nodes. We are mainly focusing on
 two SCADA protocols, Modbus and DNP3, the latter allows more hard-
 ware compatibility, and possible security improvements which are under
 implementation in the OpenDNP3 libraries.
+
+More info available at: [LegoSCADA](http://www-public.tem-tsp.eu/~garcia_a/web/prototypes/legoscada/)
